@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/city"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="App Name"
+        android:textColor="#4a4a4a"
+        android:textSize="35sp" />
+    <TextView
+
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Description
+(eg: This is an app for travellers to find the suitable hotel for them with transport options)"
+        android:textStyle="bold"
+        android:textColor="#4a4a4a"
+        android:textSize="16sp" />
+
+    <Button
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="start search"
+        android:background="@drawable/start_button"
+        android:layout_width="88dp"
+        android:layout_height="89dp" />
+
+</LinearLayout>
