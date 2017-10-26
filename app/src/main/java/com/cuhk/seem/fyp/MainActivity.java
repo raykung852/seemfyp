@@ -12,6 +12,7 @@ import com.google.firebase.database.FirebaseDatabase;
 public class MainActivity extends AppCompatActivity {
     //private DatabaseReference mDatabase;
     private Button btnSelectHotel;
+    private Button btnMap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,13 +31,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        btnMap = (Button) findViewById(R.id.button2);
 
 
-
-
-
-
-
+        btnMap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick (View view) {
+                Intent intent = new Intent(MainActivity.this, MapsActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }

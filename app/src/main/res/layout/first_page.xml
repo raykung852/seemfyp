@@ -50,4 +50,18 @@
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_gravity="center"
+        android:drawable="@android:drawable/ic_menu_search"
+        android:background="@drawable/start_button"
+        android:text="Map Test"
+        android:textColor="#ffffff"
+        android:layout_marginTop="49dp"
+        android:layout_below="@+id/button1"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignStart="@+id/button1" />
+
 </RelativeLayout>

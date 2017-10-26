@@ -11,6 +11,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.database.DatabaseReference;
@@ -62,6 +63,9 @@ public class ViewRoute extends AppCompatActivity {
         ) {
             @Override
             protected void populateViewHolder(RouteViewHolder viewHolder, RouteInformation model, int position) {
+
+                final String post_key =getRef(position).getKey();
+
                 viewHolder.setRID(model.getRID());
                 //viewHolder.setRoute(model.getRoute());
                 viewHolder.setTime(model.getTime());
@@ -69,12 +73,19 @@ public class ViewRoute extends AppCompatActivity {
                 viewHolder.setDistance(model.getDistance());
                 viewHolder.setTransport(getApplicationContext(), model.getTransport());
 
+                viewHolder.mView.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Toast.makeText(ViewRoute.this, post_key , Toast.LENGTH_LONG).show();
+
+                    }
+                });
             }
         };
         mRouteList.setAdapter(firebaseRecyclerAdapter);
     }
 
-    public static class RouteViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+    public static class RouteViewHolder extends RecyclerView.ViewHolder  {
 
         View mView;
 
@@ -142,9 +153,6 @@ public class ViewRoute extends AppCompatActivity {
             }
         }
 
-        @Override
-        public void onClick(View v) {
 
-        }
     }
 }
