@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.root.ui1"
+    package="com.cuhk.seem.fyp"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -15,10 +15,10 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <permission
-        android:name="com.example.root.ui1.permission.C2D_MESSAGE"
+        android:name="com.cuhk.seem.fyp.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.example.root.ui1.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.cuhk.seem.fyp.permission.C2D_MESSAGE" />
 
     <meta-data
         android:name="android.support.VERSION"
@@ -77,7 +77,7 @@
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="com.example.root.ui1" />
+                <category android:name="com.cuhk.seem.fyp" />
             </intent-filter>
         </receiver>
         <!--
@@ -101,7 +101,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.example.root.ui1.firebaseinitprovider"
+            android:authorities="com.cuhk.seem.fyp.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
 
