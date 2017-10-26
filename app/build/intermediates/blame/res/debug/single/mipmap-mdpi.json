@@ -1,7 +1,7 @@
 [
     {
-        "merged": "D:\\root\\AndroidStudioProjects\\UI1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
-        "source": "D:\\root\\AndroidStudioProjects\\UI1\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "D:\\UI1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_local_taxi_black_48dp.png",
+        "source": "D:\\UI1\\app\\src\\main\\res\\mipmap-mdpi\\ic_local_taxi_black_48dp.png"
     },
     {
         "merged": "D:\\UI1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher_round.png",
@@ -10,9 +10,5 @@
     {
         "merged": "D:\\UI1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
         "source": "D:\\UI1\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\root\\AndroidStudioProjects\\UI1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher_round.png",
-        "source": "D:\\root\\AndroidStudioProjects\\UI1\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     }
 ]

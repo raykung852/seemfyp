@@ -90,7 +90,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionLayout=0x7f0100d9;
+        public static final int actionLayout=0x7f0100e4;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -168,7 +168,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int actionProviderClass=0x7f0100db;
+        public static final int actionProviderClass=0x7f0100e6;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -176,7 +176,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int actionViewClass=0x7f0100da;
+        public static final int actionViewClass=0x7f0100e5;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -216,7 +216,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int alpha=0x7f0100ca;
+        public static final int alpha=0x7f0100d5;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -226,7 +226,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int arrowHeadLength=0x7f0100d1;
+        public static final int arrowHeadLength=0x7f0100dc;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -236,7 +236,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int arrowShaftLength=0x7f0100d2;
+        public static final int arrowShaftLength=0x7f0100dd;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -265,7 +265,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int backgroundTint=0x7f010110;
+        public static final int backgroundTint=0x7f01011d;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -279,7 +279,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
          */
-        public static final int backgroundTintMode=0x7f010111;
+        public static final int backgroundTintMode=0x7f01011e;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -289,7 +289,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int barLength=0x7f0100d3;
+        public static final int barLength=0x7f0100de;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -324,7 +324,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
 </table>
          */
-        public static final int buttonGravity=0x7f010105;
+        public static final int buttonGravity=0x7f010112;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -345,7 +345,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int buttonTint=0x7f0100cb;
+        public static final int buttonTint=0x7f0100d6;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -359,7 +359,62 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
          */
-        public static final int buttonTintMode=0x7f0100cc;
+        public static final int buttonTintMode=0x7f0100d7;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cardBackgroundColor=0x7f0100ca;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cardCornerRadius=0x7f0100cb;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cardElevation=0x7f0100cc;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cardMaxElevation=0x7f0100cd;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cardPreventCornerOverlap=0x7f0100cf;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cardUseCompatPadding=0x7f0100ce;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -371,7 +426,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int closeIcon=0x7f0100e8;
+        public static final int closeIcon=0x7f0100f5;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -383,11 +438,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int collapseContentDescription=0x7f010107;
+        public static final int collapseContentDescription=0x7f010114;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int collapseIcon=0x7f010106;
+        public static final int collapseIcon=0x7f010113;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -396,7 +451,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int color=0x7f0100cd;
+        public static final int color=0x7f0100d8;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -481,19 +536,11 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int commitIcon=0x7f0100ed;
+        public static final int commitIcon=0x7f0100fa;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int constraintSet=0x7f010000;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int contentDescription=0x7f0100dc;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -554,6 +601,56 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int contentInsetStartWithNavigation=0x7f010046;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int contentPadding=0x7f0100d0;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int contentPaddingBottom=0x7f0100d4;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int contentPaddingLeft=0x7f0100d1;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int contentPaddingRight=0x7f0100d2;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int contentPaddingTop=0x7f0100d3;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -569,7 +666,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int defaultQueryHint=0x7f0100e7;
+        public static final int defaultQueryHint=0x7f0100f4;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -617,7 +714,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dividerPadding=0x7f0100d7;
+        public static final int dividerPadding=0x7f0100e2;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -631,7 +728,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int drawableSize=0x7f0100cf;
+        public static final int drawableSize=0x7f0100da;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -687,11 +784,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int gapBetweenBars=0x7f0100d0;
+        public static final int gapBetweenBars=0x7f0100db;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int goIcon=0x7f0100e9;
+        public static final int goIcon=0x7f0100f6;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -729,7 +826,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int iconifiedByDefault=0x7f0100e5;
+        public static final int iconifiedByDefault=0x7f0100f2;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -767,7 +864,15 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int layout=0x7f0100e4;
+        public static final int layout=0x7f0100f1;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int layoutManager=0x7f0100ed;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1296,7 +1401,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int logoDescription=0x7f01010a;
+        public static final int logoDescription=0x7f010117;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1306,7 +1411,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int maxButtonHeight=0x7f010104;
+        public static final int maxButtonHeight=0x7f010111;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1314,7 +1419,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int measureWithLargestChild=0x7f0100d5;
+        public static final int measureWithLargestChild=0x7f0100e0;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1326,11 +1431,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int navigationContentDescription=0x7f010109;
+        public static final int navigationContentDescription=0x7f010116;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int navigationIcon=0x7f010108;
+        public static final int navigationIcon=0x7f010115;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1350,7 +1455,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int overlapAnchor=0x7f0100e0;
+        public static final int overlapAnchor=0x7f0100e9;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1360,7 +1465,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int paddingBottomNoButtons=0x7f0100e2;
+        public static final int paddingBottomNoButtons=0x7f0100eb;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1370,7 +1475,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int paddingEnd=0x7f01010e;
+        public static final int paddingEnd=0x7f01011b;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1380,7 +1485,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int paddingStart=0x7f01010d;
+        public static final int paddingStart=0x7f01011a;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1390,7 +1495,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int paddingTopNoTitle=0x7f0100e3;
+        public static final int paddingTopNoTitle=0x7f0100ec;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1428,7 +1533,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int preserveIconSpacing=0x7f0100de;
+        public static final int preserveIconSpacing=0x7f0100e7;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1446,7 +1551,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int queryBackground=0x7f0100ef;
+        public static final int queryBackground=0x7f0100fc;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1454,7 +1559,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int queryHint=0x7f0100e6;
+        public static final int queryHint=0x7f0100f3;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1471,14 +1576,22 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int ratingBarStyleSmall=0x7f0100c4;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int reverseLayout=0x7f0100ef;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchHintIcon=0x7f0100eb;
+        public static final int searchHintIcon=0x7f0100f8;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchIcon=0x7f0100ea;
+        public static final int searchIcon=0x7f0100f7;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1508,7 +1621,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
          */
-        public static final int showAsAction=0x7f0100d8;
+        public static final int showAsAction=0x7f0100e3;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1521,7 +1634,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
          */
-        public static final int showDividers=0x7f0100d6;
+        public static final int showDividers=0x7f0100e1;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1529,7 +1642,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int showText=0x7f0100fb;
+        public static final int showText=0x7f010108;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1542,6 +1655,14 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int singleChoiceItemLayout=0x7f010050;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int spanCount=0x7f0100ee;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1549,7 +1670,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int spinBars=0x7f0100ce;
+        public static final int spinBars=0x7f0100d9;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1565,7 +1686,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int splitTrack=0x7f0100fa;
+        public static final int splitTrack=0x7f010107;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1577,15 +1698,23 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int state_above_anchor=0x7f0100e1;
+        public static final int stackFromEnd=0x7f0100f0;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int state_above_anchor=0x7f0100ea;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int subMenuArrow=0x7f0100df;
+        public static final int subMenuArrow=0x7f0100e8;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int submitBackground=0x7f0100f0;
+        public static final int submitBackground=0x7f0100fd;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1597,7 +1726,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int subtitleTextAppearance=0x7f0100fd;
+        public static final int subtitleTextAppearance=0x7f01010a;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1606,7 +1735,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int subtitleTextColor=0x7f01010c;
+        public static final int subtitleTextColor=0x7f010119;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1614,7 +1743,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int suggestionRowLayout=0x7f0100ee;
+        public static final int suggestionRowLayout=0x7f0100fb;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1624,7 +1753,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int switchMinWidth=0x7f0100f8;
+        public static final int switchMinWidth=0x7f010105;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1634,7 +1763,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int switchPadding=0x7f0100f9;
+        public static final int switchPadding=0x7f010106;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1642,7 +1771,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int switchTextAppearance=0x7f0100f7;
+        public static final int switchTextAppearance=0x7f010104;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
@@ -1691,7 +1820,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int theme=0x7f01010f;
+        public static final int theme=0x7f01011c;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1701,7 +1830,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int thickness=0x7f0100d4;
+        public static final int thickness=0x7f0100df;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1711,7 +1840,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int thumbTextPadding=0x7f0100f6;
+        public static final int thumbTextPadding=0x7f010103;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1720,7 +1849,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int thumbTint=0x7f0100f1;
+        public static final int thumbTint=0x7f0100fe;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1735,7 +1864,7 @@ containing a value of this type.
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
          */
-        public static final int thumbTintMode=0x7f0100f2;
+        public static final int thumbTintMode=0x7f0100ff;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1781,7 +1910,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMargin=0x7f0100fe;
+        public static final int titleMargin=0x7f01010b;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1791,7 +1920,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginBottom=0x7f010102;
+        public static final int titleMarginBottom=0x7f01010f;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1801,7 +1930,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginEnd=0x7f010100;
+        public static final int titleMarginEnd=0x7f01010d;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1811,7 +1940,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginStart=0x7f0100ff;
+        public static final int titleMarginStart=0x7f01010c;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1821,7 +1950,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginTop=0x7f010101;
+        public static final int titleMarginTop=0x7f01010e;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1831,11 +1960,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMargins=0x7f010103;
+        public static final int titleMargins=0x7f010110;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int titleTextAppearance=0x7f0100fc;
+        public static final int titleTextAppearance=0x7f010109;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1844,7 +1973,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleTextColor=0x7f01010b;
+        public static final int titleTextColor=0x7f010118;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1857,18 +1986,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int toolbarStyle=0x7f010091;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int tooltipText=0x7f0100dd;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int track=0x7f0100f3;
+        public static final int track=0x7f010100;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1877,7 +1998,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int trackTint=0x7f0100f4;
+        public static final int trackTint=0x7f010101;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1892,11 +2013,11 @@ containing a value of this type.
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
          */
-        public static final int trackTintMode=0x7f0100f5;
+        public static final int trackTintMode=0x7f010102;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int voiceIcon=0x7f0100ec;
+        public static final int voiceIcon=0x7f0100f9;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2016,31 +2137,31 @@ containing a value of this type.
         public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f090004;
     }
     public static final class color {
-        public static final int abc_background_cache_hint_selector_material_dark=0x7f0a003e;
-        public static final int abc_background_cache_hint_selector_material_light=0x7f0a003f;
-        public static final int abc_btn_colored_borderless_text_material=0x7f0a0040;
-        public static final int abc_btn_colored_text_material=0x7f0a0041;
-        public static final int abc_color_highlight_material=0x7f0a0042;
-        public static final int abc_hint_foreground_material_dark=0x7f0a0043;
-        public static final int abc_hint_foreground_material_light=0x7f0a0044;
+        public static final int abc_background_cache_hint_selector_material_dark=0x7f0a0042;
+        public static final int abc_background_cache_hint_selector_material_light=0x7f0a0043;
+        public static final int abc_btn_colored_borderless_text_material=0x7f0a0044;
+        public static final int abc_btn_colored_text_material=0x7f0a0045;
+        public static final int abc_color_highlight_material=0x7f0a0046;
+        public static final int abc_hint_foreground_material_dark=0x7f0a0047;
+        public static final int abc_hint_foreground_material_light=0x7f0a0048;
         public static final int abc_input_method_navigation_guard=0x7f0a0001;
-        public static final int abc_primary_text_disable_only_material_dark=0x7f0a0045;
-        public static final int abc_primary_text_disable_only_material_light=0x7f0a0046;
-        public static final int abc_primary_text_material_dark=0x7f0a0047;
-        public static final int abc_primary_text_material_light=0x7f0a0048;
-        public static final int abc_search_url_text=0x7f0a0049;
+        public static final int abc_primary_text_disable_only_material_dark=0x7f0a0049;
+        public static final int abc_primary_text_disable_only_material_light=0x7f0a004a;
+        public static final int abc_primary_text_material_dark=0x7f0a004b;
+        public static final int abc_primary_text_material_light=0x7f0a004c;
+        public static final int abc_search_url_text=0x7f0a004d;
         public static final int abc_search_url_text_normal=0x7f0a0002;
         public static final int abc_search_url_text_pressed=0x7f0a0003;
         public static final int abc_search_url_text_selected=0x7f0a0004;
-        public static final int abc_secondary_text_material_dark=0x7f0a004a;
-        public static final int abc_secondary_text_material_light=0x7f0a004b;
-        public static final int abc_tint_btn_checkable=0x7f0a004c;
-        public static final int abc_tint_default=0x7f0a004d;
-        public static final int abc_tint_edittext=0x7f0a004e;
-        public static final int abc_tint_seek_thumb=0x7f0a004f;
-        public static final int abc_tint_spinner=0x7f0a0050;
-        public static final int abc_tint_switch_thumb=0x7f0a0051;
-        public static final int abc_tint_switch_track=0x7f0a0052;
+        public static final int abc_secondary_text_material_dark=0x7f0a004e;
+        public static final int abc_secondary_text_material_light=0x7f0a004f;
+        public static final int abc_tint_btn_checkable=0x7f0a0050;
+        public static final int abc_tint_default=0x7f0a0051;
+        public static final int abc_tint_edittext=0x7f0a0052;
+        public static final int abc_tint_seek_thumb=0x7f0a0053;
+        public static final int abc_tint_spinner=0x7f0a0054;
+        public static final int abc_tint_switch_thumb=0x7f0a0055;
+        public static final int abc_tint_switch_track=0x7f0a0056;
         public static final int accent_material_dark=0x7f0a0005;
         public static final int accent_material_light=0x7f0a0006;
         public static final int background_floating_material_dark=0x7f0a0007;
@@ -2055,52 +2176,56 @@ containing a value of this type.
         public static final int bright_foreground_material_light=0x7f0a0010;
         public static final int button_material_dark=0x7f0a0011;
         public static final int button_material_light=0x7f0a0012;
-        public static final int colorAccent=0x7f0a0013;
-        public static final int colorPrimary=0x7f0a0014;
-        public static final int colorPrimaryDark=0x7f0a0015;
-        public static final int dim_foreground_disabled_material_dark=0x7f0a0016;
-        public static final int dim_foreground_disabled_material_light=0x7f0a0017;
-        public static final int dim_foreground_material_dark=0x7f0a0018;
-        public static final int dim_foreground_material_light=0x7f0a0019;
-        public static final int foreground_material_dark=0x7f0a001a;
-        public static final int foreground_material_light=0x7f0a001b;
-        public static final int highlighted_text_material_dark=0x7f0a001c;
-        public static final int highlighted_text_material_light=0x7f0a001d;
-        public static final int material_blue_grey_800=0x7f0a001e;
-        public static final int material_blue_grey_900=0x7f0a001f;
-        public static final int material_blue_grey_950=0x7f0a0020;
-        public static final int material_deep_teal_200=0x7f0a0021;
-        public static final int material_deep_teal_500=0x7f0a0022;
-        public static final int material_grey_100=0x7f0a0023;
-        public static final int material_grey_300=0x7f0a0024;
-        public static final int material_grey_50=0x7f0a0025;
-        public static final int material_grey_600=0x7f0a0026;
-        public static final int material_grey_800=0x7f0a0027;
-        public static final int material_grey_850=0x7f0a0028;
-        public static final int material_grey_900=0x7f0a0029;
+        public static final int cardview_dark_background=0x7f0a0013;
+        public static final int cardview_light_background=0x7f0a0014;
+        public static final int cardview_shadow_end_color=0x7f0a0015;
+        public static final int cardview_shadow_start_color=0x7f0a0016;
+        public static final int colorAccent=0x7f0a0017;
+        public static final int colorPrimary=0x7f0a0018;
+        public static final int colorPrimaryDark=0x7f0a0019;
+        public static final int dim_foreground_disabled_material_dark=0x7f0a001a;
+        public static final int dim_foreground_disabled_material_light=0x7f0a001b;
+        public static final int dim_foreground_material_dark=0x7f0a001c;
+        public static final int dim_foreground_material_light=0x7f0a001d;
+        public static final int foreground_material_dark=0x7f0a001e;
+        public static final int foreground_material_light=0x7f0a001f;
+        public static final int highlighted_text_material_dark=0x7f0a0020;
+        public static final int highlighted_text_material_light=0x7f0a0021;
+        public static final int material_blue_grey_800=0x7f0a0022;
+        public static final int material_blue_grey_900=0x7f0a0023;
+        public static final int material_blue_grey_950=0x7f0a0024;
+        public static final int material_deep_teal_200=0x7f0a0025;
+        public static final int material_deep_teal_500=0x7f0a0026;
+        public static final int material_grey_100=0x7f0a0027;
+        public static final int material_grey_300=0x7f0a0028;
+        public static final int material_grey_50=0x7f0a0029;
+        public static final int material_grey_600=0x7f0a002a;
+        public static final int material_grey_800=0x7f0a002b;
+        public static final int material_grey_850=0x7f0a002c;
+        public static final int material_grey_900=0x7f0a002d;
         public static final int notification_action_color_filter=0x7f0a0000;
-        public static final int notification_icon_bg_color=0x7f0a002a;
-        public static final int notification_material_background_media_default_color=0x7f0a002b;
-        public static final int primary_dark_material_dark=0x7f0a002c;
-        public static final int primary_dark_material_light=0x7f0a002d;
-        public static final int primary_material_dark=0x7f0a002e;
-        public static final int primary_material_light=0x7f0a002f;
-        public static final int primary_text_default_material_dark=0x7f0a0030;
-        public static final int primary_text_default_material_light=0x7f0a0031;
-        public static final int primary_text_disabled_material_dark=0x7f0a0032;
-        public static final int primary_text_disabled_material_light=0x7f0a0033;
-        public static final int ripple_material_dark=0x7f0a0034;
-        public static final int ripple_material_light=0x7f0a0035;
-        public static final int secondary_text_default_material_dark=0x7f0a0036;
-        public static final int secondary_text_default_material_light=0x7f0a0037;
-        public static final int secondary_text_disabled_material_dark=0x7f0a0038;
-        public static final int secondary_text_disabled_material_light=0x7f0a0039;
-        public static final int switch_thumb_disabled_material_dark=0x7f0a003a;
-        public static final int switch_thumb_disabled_material_light=0x7f0a003b;
-        public static final int switch_thumb_material_dark=0x7f0a0053;
-        public static final int switch_thumb_material_light=0x7f0a0054;
-        public static final int switch_thumb_normal_material_dark=0x7f0a003c;
-        public static final int switch_thumb_normal_material_light=0x7f0a003d;
+        public static final int notification_icon_bg_color=0x7f0a002e;
+        public static final int notification_material_background_media_default_color=0x7f0a002f;
+        public static final int primary_dark_material_dark=0x7f0a0030;
+        public static final int primary_dark_material_light=0x7f0a0031;
+        public static final int primary_material_dark=0x7f0a0032;
+        public static final int primary_material_light=0x7f0a0033;
+        public static final int primary_text_default_material_dark=0x7f0a0034;
+        public static final int primary_text_default_material_light=0x7f0a0035;
+        public static final int primary_text_disabled_material_dark=0x7f0a0036;
+        public static final int primary_text_disabled_material_light=0x7f0a0037;
+        public static final int ripple_material_dark=0x7f0a0038;
+        public static final int ripple_material_light=0x7f0a0039;
+        public static final int secondary_text_default_material_dark=0x7f0a003a;
+        public static final int secondary_text_default_material_light=0x7f0a003b;
+        public static final int secondary_text_disabled_material_dark=0x7f0a003c;
+        public static final int secondary_text_disabled_material_light=0x7f0a003d;
+        public static final int switch_thumb_disabled_material_dark=0x7f0a003e;
+        public static final int switch_thumb_disabled_material_light=0x7f0a003f;
+        public static final int switch_thumb_material_dark=0x7f0a0057;
+        public static final int switch_thumb_material_light=0x7f0a0058;
+        public static final int switch_thumb_normal_material_dark=0x7f0a0040;
+        public static final int switch_thumb_normal_material_light=0x7f0a0041;
     }
     public static final class dimen {
         public static final int abc_action_bar_content_inset_material=0x7f07000c;
@@ -2177,30 +2302,36 @@ containing a value of this type.
         public static final int abc_text_size_subtitle_material_toolbar=0x7f070003;
         public static final int abc_text_size_title_material=0x7f07004d;
         public static final int abc_text_size_title_material_toolbar=0x7f070004;
-        public static final int disabled_alpha_material_dark=0x7f07004e;
-        public static final int disabled_alpha_material_light=0x7f07004f;
-        public static final int highlight_alpha_material_colored=0x7f070050;
-        public static final int highlight_alpha_material_dark=0x7f070051;
-        public static final int highlight_alpha_material_light=0x7f070052;
-        public static final int hint_alpha_material_dark=0x7f070053;
-        public static final int hint_alpha_material_light=0x7f070054;
-        public static final int hint_pressed_alpha_material_dark=0x7f070055;
-        public static final int hint_pressed_alpha_material_light=0x7f070056;
-        public static final int notification_action_icon_size=0x7f070057;
-        public static final int notification_action_text_size=0x7f070058;
-        public static final int notification_big_circle_margin=0x7f070059;
+        public static final int cardview_compat_inset_shadow=0x7f07004e;
+        public static final int cardview_default_elevation=0x7f07004f;
+        public static final int cardview_default_radius=0x7f070050;
+        public static final int disabled_alpha_material_dark=0x7f070051;
+        public static final int disabled_alpha_material_light=0x7f070052;
+        public static final int highlight_alpha_material_colored=0x7f070053;
+        public static final int highlight_alpha_material_dark=0x7f070054;
+        public static final int highlight_alpha_material_light=0x7f070055;
+        public static final int hint_alpha_material_dark=0x7f070056;
+        public static final int hint_alpha_material_light=0x7f070057;
+        public static final int hint_pressed_alpha_material_dark=0x7f070058;
+        public static final int hint_pressed_alpha_material_light=0x7f070059;
+        public static final int item_touch_helper_max_drag_scroll_per_frame=0x7f07005a;
+        public static final int item_touch_helper_swipe_escape_max_velocity=0x7f07005b;
+        public static final int item_touch_helper_swipe_escape_velocity=0x7f07005c;
+        public static final int notification_action_icon_size=0x7f07005d;
+        public static final int notification_action_text_size=0x7f07005e;
+        public static final int notification_big_circle_margin=0x7f07005f;
         public static final int notification_content_margin_start=0x7f070012;
-        public static final int notification_large_icon_height=0x7f07005a;
-        public static final int notification_large_icon_width=0x7f07005b;
+        public static final int notification_large_icon_height=0x7f070060;
+        public static final int notification_large_icon_width=0x7f070061;
         public static final int notification_main_column_padding_top=0x7f070013;
         public static final int notification_media_narrow_margin=0x7f070014;
-        public static final int notification_right_icon_size=0x7f07005c;
+        public static final int notification_right_icon_size=0x7f070062;
         public static final int notification_right_side_padding_top=0x7f070010;
-        public static final int notification_small_icon_background_padding=0x7f07005d;
-        public static final int notification_small_icon_size_as_large=0x7f07005e;
-        public static final int notification_subtext_size=0x7f07005f;
-        public static final int notification_top_pad=0x7f070060;
-        public static final int notification_top_pad_large_text=0x7f070061;
+        public static final int notification_small_icon_background_padding=0x7f070063;
+        public static final int notification_small_icon_size_as_large=0x7f070064;
+        public static final int notification_subtext_size=0x7f070065;
+        public static final int notification_top_pad=0x7f070066;
+        public static final int notification_top_pad_large_text=0x7f070067;
     }
     public static final class drawable {
         public static final int abc_ab_share_pack_mtrl_alpha=0x7f020000;
@@ -2287,144 +2418,164 @@ containing a value of this type.
         public static final int abc_textfield_search_material=0x7f020051;
         public static final int abc_vector_test=0x7f020052;
         public static final int city=0x7f020053;
-        public static final int notification_action_background=0x7f020054;
-        public static final int notification_bg=0x7f020055;
-        public static final int notification_bg_low=0x7f020056;
-        public static final int notification_bg_low_normal=0x7f020057;
-        public static final int notification_bg_low_pressed=0x7f020058;
-        public static final int notification_bg_normal=0x7f020059;
-        public static final int notification_bg_normal_pressed=0x7f02005a;
-        public static final int notification_icon_background=0x7f02005b;
-        public static final int notification_template_icon_bg=0x7f02005f;
-        public static final int notification_template_icon_low_bg=0x7f020060;
-        public static final int notification_tile_bg=0x7f02005c;
-        public static final int notify_panel_notification_icon_bg=0x7f02005d;
-        public static final int start_button=0x7f02005e;
+        public static final int ic_directions_bus_black_48dp=0x7f020054;
+        public static final int ic_local_taxi_black_48dp=0x7f020055;
+        public static final int notification_action_background=0x7f020056;
+        public static final int notification_bg=0x7f020057;
+        public static final int notification_bg_low=0x7f020058;
+        public static final int notification_bg_low_normal=0x7f020059;
+        public static final int notification_bg_low_pressed=0x7f02005a;
+        public static final int notification_bg_normal=0x7f02005b;
+        public static final int notification_bg_normal_pressed=0x7f02005c;
+        public static final int notification_icon_background=0x7f02005d;
+        public static final int notification_template_icon_bg=0x7f020061;
+        public static final int notification_template_icon_low_bg=0x7f020062;
+        public static final int notification_tile_bg=0x7f02005e;
+        public static final int notify_panel_notification_icon_bg=0x7f02005f;
+        public static final int start_button=0x7f020060;
     }
     public static final class id {
-        public static final int action0=0x7f0b0061;
-        public static final int action_bar=0x7f0b004f;
+        public static final int action0=0x7f0b0066;
+        public static final int action_bar=0x7f0b0050;
         public static final int action_bar_activity_content=0x7f0b0000;
-        public static final int action_bar_container=0x7f0b004e;
-        public static final int action_bar_root=0x7f0b004a;
+        public static final int action_bar_container=0x7f0b004f;
+        public static final int action_bar_root=0x7f0b004b;
         public static final int action_bar_spinner=0x7f0b0001;
-        public static final int action_bar_subtitle=0x7f0b002d;
-        public static final int action_bar_title=0x7f0b002c;
-        public static final int action_container=0x7f0b005e;
-        public static final int action_context_bar=0x7f0b0050;
-        public static final int action_divider=0x7f0b0065;
-        public static final int action_image=0x7f0b005f;
+        public static final int action_bar_subtitle=0x7f0b002e;
+        public static final int action_bar_title=0x7f0b002d;
+        public static final int action_container=0x7f0b0063;
+        public static final int action_context_bar=0x7f0b0051;
+        public static final int action_divider=0x7f0b006a;
+        public static final int action_image=0x7f0b0064;
         public static final int action_menu_divider=0x7f0b0002;
         public static final int action_menu_presenter=0x7f0b0003;
-        public static final int action_mode_bar=0x7f0b004c;
-        public static final int action_mode_bar_stub=0x7f0b004b;
-        public static final int action_mode_close_button=0x7f0b002e;
-        public static final int action_text=0x7f0b0060;
-        public static final int actions=0x7f0b006e;
-        public static final int activity_chooser_view_content=0x7f0b002f;
-        public static final int add=0x7f0b001b;
-        public static final int alertTitle=0x7f0b0043;
-        public static final int all=0x7f0b000e;
-        public static final int always=0x7f0b0025;
-        public static final int basic=0x7f0b000f;
-        public static final int beginning=0x7f0b0022;
-        public static final int bottom=0x7f0b002a;
-        public static final int buttonPanel=0x7f0b0036;
-        public static final int cancel_action=0x7f0b0062;
-        public static final int chains=0x7f0b0010;
-        public static final int checkbox=0x7f0b0046;
-        public static final int chronometer=0x7f0b006a;
-        public static final int collapseActionView=0x7f0b0026;
-        public static final int contentPanel=0x7f0b0039;
-        public static final int custom=0x7f0b0040;
-        public static final int customPanel=0x7f0b003f;
-        public static final int decor_content_parent=0x7f0b004d;
-        public static final int default_activity_button=0x7f0b0032;
-        public static final int disableHome=0x7f0b0015;
-        public static final int edit_query=0x7f0b0051;
-        public static final int end=0x7f0b0023;
-        public static final int end_padder=0x7f0b0074;
-        public static final int expand_activities_button=0x7f0b0030;
-        public static final int expanded_menu=0x7f0b0045;
+        public static final int action_mode_bar=0x7f0b004d;
+        public static final int action_mode_bar_stub=0x7f0b004c;
+        public static final int action_mode_close_button=0x7f0b002f;
+        public static final int action_text=0x7f0b0065;
+        public static final int actions=0x7f0b0073;
+        public static final int activity_chooser_view_content=0x7f0b0030;
+        public static final int add=0x7f0b001c;
+        public static final int alertTitle=0x7f0b0044;
+        public static final int all=0x7f0b000f;
+        public static final int always=0x7f0b0026;
+        public static final int basic=0x7f0b0010;
+        public static final int beginning=0x7f0b0023;
+        public static final int bottom=0x7f0b002b;
+        public static final int button1=0x7f0b0061;
+        public static final int buttonPanel=0x7f0b0037;
+        public static final int cancel_action=0x7f0b0067;
+        public static final int chains=0x7f0b0011;
+        public static final int checkbox=0x7f0b0047;
+        public static final int chronometer=0x7f0b006f;
+        public static final int collapseActionView=0x7f0b0027;
+        public static final int contentPanel=0x7f0b003a;
+        public static final int custom=0x7f0b0041;
+        public static final int customPanel=0x7f0b0040;
+        public static final int decor_content_parent=0x7f0b004e;
+        public static final int default_activity_button=0x7f0b0033;
+        public static final int disableHome=0x7f0b0016;
+        public static final int edit_query=0x7f0b0052;
+        public static final int edtSearch=0x7f0b0083;
+        public static final int end=0x7f0b0024;
+        public static final int end_padder=0x7f0b0079;
+        public static final int expand_activities_button=0x7f0b0031;
+        public static final int expanded_menu=0x7f0b0046;
         public static final int home=0x7f0b0004;
-        public static final int homeAsUp=0x7f0b0016;
-        public static final int icon=0x7f0b0034;
-        public static final int icon_group=0x7f0b006f;
-        public static final int ifRoom=0x7f0b0027;
-        public static final int image=0x7f0b0031;
-        public static final int info=0x7f0b006b;
-        public static final int line1=0x7f0b0070;
-        public static final int line3=0x7f0b0072;
-        public static final int listMode=0x7f0b0012;
-        public static final int list_item=0x7f0b0033;
-        public static final int media_actions=0x7f0b0064;
-        public static final int middle=0x7f0b0024;
-        public static final int multiply=0x7f0b001c;
-        public static final int never=0x7f0b0028;
-        public static final int none=0x7f0b0011;
-        public static final int normal=0x7f0b0013;
-        public static final int notification_background=0x7f0b006d;
-        public static final int notification_main_column=0x7f0b0067;
-        public static final int notification_main_column_container=0x7f0b0066;
-        public static final int packed=0x7f0b000c;
-        public static final int parent=0x7f0b0009;
-        public static final int parentPanel=0x7f0b0038;
-        public static final int progress_circular=0x7f0b0005;
-        public static final int progress_horizontal=0x7f0b0006;
-        public static final int radio=0x7f0b0048;
-        public static final int right_icon=0x7f0b006c;
-        public static final int right_side=0x7f0b0068;
-        public static final int screen=0x7f0b001d;
-        public static final int scrollIndicatorDown=0x7f0b003e;
-        public static final int scrollIndicatorUp=0x7f0b003a;
-        public static final int scrollView=0x7f0b003b;
-        public static final int search_badge=0x7f0b0053;
-        public static final int search_bar=0x7f0b0052;
-        public static final int search_button=0x7f0b0054;
-        public static final int search_close_btn=0x7f0b0059;
-        public static final int search_edit_frame=0x7f0b0055;
-        public static final int search_go_btn=0x7f0b005b;
-        public static final int search_mag_icon=0x7f0b0056;
-        public static final int search_plate=0x7f0b0057;
-        public static final int search_src_text=0x7f0b0058;
-        public static final int search_voice_btn=0x7f0b005c;
-        public static final int select_dialog_listview=0x7f0b005d;
-        public static final int shortcut=0x7f0b0047;
-        public static final int showCustom=0x7f0b0017;
-        public static final int showHome=0x7f0b0018;
-        public static final int showTitle=0x7f0b0019;
-        public static final int spacer=0x7f0b0037;
-        public static final int split_action_bar=0x7f0b0007;
-        public static final int spread=0x7f0b000a;
-        public static final int spread_inside=0x7f0b000d;
-        public static final int src_atop=0x7f0b001e;
-        public static final int src_in=0x7f0b001f;
-        public static final int src_over=0x7f0b0020;
-        public static final int status_bar_latest_event_content=0x7f0b0063;
-        public static final int submenuarrow=0x7f0b0049;
-        public static final int submit_area=0x7f0b005a;
-        public static final int tabMode=0x7f0b0014;
-        public static final int text=0x7f0b0073;
-        public static final int text2=0x7f0b0071;
-        public static final int textSpacerNoButtons=0x7f0b003d;
-        public static final int textSpacerNoTitle=0x7f0b003c;
-        public static final int time=0x7f0b0069;
-        public static final int title=0x7f0b0035;
-        public static final int titleDividerNoCustom=0x7f0b0044;
-        public static final int title_template=0x7f0b0042;
-        public static final int top=0x7f0b002b;
-        public static final int topPanel=0x7f0b0041;
-        public static final int up=0x7f0b0008;
-        public static final int useLogo=0x7f0b001a;
-        public static final int withText=0x7f0b0029;
-        public static final int wrap=0x7f0b000b;
-        public static final int wrap_content=0x7f0b0021;
+        public static final int homeAsUp=0x7f0b0017;
+        public static final int icon=0x7f0b0035;
+        public static final int icon_group=0x7f0b0074;
+        public static final int ifRoom=0x7f0b0028;
+        public static final int image=0x7f0b0032;
+        public static final int image_transport=0x7f0b0080;
+        public static final int info=0x7f0b0070;
+        public static final int item_touch_helper_previous_elevation=0x7f0b0005;
+        public static final int line1=0x7f0b0075;
+        public static final int line3=0x7f0b0077;
+        public static final int listMode=0x7f0b0013;
+        public static final int list_item=0x7f0b0034;
+        public static final int lstSearch=0x7f0b0084;
+        public static final int media_actions=0x7f0b0069;
+        public static final int middle=0x7f0b0025;
+        public static final int multiply=0x7f0b001d;
+        public static final int never=0x7f0b0029;
+        public static final int none=0x7f0b0012;
+        public static final int normal=0x7f0b0014;
+        public static final int notification_background=0x7f0b0072;
+        public static final int notification_main_column=0x7f0b006c;
+        public static final int notification_main_column_container=0x7f0b006b;
+        public static final int packed=0x7f0b000d;
+        public static final int parent=0x7f0b000a;
+        public static final int parentPanel=0x7f0b0039;
+        public static final int post_RID=0x7f0b007a;
+        public static final int post_cost=0x7f0b0082;
+        public static final int post_distance=0x7f0b007f;
+        public static final int post_time=0x7f0b0081;
+        public static final int post_transport=0x7f0b007e;
+        public static final int progress_circular=0x7f0b0006;
+        public static final int progress_horizontal=0x7f0b0007;
+        public static final int radio=0x7f0b0049;
+        public static final int right_icon=0x7f0b0071;
+        public static final int right_side=0x7f0b006d;
+        public static final int route_text=0x7f0b0085;
+        public static final int screen=0x7f0b001e;
+        public static final int scrollIndicatorDown=0x7f0b003f;
+        public static final int scrollIndicatorUp=0x7f0b003b;
+        public static final int scrollView=0x7f0b003c;
+        public static final int search_badge=0x7f0b0054;
+        public static final int search_bar=0x7f0b0053;
+        public static final int search_button=0x7f0b0055;
+        public static final int search_close_btn=0x7f0b005a;
+        public static final int search_edit_frame=0x7f0b0056;
+        public static final int search_go_btn=0x7f0b005c;
+        public static final int search_mag_icon=0x7f0b0057;
+        public static final int search_plate=0x7f0b0058;
+        public static final int search_src_text=0x7f0b0059;
+        public static final int search_voice_btn=0x7f0b005d;
+        public static final int select_dialog_listview=0x7f0b005e;
+        public static final int shortcut=0x7f0b0048;
+        public static final int showCustom=0x7f0b0018;
+        public static final int showHome=0x7f0b0019;
+        public static final int showTitle=0x7f0b001a;
+        public static final int spacer=0x7f0b0038;
+        public static final int split_action_bar=0x7f0b0008;
+        public static final int spread=0x7f0b000b;
+        public static final int spread_inside=0x7f0b000e;
+        public static final int src_atop=0x7f0b001f;
+        public static final int src_in=0x7f0b0020;
+        public static final int src_over=0x7f0b0021;
+        public static final int status_bar_latest_event_content=0x7f0b0068;
+        public static final int submenuarrow=0x7f0b004a;
+        public static final int submit_area=0x7f0b005b;
+        public static final int tabMode=0x7f0b0015;
+        public static final int text=0x7f0b0078;
+        public static final int text2=0x7f0b0076;
+        public static final int textSpacerNoButtons=0x7f0b003e;
+        public static final int textSpacerNoTitle=0x7f0b003d;
+        public static final int textView=0x7f0b0062;
+        public static final int textView2=0x7f0b005f;
+        public static final int textView3=0x7f0b0060;
+        public static final int textView5=0x7f0b007b;
+        public static final int textView6=0x7f0b007c;
+        public static final int textView7=0x7f0b007d;
+        public static final int time=0x7f0b006e;
+        public static final int title=0x7f0b0036;
+        public static final int titleDividerNoCustom=0x7f0b0045;
+        public static final int title_template=0x7f0b0043;
+        public static final int top=0x7f0b002c;
+        public static final int topPanel=0x7f0b0042;
+        public static final int up=0x7f0b0009;
+        public static final int useLogo=0x7f0b001b;
+        public static final int withText=0x7f0b002a;
+        public static final int wrap=0x7f0b000c;
+        public static final int wrap_content=0x7f0b0022;
     }
     public static final class integer {
         public static final int abc_config_activityDefaultDur=0x7f0c0000;
         public static final int abc_config_activityShortDur=0x7f0c0001;
         public static final int cancel_button_image_alpha=0x7f0c0002;
-        public static final int status_bar_notification_info_maxnum=0x7f0c0003;
+        public static final int google_play_services_version=0x7f0c0003;
+        public static final int status_bar_notification_info_maxnum=0x7f0c0004;
     }
     public static final class layout {
         public static final int abc_action_bar_title_item=0x7f040000;
@@ -2454,8 +2605,8 @@ containing a value of this type.
         public static final int abc_search_dropdown_item_icons_2line=0x7f040018;
         public static final int abc_search_view=0x7f040019;
         public static final int abc_select_dialog_material=0x7f04001a;
-        public static final int activity_main=0x7f04001b;
-        public static final int firstpage=0x7f04001c;
+        public static final int first_page=0x7f04001b;
+        public static final int list_item=0x7f04001c;
         public static final int notification_action=0x7f04001d;
         public static final int notification_action_tombstone=0x7f04001e;
         public static final int notification_media_action=0x7f04001f;
@@ -2471,18 +2622,21 @@ containing a value of this type.
         public static final int notification_template_media_custom=0x7f040029;
         public static final int notification_template_part_chronometer=0x7f04002a;
         public static final int notification_template_part_time=0x7f04002b;
-        public static final int result=0x7f04002c;
+        public static final int route_row=0x7f04002c;
         public static final int select_dialog_item_material=0x7f04002d;
         public static final int select_dialog_multichoice_material=0x7f04002e;
         public static final int select_dialog_singlechoice_material=0x7f04002f;
         public static final int select_hotel=0x7f040030;
         public static final int support_simple_spinner_dropdown_item=0x7f040031;
+        public static final int view_route=0x7f040032;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;
         public static final int ic_launcher_round=0x7f030001;
+        public static final int ic_local_taxi_black_48dp=0x7f030002;
     }
     public static final class string {
+        public static final int RID=0x7f060016;
         public static final int abc_action_bar_home_description=0x7f060000;
         public static final int abc_action_bar_home_description_format=0x7f060001;
         public static final int abc_action_bar_home_subtitle_description_format=0x7f060002;
@@ -2493,18 +2647,18 @@ containing a value of this type.
         public static final int abc_activitychooserview_choose_application=0x7f060007;
         public static final int abc_capital_off=0x7f060008;
         public static final int abc_capital_on=0x7f060009;
-        public static final int abc_font_family_body_1_material=0x7f060015;
-        public static final int abc_font_family_body_2_material=0x7f060016;
-        public static final int abc_font_family_button_material=0x7f060017;
-        public static final int abc_font_family_caption_material=0x7f060018;
-        public static final int abc_font_family_display_1_material=0x7f060019;
-        public static final int abc_font_family_display_2_material=0x7f06001a;
-        public static final int abc_font_family_display_3_material=0x7f06001b;
-        public static final int abc_font_family_display_4_material=0x7f06001c;
-        public static final int abc_font_family_headline_material=0x7f06001d;
-        public static final int abc_font_family_menu_material=0x7f06001e;
-        public static final int abc_font_family_subhead_material=0x7f06001f;
-        public static final int abc_font_family_title_material=0x7f060020;
+        public static final int abc_font_family_body_1_material=0x7f060017;
+        public static final int abc_font_family_body_2_material=0x7f060018;
+        public static final int abc_font_family_button_material=0x7f060019;
+        public static final int abc_font_family_caption_material=0x7f06001a;
+        public static final int abc_font_family_display_1_material=0x7f06001b;
+        public static final int abc_font_family_display_2_material=0x7f06001c;
+        public static final int abc_font_family_display_3_material=0x7f06001d;
+        public static final int abc_font_family_display_4_material=0x7f06001e;
+        public static final int abc_font_family_headline_material=0x7f06001f;
+        public static final int abc_font_family_menu_material=0x7f060020;
+        public static final int abc_font_family_subhead_material=0x7f060021;
+        public static final int abc_font_family_title_material=0x7f060022;
         public static final int abc_search_hint=0x7f06000a;
         public static final int abc_searchview_description_clear=0x7f06000b;
         public static final int abc_searchview_description_query=0x7f06000c;
@@ -2514,22 +2668,32 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with=0x7f060010;
         public static final int abc_shareactionprovider_share_with_application=0x7f060011;
         public static final int abc_toolbar_collapse_description=0x7f060012;
-        public static final int app_name=0x7f060021;
-        public static final int search_menu_title=0x7f060013;
-        public static final int status_bar_notification_info_overflow=0x7f060014;
+        public static final int app_name=0x7f060023;
+        public static final int common_google_play_services_unknown_issue=0x7f060013;
+        public static final int default_web_client_id=0x7f060024;
+        public static final int firebase_database_url=0x7f060025;
+        public static final int gcm_defaultSenderId=0x7f060026;
+        public static final int google_api_key=0x7f060027;
+        public static final int google_app_id=0x7f060028;
+        public static final int google_crash_reporting_api_key=0x7f060029;
+        public static final int google_storage_bucket=0x7f06002a;
+        public static final int hotel=0x7f06002b;
+        public static final int search_menu_title=0x7f060014;
+        public static final int status_bar_notification_info_overflow=0x7f060015;
     }
     public static final class style {
-        public static final int AlertDialog_AppCompat=0x7f08009f;
-        public static final int AlertDialog_AppCompat_Light=0x7f0800a0;
-        public static final int Animation_AppCompat_Dialog=0x7f0800a1;
-        public static final int Animation_AppCompat_DropDownUp=0x7f0800a2;
-        public static final int AppTheme=0x7f0800a3;
-        public static final int Base_AlertDialog_AppCompat=0x7f0800a4;
-        public static final int Base_AlertDialog_AppCompat_Light=0x7f0800a5;
-        public static final int Base_Animation_AppCompat_Dialog=0x7f0800a6;
-        public static final int Base_Animation_AppCompat_DropDownUp=0x7f0800a7;
-        public static final int Base_DialogWindowTitle_AppCompat=0x7f0800a8;
-        public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0800a9;
+        public static final int AlertDialog_AppCompat=0x7f0800a0;
+        public static final int AlertDialog_AppCompat_Light=0x7f0800a1;
+        public static final int Animation_AppCompat_Dialog=0x7f0800a2;
+        public static final int Animation_AppCompat_DropDownUp=0x7f0800a3;
+        public static final int AppTheme=0x7f0800a4;
+        public static final int Base_AlertDialog_AppCompat=0x7f0800a5;
+        public static final int Base_AlertDialog_AppCompat_Light=0x7f0800a6;
+        public static final int Base_Animation_AppCompat_Dialog=0x7f0800a7;
+        public static final int Base_Animation_AppCompat_DropDownUp=0x7f0800a8;
+        public static final int Base_CardView=0x7f0800a9;
+        public static final int Base_DialogWindowTitle_AppCompat=0x7f0800aa;
+        public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0800ab;
         public static final int Base_TextAppearance_AppCompat=0x7f08003f;
         public static final int Base_TextAppearance_AppCompat_Body1=0x7f080040;
         public static final int Base_TextAppearance_AppCompat_Body2=0x7f080041;
@@ -2548,7 +2712,7 @@ containing a value of this type.
         public static final int Base_TextAppearance_AppCompat_Medium=0x7f08004b;
         public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f08000d;
         public static final int Base_TextAppearance_AppCompat_Menu=0x7f08004c;
-        public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0800aa;
+        public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0800ac;
         public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f08004d;
         public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f08004e;
         public static final int Base_TextAppearance_AppCompat_Small=0x7f08004f;
@@ -2565,39 +2729,39 @@ containing a value of this type.
         public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f080056;
         public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f080057;
         public static final int Base_TextAppearance_AppCompat_Widget_Button=0x7f080058;
-        public static final int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f08009b;
-        public static final int Base_TextAppearance_AppCompat_Widget_Button_Colored=0x7f08009c;
+        public static final int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f08009c;
+        public static final int Base_TextAppearance_AppCompat_Widget_Button_Colored=0x7f08009d;
         public static final int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f080095;
-        public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0800ab;
+        public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0800ad;
         public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f080059;
         public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f08005a;
         public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f08005b;
         public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f08005c;
         public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f08005d;
-        public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0800ac;
+        public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0800ae;
         public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f08005e;
         public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f08005f;
         public static final int Base_Theme_AppCompat=0x7f080060;
-        public static final int Base_Theme_AppCompat_CompactMenu=0x7f0800ad;
+        public static final int Base_Theme_AppCompat_CompactMenu=0x7f0800af;
         public static final int Base_Theme_AppCompat_Dialog=0x7f080011;
         public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f080012;
-        public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0800ae;
+        public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0800b0;
         public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f080013;
         public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f080001;
         public static final int Base_Theme_AppCompat_Light=0x7f080061;
-        public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0800af;
+        public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0800b1;
         public static final int Base_Theme_AppCompat_Light_Dialog=0x7f080014;
         public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f080015;
-        public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0800b0;
+        public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0800b2;
         public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f080016;
         public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f080002;
-        public static final int Base_ThemeOverlay_AppCompat=0x7f0800b1;
-        public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0800b2;
-        public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0800b3;
-        public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0800b4;
+        public static final int Base_ThemeOverlay_AppCompat=0x7f0800b3;
+        public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0800b4;
+        public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0800b5;
+        public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0800b6;
         public static final int Base_ThemeOverlay_AppCompat_Dialog=0x7f080017;
         public static final int Base_ThemeOverlay_AppCompat_Dialog_Alert=0x7f080018;
-        public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0800b5;
+        public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0800b7;
         public static final int Base_V11_Theme_AppCompat_Dialog=0x7f080019;
         public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f08001a;
         public static final int Base_V11_ThemeOverlay_AppCompat_Dialog=0x7f08001b;
@@ -2612,70 +2776,73 @@ containing a value of this type.
         public static final int Base_V22_Theme_AppCompat_Light=0x7f080093;
         public static final int Base_V23_Theme_AppCompat=0x7f080096;
         public static final int Base_V23_Theme_AppCompat_Light=0x7f080097;
-        public static final int Base_V7_Theme_AppCompat=0x7f0800b6;
-        public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0800b7;
-        public static final int Base_V7_Theme_AppCompat_Light=0x7f0800b8;
-        public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0800b9;
-        public static final int Base_V7_ThemeOverlay_AppCompat_Dialog=0x7f0800ba;
-        public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0800bb;
-        public static final int Base_V7_Widget_AppCompat_EditText=0x7f0800bc;
-        public static final int Base_Widget_AppCompat_ActionBar=0x7f0800bd;
-        public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0800be;
-        public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0800bf;
+        public static final int Base_V7_Theme_AppCompat=0x7f0800b8;
+        public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0800b9;
+        public static final int Base_V7_Theme_AppCompat_Light=0x7f0800ba;
+        public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0800bb;
+        public static final int Base_V7_ThemeOverlay_AppCompat_Dialog=0x7f0800bc;
+        public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0800bd;
+        public static final int Base_V7_Widget_AppCompat_EditText=0x7f0800be;
+        public static final int Base_Widget_AppCompat_ActionBar=0x7f0800bf;
+        public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0800c0;
+        public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0800c1;
         public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f080067;
         public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f080068;
         public static final int Base_Widget_AppCompat_ActionButton=0x7f080069;
         public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f08006a;
         public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f08006b;
-        public static final int Base_Widget_AppCompat_ActionMode=0x7f0800c0;
-        public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0800c1;
+        public static final int Base_Widget_AppCompat_ActionMode=0x7f0800c2;
+        public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0800c3;
         public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f080025;
         public static final int Base_Widget_AppCompat_Button=0x7f08006c;
         public static final int Base_Widget_AppCompat_Button_Borderless=0x7f08006d;
         public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f08006e;
-        public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0800c2;
+        public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0800c4;
         public static final int Base_Widget_AppCompat_Button_Colored=0x7f080098;
         public static final int Base_Widget_AppCompat_Button_Small=0x7f08006f;
         public static final int Base_Widget_AppCompat_ButtonBar=0x7f080070;
-        public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0800c3;
+        public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0800c5;
         public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f080071;
         public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f080072;
-        public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0800c4;
+        public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0800c6;
         public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f080000;
-        public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0800c5;
+        public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0800c7;
         public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f080073;
         public static final int Base_Widget_AppCompat_EditText=0x7f080026;
         public static final int Base_Widget_AppCompat_ImageButton=0x7f080074;
-        public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0800c6;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0800c7;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0800c8;
+        public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0800c8;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0800c9;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0800ca;
         public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f080075;
         public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f080076;
         public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f080077;
         public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f080078;
         public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f080079;
-        public static final int Base_Widget_AppCompat_ListMenuView=0x7f0800c9;
+        public static final int Base_Widget_AppCompat_ListMenuView=0x7f0800cb;
         public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f08007a;
         public static final int Base_Widget_AppCompat_ListView=0x7f08007b;
         public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f08007c;
         public static final int Base_Widget_AppCompat_ListView_Menu=0x7f08007d;
         public static final int Base_Widget_AppCompat_PopupMenu=0x7f08007e;
         public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f08007f;
-        public static final int Base_Widget_AppCompat_PopupWindow=0x7f0800ca;
+        public static final int Base_Widget_AppCompat_PopupWindow=0x7f0800cc;
         public static final int Base_Widget_AppCompat_ProgressBar=0x7f08001c;
         public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f08001d;
         public static final int Base_Widget_AppCompat_RatingBar=0x7f080080;
         public static final int Base_Widget_AppCompat_RatingBar_Indicator=0x7f080099;
         public static final int Base_Widget_AppCompat_RatingBar_Small=0x7f08009a;
-        public static final int Base_Widget_AppCompat_SearchView=0x7f0800cb;
-        public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0800cc;
+        public static final int Base_Widget_AppCompat_SearchView=0x7f0800cd;
+        public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0800ce;
         public static final int Base_Widget_AppCompat_SeekBar=0x7f080081;
-        public static final int Base_Widget_AppCompat_SeekBar_Discrete=0x7f0800cd;
+        public static final int Base_Widget_AppCompat_SeekBar_Discrete=0x7f0800cf;
         public static final int Base_Widget_AppCompat_Spinner=0x7f080082;
         public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f080003;
         public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f080083;
-        public static final int Base_Widget_AppCompat_Toolbar=0x7f0800ce;
+        public static final int Base_Widget_AppCompat_Toolbar=0x7f0800d0;
         public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f080084;
+        public static final int CardView=0x7f08009b;
+        public static final int CardView_Dark=0x7f0800d1;
+        public static final int CardView_Light=0x7f0800d2;
         public static final int Platform_AppCompat=0x7f08001e;
         public static final int Platform_AppCompat_Light=0x7f08001f;
         public static final int Platform_ThemeOverlay_AppCompat=0x7f080085;
@@ -2687,8 +2854,8 @@ containing a value of this type.
         public static final int Platform_V14_AppCompat_Light=0x7f080029;
         public static final int Platform_V21_AppCompat=0x7f080088;
         public static final int Platform_V21_AppCompat_Light=0x7f080089;
-        public static final int Platform_V25_AppCompat=0x7f08009d;
-        public static final int Platform_V25_AppCompat_Light=0x7f08009e;
+        public static final int Platform_V25_AppCompat=0x7f08009e;
+        public static final int Platform_V25_AppCompat_Light=0x7f08009f;
         public static final int Platform_Widget_AppCompat_Spinner=0x7f080022;
         public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f080031;
         public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f080032;
@@ -2704,73 +2871,73 @@ containing a value of this type.
         public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f08003c;
         public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f08003d;
         public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f08003e;
-        public static final int TextAppearance_AppCompat=0x7f0800cf;
-        public static final int TextAppearance_AppCompat_Body1=0x7f0800d0;
-        public static final int TextAppearance_AppCompat_Body2=0x7f0800d1;
-        public static final int TextAppearance_AppCompat_Button=0x7f0800d2;
-        public static final int TextAppearance_AppCompat_Caption=0x7f0800d3;
-        public static final int TextAppearance_AppCompat_Display1=0x7f0800d4;
-        public static final int TextAppearance_AppCompat_Display2=0x7f0800d5;
-        public static final int TextAppearance_AppCompat_Display3=0x7f0800d6;
-        public static final int TextAppearance_AppCompat_Display4=0x7f0800d7;
-        public static final int TextAppearance_AppCompat_Headline=0x7f0800d8;
-        public static final int TextAppearance_AppCompat_Inverse=0x7f0800d9;
-        public static final int TextAppearance_AppCompat_Large=0x7f0800da;
-        public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0800db;
-        public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0800dc;
-        public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0800dd;
-        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0800de;
-        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0800df;
-        public static final int TextAppearance_AppCompat_Medium=0x7f0800e0;
-        public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0800e1;
-        public static final int TextAppearance_AppCompat_Menu=0x7f0800e2;
+        public static final int TextAppearance_AppCompat=0x7f0800d3;
+        public static final int TextAppearance_AppCompat_Body1=0x7f0800d4;
+        public static final int TextAppearance_AppCompat_Body2=0x7f0800d5;
+        public static final int TextAppearance_AppCompat_Button=0x7f0800d6;
+        public static final int TextAppearance_AppCompat_Caption=0x7f0800d7;
+        public static final int TextAppearance_AppCompat_Display1=0x7f0800d8;
+        public static final int TextAppearance_AppCompat_Display2=0x7f0800d9;
+        public static final int TextAppearance_AppCompat_Display3=0x7f0800da;
+        public static final int TextAppearance_AppCompat_Display4=0x7f0800db;
+        public static final int TextAppearance_AppCompat_Headline=0x7f0800dc;
+        public static final int TextAppearance_AppCompat_Inverse=0x7f0800dd;
+        public static final int TextAppearance_AppCompat_Large=0x7f0800de;
+        public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0800df;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0800e0;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0800e1;
+        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0800e2;
+        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0800e3;
+        public static final int TextAppearance_AppCompat_Medium=0x7f0800e4;
+        public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0800e5;
+        public static final int TextAppearance_AppCompat_Menu=0x7f0800e6;
         public static final int TextAppearance_AppCompat_Notification=0x7f08002a;
         public static final int TextAppearance_AppCompat_Notification_Info=0x7f08008a;
         public static final int TextAppearance_AppCompat_Notification_Info_Media=0x7f08008b;
-        public static final int TextAppearance_AppCompat_Notification_Line2=0x7f0800e3;
-        public static final int TextAppearance_AppCompat_Notification_Line2_Media=0x7f0800e4;
+        public static final int TextAppearance_AppCompat_Notification_Line2=0x7f0800e7;
+        public static final int TextAppearance_AppCompat_Notification_Line2_Media=0x7f0800e8;
         public static final int TextAppearance_AppCompat_Notification_Media=0x7f08008c;
         public static final int TextAppearance_AppCompat_Notification_Time=0x7f08008d;
         public static final int TextAppearance_AppCompat_Notification_Time_Media=0x7f08008e;
         public static final int TextAppearance_AppCompat_Notification_Title=0x7f08002b;
         public static final int TextAppearance_AppCompat_Notification_Title_Media=0x7f08008f;
-        public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0800e5;
-        public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0800e6;
-        public static final int TextAppearance_AppCompat_Small=0x7f0800e7;
-        public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0800e8;
-        public static final int TextAppearance_AppCompat_Subhead=0x7f0800e9;
-        public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0800ea;
-        public static final int TextAppearance_AppCompat_Title=0x7f0800eb;
-        public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0800ec;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0800ed;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0800ee;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0800ef;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0800f0;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0800f1;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0800f2;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0800f3;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0800f4;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0800f5;
-        public static final int TextAppearance_AppCompat_Widget_Button=0x7f0800f6;
-        public static final int TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f0800f7;
-        public static final int TextAppearance_AppCompat_Widget_Button_Colored=0x7f0800f8;
-        public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0800f9;
-        public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0800fa;
-        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0800fb;
-        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0800fc;
-        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0800fd;
-        public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0800fe;
-        public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0800ff;
+        public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0800e9;
+        public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0800ea;
+        public static final int TextAppearance_AppCompat_Small=0x7f0800eb;
+        public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0800ec;
+        public static final int TextAppearance_AppCompat_Subhead=0x7f0800ed;
+        public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0800ee;
+        public static final int TextAppearance_AppCompat_Title=0x7f0800ef;
+        public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0800f0;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0800f1;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0800f2;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0800f3;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0800f4;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0800f5;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0800f6;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0800f7;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0800f8;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0800f9;
+        public static final int TextAppearance_AppCompat_Widget_Button=0x7f0800fa;
+        public static final int TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f0800fb;
+        public static final int TextAppearance_AppCompat_Widget_Button_Colored=0x7f0800fc;
+        public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0800fd;
+        public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0800fe;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0800ff;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f080100;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f080101;
+        public static final int TextAppearance_AppCompat_Widget_Switch=0x7f080102;
+        public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f080103;
         public static final int TextAppearance_StatusBar_EventContent=0x7f08002c;
         public static final int TextAppearance_StatusBar_EventContent_Info=0x7f08002d;
         public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f08002e;
         public static final int TextAppearance_StatusBar_EventContent_Time=0x7f08002f;
         public static final int TextAppearance_StatusBar_EventContent_Title=0x7f080030;
-        public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f080100;
-        public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f080101;
-        public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f080102;
-        public static final int Theme_AppCompat=0x7f080103;
-        public static final int Theme_AppCompat_CompactMenu=0x7f080104;
+        public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f080104;
+        public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f080105;
+        public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f080106;
+        public static final int Theme_AppCompat=0x7f080107;
+        public static final int Theme_AppCompat_CompactMenu=0x7f080108;
         public static final int Theme_AppCompat_DayNight=0x7f080004;
         public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f080005;
         public static final int Theme_AppCompat_DayNight_Dialog=0x7f080006;
@@ -2778,99 +2945,99 @@ containing a value of this type.
         public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f080008;
         public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f080009;
         public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f08000a;
-        public static final int Theme_AppCompat_Dialog=0x7f080105;
-        public static final int Theme_AppCompat_Dialog_Alert=0x7f080106;
-        public static final int Theme_AppCompat_Dialog_MinWidth=0x7f080107;
-        public static final int Theme_AppCompat_DialogWhenLarge=0x7f080108;
-        public static final int Theme_AppCompat_Light=0x7f080109;
-        public static final int Theme_AppCompat_Light_DarkActionBar=0x7f08010a;
-        public static final int Theme_AppCompat_Light_Dialog=0x7f08010b;
-        public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f08010c;
-        public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f08010d;
-        public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f08010e;
-        public static final int Theme_AppCompat_Light_NoActionBar=0x7f08010f;
-        public static final int Theme_AppCompat_NoActionBar=0x7f080110;
-        public static final int ThemeOverlay_AppCompat=0x7f080111;
-        public static final int ThemeOverlay_AppCompat_ActionBar=0x7f080112;
-        public static final int ThemeOverlay_AppCompat_Dark=0x7f080113;
-        public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f080114;
-        public static final int ThemeOverlay_AppCompat_Dialog=0x7f080115;
-        public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f080116;
-        public static final int ThemeOverlay_AppCompat_Light=0x7f080117;
-        public static final int Widget_AppCompat_ActionBar=0x7f080118;
-        public static final int Widget_AppCompat_ActionBar_Solid=0x7f080119;
-        public static final int Widget_AppCompat_ActionBar_TabBar=0x7f08011a;
-        public static final int Widget_AppCompat_ActionBar_TabText=0x7f08011b;
-        public static final int Widget_AppCompat_ActionBar_TabView=0x7f08011c;
-        public static final int Widget_AppCompat_ActionButton=0x7f08011d;
-        public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f08011e;
-        public static final int Widget_AppCompat_ActionButton_Overflow=0x7f08011f;
-        public static final int Widget_AppCompat_ActionMode=0x7f080120;
-        public static final int Widget_AppCompat_ActivityChooserView=0x7f080121;
-        public static final int Widget_AppCompat_AutoCompleteTextView=0x7f080122;
-        public static final int Widget_AppCompat_Button=0x7f080123;
-        public static final int Widget_AppCompat_Button_Borderless=0x7f080124;
-        public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f080125;
-        public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f080126;
-        public static final int Widget_AppCompat_Button_Colored=0x7f080127;
-        public static final int Widget_AppCompat_Button_Small=0x7f080128;
-        public static final int Widget_AppCompat_ButtonBar=0x7f080129;
-        public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f08012a;
-        public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f08012b;
-        public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f08012c;
-        public static final int Widget_AppCompat_CompoundButton_Switch=0x7f08012d;
-        public static final int Widget_AppCompat_DrawerArrowToggle=0x7f08012e;
-        public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f08012f;
-        public static final int Widget_AppCompat_EditText=0x7f080130;
-        public static final int Widget_AppCompat_ImageButton=0x7f080131;
-        public static final int Widget_AppCompat_Light_ActionBar=0x7f080132;
-        public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f080133;
-        public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f080134;
-        public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f080135;
-        public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f080136;
-        public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f080137;
-        public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f080138;
-        public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f080139;
-        public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f08013a;
-        public static final int Widget_AppCompat_Light_ActionButton=0x7f08013b;
-        public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f08013c;
-        public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f08013d;
-        public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f08013e;
-        public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f08013f;
-        public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f080140;
-        public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f080141;
-        public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f080142;
-        public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f080143;
-        public static final int Widget_AppCompat_Light_PopupMenu=0x7f080144;
-        public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f080145;
-        public static final int Widget_AppCompat_Light_SearchView=0x7f080146;
-        public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f080147;
-        public static final int Widget_AppCompat_ListMenuView=0x7f080148;
-        public static final int Widget_AppCompat_ListPopupWindow=0x7f080149;
-        public static final int Widget_AppCompat_ListView=0x7f08014a;
-        public static final int Widget_AppCompat_ListView_DropDown=0x7f08014b;
-        public static final int Widget_AppCompat_ListView_Menu=0x7f08014c;
+        public static final int Theme_AppCompat_Dialog=0x7f080109;
+        public static final int Theme_AppCompat_Dialog_Alert=0x7f08010a;
+        public static final int Theme_AppCompat_Dialog_MinWidth=0x7f08010b;
+        public static final int Theme_AppCompat_DialogWhenLarge=0x7f08010c;
+        public static final int Theme_AppCompat_Light=0x7f08010d;
+        public static final int Theme_AppCompat_Light_DarkActionBar=0x7f08010e;
+        public static final int Theme_AppCompat_Light_Dialog=0x7f08010f;
+        public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f080110;
+        public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f080111;
+        public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f080112;
+        public static final int Theme_AppCompat_Light_NoActionBar=0x7f080113;
+        public static final int Theme_AppCompat_NoActionBar=0x7f080114;
+        public static final int ThemeOverlay_AppCompat=0x7f080115;
+        public static final int ThemeOverlay_AppCompat_ActionBar=0x7f080116;
+        public static final int ThemeOverlay_AppCompat_Dark=0x7f080117;
+        public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f080118;
+        public static final int ThemeOverlay_AppCompat_Dialog=0x7f080119;
+        public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f08011a;
+        public static final int ThemeOverlay_AppCompat_Light=0x7f08011b;
+        public static final int Widget_AppCompat_ActionBar=0x7f08011c;
+        public static final int Widget_AppCompat_ActionBar_Solid=0x7f08011d;
+        public static final int Widget_AppCompat_ActionBar_TabBar=0x7f08011e;
+        public static final int Widget_AppCompat_ActionBar_TabText=0x7f08011f;
+        public static final int Widget_AppCompat_ActionBar_TabView=0x7f080120;
+        public static final int Widget_AppCompat_ActionButton=0x7f080121;
+        public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f080122;
+        public static final int Widget_AppCompat_ActionButton_Overflow=0x7f080123;
+        public static final int Widget_AppCompat_ActionMode=0x7f080124;
+        public static final int Widget_AppCompat_ActivityChooserView=0x7f080125;
+        public static final int Widget_AppCompat_AutoCompleteTextView=0x7f080126;
+        public static final int Widget_AppCompat_Button=0x7f080127;
+        public static final int Widget_AppCompat_Button_Borderless=0x7f080128;
+        public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f080129;
+        public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f08012a;
+        public static final int Widget_AppCompat_Button_Colored=0x7f08012b;
+        public static final int Widget_AppCompat_Button_Small=0x7f08012c;
+        public static final int Widget_AppCompat_ButtonBar=0x7f08012d;
+        public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f08012e;
+        public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f08012f;
+        public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f080130;
+        public static final int Widget_AppCompat_CompoundButton_Switch=0x7f080131;
+        public static final int Widget_AppCompat_DrawerArrowToggle=0x7f080132;
+        public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f080133;
+        public static final int Widget_AppCompat_EditText=0x7f080134;
+        public static final int Widget_AppCompat_ImageButton=0x7f080135;
+        public static final int Widget_AppCompat_Light_ActionBar=0x7f080136;
+        public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f080137;
+        public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f080138;
+        public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f080139;
+        public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f08013a;
+        public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f08013b;
+        public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f08013c;
+        public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f08013d;
+        public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f08013e;
+        public static final int Widget_AppCompat_Light_ActionButton=0x7f08013f;
+        public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f080140;
+        public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f080141;
+        public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f080142;
+        public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f080143;
+        public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f080144;
+        public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f080145;
+        public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f080146;
+        public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f080147;
+        public static final int Widget_AppCompat_Light_PopupMenu=0x7f080148;
+        public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f080149;
+        public static final int Widget_AppCompat_Light_SearchView=0x7f08014a;
+        public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f08014b;
+        public static final int Widget_AppCompat_ListMenuView=0x7f08014c;
+        public static final int Widget_AppCompat_ListPopupWindow=0x7f08014d;
+        public static final int Widget_AppCompat_ListView=0x7f08014e;
+        public static final int Widget_AppCompat_ListView_DropDown=0x7f08014f;
+        public static final int Widget_AppCompat_ListView_Menu=0x7f080150;
         public static final int Widget_AppCompat_NotificationActionContainer=0x7f080090;
         public static final int Widget_AppCompat_NotificationActionText=0x7f080091;
-        public static final int Widget_AppCompat_PopupMenu=0x7f08014d;
-        public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f08014e;
-        public static final int Widget_AppCompat_PopupWindow=0x7f08014f;
-        public static final int Widget_AppCompat_ProgressBar=0x7f080150;
-        public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f080151;
-        public static final int Widget_AppCompat_RatingBar=0x7f080152;
-        public static final int Widget_AppCompat_RatingBar_Indicator=0x7f080153;
-        public static final int Widget_AppCompat_RatingBar_Small=0x7f080154;
-        public static final int Widget_AppCompat_SearchView=0x7f080155;
-        public static final int Widget_AppCompat_SearchView_ActionBar=0x7f080156;
-        public static final int Widget_AppCompat_SeekBar=0x7f080157;
-        public static final int Widget_AppCompat_SeekBar_Discrete=0x7f080158;
-        public static final int Widget_AppCompat_Spinner=0x7f080159;
-        public static final int Widget_AppCompat_Spinner_DropDown=0x7f08015a;
-        public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f08015b;
-        public static final int Widget_AppCompat_Spinner_Underlined=0x7f08015c;
-        public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f08015d;
-        public static final int Widget_AppCompat_Toolbar=0x7f08015e;
-        public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f08015f;
+        public static final int Widget_AppCompat_PopupMenu=0x7f080151;
+        public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f080152;
+        public static final int Widget_AppCompat_PopupWindow=0x7f080153;
+        public static final int Widget_AppCompat_ProgressBar=0x7f080154;
+        public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f080155;
+        public static final int Widget_AppCompat_RatingBar=0x7f080156;
+        public static final int Widget_AppCompat_RatingBar_Indicator=0x7f080157;
+        public static final int Widget_AppCompat_RatingBar_Small=0x7f080158;
+        public static final int Widget_AppCompat_SearchView=0x7f080159;
+        public static final int Widget_AppCompat_SearchView_ActionBar=0x7f08015a;
+        public static final int Widget_AppCompat_SeekBar=0x7f08015b;
+        public static final int Widget_AppCompat_SeekBar_Discrete=0x7f08015c;
+        public static final int Widget_AppCompat_Spinner=0x7f08015d;
+        public static final int Widget_AppCompat_Spinner_DropDown=0x7f08015e;
+        public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f08015f;
+        public static final int Widget_AppCompat_Spinner_Underlined=0x7f080160;
+        public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f080161;
+        public static final int Widget_AppCompat_Toolbar=0x7f080162;
+        public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f080163;
     }
     public static final class styleable {
         /** Attributes that can be used with a ActionBar.
@@ -2950,7 +3117,7 @@ containing a value of this type.
             0x7f010087
         };
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#background}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2960,7 +3127,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2972,7 +3139,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2984,7 +3151,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3000,7 +3167,7 @@ containing a value of this type.
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#contentInsetEndWithActions}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#contentInsetEndWithActions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3016,7 +3183,7 @@ containing a value of this type.
         */
         public static final int ActionBar_contentInsetEndWithActions = 25;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3032,7 +3199,7 @@ containing a value of this type.
         */
         public static final int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3048,7 +3215,7 @@ containing a value of this type.
         */
         public static final int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3064,7 +3231,7 @@ containing a value of this type.
         */
         public static final int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#contentInsetStartWithNavigation}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#contentInsetStartWithNavigation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3080,7 +3247,7 @@ containing a value of this type.
         */
         public static final int ActionBar_contentInsetStartWithNavigation = 24;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3090,7 +3257,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3112,7 +3279,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3122,7 +3289,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3138,7 +3305,7 @@ containing a value of this type.
         */
         public static final int ActionBar_elevation = 26;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#height}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3154,7 +3321,7 @@ containing a value of this type.
         */
         public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3168,7 +3335,7 @@ containing a value of this type.
         */
         public static final int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3178,7 +3345,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_homeAsUpIndicator = 28;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3188,7 +3355,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#icon}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3198,7 +3365,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3208,7 +3375,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3224,7 +3391,7 @@ containing a value of this type.
         */
         public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3234,7 +3401,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3252,7 +3419,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3262,7 +3429,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_popupTheme = 27;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3278,7 +3445,7 @@ containing a value of this type.
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3288,7 +3455,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3302,7 +3469,7 @@ containing a value of this type.
         */
         public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3312,7 +3479,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#title}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3326,7 +3493,7 @@ containing a value of this type.
         */
         public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3403,7 +3570,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01003a, 0x7f01004a
         };
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#background}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -3413,7 +3580,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -3425,7 +3592,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -3435,7 +3602,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#height}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -3451,7 +3618,7 @@ containing a value of this type.
         */
         public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -3461,7 +3628,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -3486,7 +3653,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01004b, 0x7f01004c
         };
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -3496,7 +3663,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -3542,7 +3709,7 @@ containing a value of this type.
         */
         public static final int AlertDialog_android_layout = 0;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#buttonPanelSideLayout}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#buttonPanelSideLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
@@ -3552,7 +3719,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AlertDialog_buttonPanelSideLayout = 1;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#listItemLayout}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#listItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
@@ -3562,7 +3729,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AlertDialog_listItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#listLayout}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#listLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
@@ -3572,7 +3739,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AlertDialog_listLayout = 2;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#multiChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#multiChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
@@ -3582,7 +3749,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AlertDialog_multiChoiceItemLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#showTitle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#showTitle}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
@@ -3596,7 +3763,7 @@ containing a value of this type.
         */
         public static final int AlertDialog_showTitle = 6;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#singleChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#singleChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
@@ -3627,7 +3794,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatImageView_android_src = 0;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#srcCompat}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#srcCompat}
           attribute's value can be found in the {@link #AppCompatImageView} array.
 
 
@@ -3662,7 +3829,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatSeekBar_android_thumb = 0;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#tickMark}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#tickMark}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
@@ -3672,7 +3839,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatSeekBar_tickMark = 1;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#tickMarkTint}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#tickMarkTint}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
@@ -3687,7 +3854,7 @@ containing a value of this type.
         */
         public static final int AppCompatSeekBar_tickMarkTint = 2;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#tickMarkTintMode}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#tickMarkTintMode}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
@@ -3797,7 +3964,7 @@ containing a value of this type.
         */
         public static final int AppCompatTextView_android_textAppearance = 0;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#textAllCaps}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
@@ -4077,7 +4244,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100c6, 0x7f0100c7, 0x7f0100c8
         };
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4087,7 +4254,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_actionBarDivider = 23;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4097,7 +4264,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_actionBarItemBackground = 24;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4107,7 +4274,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_actionBarPopupTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#actionBarSize}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4131,7 +4298,7 @@ containing a value of this type.
         */
         public static final int AppCompatTheme_actionBarSize = 22;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4141,7 +4308,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_actionBarSplitStyle = 19;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4151,7 +4318,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_actionBarStyle = 18;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4161,7 +4328,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_actionBarTabBarStyle = 13;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4171,7 +4338,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_actionBarTabStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4181,7 +4348,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_actionBarTabTextStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4191,7 +4358,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_actionBarTheme = 20;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4201,7 +4368,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_actionBarWidgetTheme = 21;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4211,7 +4378,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_actionButtonStyle = 50;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4221,7 +4388,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_actionDropDownStyle = 46;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4231,7 +4398,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_actionMenuTextAppearance = 25;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4243,7 +4410,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_actionMenuTextColor = 26;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4253,7 +4420,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_actionModeBackground = 29;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4263,7 +4430,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_actionModeCloseButtonStyle = 28;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4273,7 +4440,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_actionModeCloseDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4283,7 +4450,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_actionModeCopyDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4293,7 +4460,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_actionModeCutDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4303,7 +4470,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_actionModeFindDrawable = 37;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4313,7 +4480,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_actionModePasteDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4323,7 +4490,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_actionModePopupWindowStyle = 39;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4333,7 +4500,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_actionModeSelectAllDrawable = 35;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4343,7 +4510,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_actionModeShareDrawable = 36;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4353,7 +4520,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_actionModeSplitBackground = 30;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4363,7 +4530,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_actionModeStyle = 27;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4373,7 +4540,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_actionModeWebSearchDrawable = 38;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4383,7 +4550,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_actionOverflowButtonStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4393,7 +4560,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_actionOverflowMenuStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4403,7 +4570,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_activityChooserViewStyle = 58;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#alertDialogButtonGroupStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#alertDialogButtonGroupStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4413,7 +4580,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_alertDialogButtonGroupStyle = 94;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#alertDialogCenterButtons}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#alertDialogCenterButtons}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4427,7 +4594,7 @@ containing a value of this type.
         */
         public static final int AppCompatTheme_alertDialogCenterButtons = 95;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#alertDialogStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#alertDialogStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4437,7 +4604,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_alertDialogStyle = 93;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#alertDialogTheme}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#alertDialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4459,7 +4626,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#autoCompleteTextViewStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#autoCompleteTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4469,7 +4636,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_autoCompleteTextViewStyle = 101;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#borderlessButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#borderlessButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4479,7 +4646,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_borderlessButtonStyle = 55;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4489,7 +4656,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_buttonBarButtonStyle = 52;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#buttonBarNegativeButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#buttonBarNegativeButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4499,7 +4666,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_buttonBarNegativeButtonStyle = 99;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#buttonBarNeutralButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#buttonBarNeutralButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4509,7 +4676,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_buttonBarNeutralButtonStyle = 100;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#buttonBarPositiveButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#buttonBarPositiveButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4519,7 +4686,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_buttonBarPositiveButtonStyle = 98;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4529,7 +4696,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_buttonBarStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#buttonStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#buttonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4539,7 +4706,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_buttonStyle = 102;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#buttonStyleSmall}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#buttonStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4549,7 +4716,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_buttonStyleSmall = 103;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#checkboxStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#checkboxStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4559,7 +4726,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_checkboxStyle = 104;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#checkedTextViewStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#checkedTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4569,7 +4736,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_checkedTextViewStyle = 105;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#colorAccent}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#colorAccent}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4584,7 +4751,7 @@ containing a value of this type.
         */
         public static final int AppCompatTheme_colorAccent = 85;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#colorBackgroundFloating}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#colorBackgroundFloating}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4599,7 +4766,7 @@ containing a value of this type.
         */
         public static final int AppCompatTheme_colorBackgroundFloating = 92;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#colorButtonNormal}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#colorButtonNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4614,7 +4781,7 @@ containing a value of this type.
         */
         public static final int AppCompatTheme_colorButtonNormal = 89;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#colorControlActivated}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#colorControlActivated}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4629,7 +4796,7 @@ containing a value of this type.
         */
         public static final int AppCompatTheme_colorControlActivated = 87;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#colorControlHighlight}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#colorControlHighlight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4644,7 +4811,7 @@ containing a value of this type.
         */
         public static final int AppCompatTheme_colorControlHighlight = 88;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#colorControlNormal}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#colorControlNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4659,7 +4826,7 @@ containing a value of this type.
         */
         public static final int AppCompatTheme_colorControlNormal = 86;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#colorPrimary}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#colorPrimary}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4674,7 +4841,7 @@ containing a value of this type.
         */
         public static final int AppCompatTheme_colorPrimary = 83;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#colorPrimaryDark}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#colorPrimaryDark}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4689,7 +4856,7 @@ containing a value of this type.
         */
         public static final int AppCompatTheme_colorPrimaryDark = 84;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#colorSwitchThumbNormal}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#colorSwitchThumbNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4704,7 +4871,7 @@ containing a value of this type.
         */
         public static final int AppCompatTheme_colorSwitchThumbNormal = 90;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#controlBackground}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#controlBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4714,7 +4881,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_controlBackground = 91;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#dialogPreferredPadding}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#dialogPreferredPadding}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4730,7 +4897,7 @@ containing a value of this type.
         */
         public static final int AppCompatTheme_dialogPreferredPadding = 44;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#dialogTheme}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#dialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4740,7 +4907,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_dialogTheme = 43;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#dividerHorizontal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4750,7 +4917,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_dividerHorizontal = 57;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#dividerVertical}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4760,7 +4927,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_dividerVertical = 56;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#dropDownListViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4770,7 +4937,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_dropDownListViewStyle = 75;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4786,7 +4953,7 @@ containing a value of this type.
         */
         public static final int AppCompatTheme_dropdownListPreferredItemHeight = 47;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#editTextBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4796,7 +4963,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_editTextBackground = 64;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#editTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4808,7 +4975,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_editTextColor = 63;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#editTextStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#editTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4818,7 +4985,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_editTextStyle = 106;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4828,7 +4995,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_homeAsUpIndicator = 49;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#imageButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#imageButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4838,7 +5005,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_imageButtonStyle = 65;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4848,7 +5015,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_listChoiceBackgroundIndicator = 82;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#listDividerAlertDialog}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#listDividerAlertDialog}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4858,7 +5025,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_listDividerAlertDialog = 45;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#listMenuViewStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#listMenuViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4868,7 +5035,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_listMenuViewStyle = 114;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4878,7 +5045,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_listPopupWindowStyle = 76;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4894,7 +5061,7 @@ containing a value of this type.
         */
         public static final int AppCompatTheme_listPreferredItemHeight = 70;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4910,7 +5077,7 @@ containing a value of this type.
         */
         public static final int AppCompatTheme_listPreferredItemHeightLarge = 72;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4926,7 +5093,7 @@ containing a value of this type.
         */
         public static final int AppCompatTheme_listPreferredItemHeightSmall = 71;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4942,7 +5109,7 @@ containing a value of this type.
         */
         public static final int AppCompatTheme_listPreferredItemPaddingLeft = 73;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4958,7 +5125,7 @@ containing a value of this type.
         */
         public static final int AppCompatTheme_listPreferredItemPaddingRight = 74;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#panelBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4968,7 +5135,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_panelBackground = 79;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4978,7 +5145,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_panelMenuListTheme = 81;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4994,7 +5161,7 @@ containing a value of this type.
         */
         public static final int AppCompatTheme_panelMenuListWidth = 80;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5004,7 +5171,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_popupMenuStyle = 61;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5014,7 +5181,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_popupWindowStyle = 62;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#radioButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#radioButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5024,7 +5191,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_radioButtonStyle = 107;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#ratingBarStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#ratingBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5034,7 +5201,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_ratingBarStyle = 108;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#ratingBarStyleIndicator}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#ratingBarStyleIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5044,7 +5211,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_ratingBarStyleIndicator = 109;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#ratingBarStyleSmall}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#ratingBarStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5054,7 +5221,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_ratingBarStyleSmall = 110;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5064,7 +5231,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_searchViewStyle = 69;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#seekBarStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#seekBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5074,7 +5241,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_seekBarStyle = 111;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5084,7 +5251,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_selectableItemBackground = 53;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5094,7 +5261,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_selectableItemBackgroundBorderless = 54;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5104,7 +5271,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_spinnerDropDownItemStyle = 48;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5114,7 +5281,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_spinnerStyle = 112;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#switchStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5124,7 +5291,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_switchStyle = 113;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5134,7 +5301,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_textAppearanceLargePopupMenu = 40;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5144,7 +5311,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_textAppearanceListItem = 77;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5154,7 +5321,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_textAppearanceListItemSmall = 78;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#textAppearancePopupMenuHeader}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#textAppearancePopupMenuHeader}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5164,7 +5331,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_textAppearancePopupMenuHeader = 42;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5174,7 +5341,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_textAppearanceSearchResultSubtitle = 67;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#textAppearanceSearchResultTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5184,7 +5351,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_textAppearanceSearchResultTitle = 66;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#textAppearanceSmallPopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5194,7 +5361,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_textAppearanceSmallPopupMenu = 41;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#textColorAlertDialogListItem}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#textColorAlertDialogListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5206,7 +5373,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_textColorAlertDialogListItem = 97;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#textColorSearchUrl}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5218,7 +5385,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_textColorSearchUrl = 68;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5228,7 +5395,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_toolbarNavigationButtonStyle = 60;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5238,7 +5405,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_toolbarStyle = 59;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#windowActionBar}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5252,7 +5419,7 @@ containing a value of this type.
         */
         public static final int AppCompatTheme_windowActionBar = 2;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5266,7 +5433,7 @@ containing a value of this type.
         */
         public static final int AppCompatTheme_windowActionBarOverlay = 4;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5280,7 +5447,7 @@ containing a value of this type.
         */
         public static final int AppCompatTheme_windowActionModeOverlay = 5;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5299,7 +5466,7 @@ containing a value of this type.
         */
         public static final int AppCompatTheme_windowFixedHeightMajor = 9;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5318,7 +5485,7 @@ containing a value of this type.
         */
         public static final int AppCompatTheme_windowFixedHeightMinor = 7;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5337,7 +5504,7 @@ containing a value of this type.
         */
         public static final int AppCompatTheme_windowFixedWidthMajor = 6;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5356,7 +5523,7 @@ containing a value of this type.
         */
         public static final int AppCompatTheme_windowFixedWidthMinor = 8;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#windowMinWidthMajor}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#windowMinWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5375,7 +5542,7 @@ containing a value of this type.
         */
         public static final int AppCompatTheme_windowMinWidthMajor = 10;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#windowMinWidthMinor}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#windowMinWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5394,7 +5561,7 @@ containing a value of this type.
         */
         public static final int AppCompatTheme_windowMinWidthMinor = 11;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#windowNoTitle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#windowNoTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5421,7 +5588,7 @@ containing a value of this type.
             0x7f0100c9
         };
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#allowStacking}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#allowStacking}
           attribute's value can be found in the {@link #ButtonBarLayout} array.
 
 
@@ -5434,6 +5601,229 @@ containing a value of this type.
           @attr name com.example.root.ui1:allowStacking
         */
         public static final int ButtonBarLayout_allowStacking = 0;
+        /** Attributes that can be used with a CardView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #CardView_android_minHeight android:minHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_android_minWidth android:minWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardBackgroundColor com.example.root.ui1:cardBackgroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardCornerRadius com.example.root.ui1:cardCornerRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardElevation com.example.root.ui1:cardElevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardMaxElevation com.example.root.ui1:cardMaxElevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardPreventCornerOverlap com.example.root.ui1:cardPreventCornerOverlap}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardUseCompatPadding com.example.root.ui1:cardUseCompatPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPadding com.example.root.ui1:contentPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingBottom com.example.root.ui1:contentPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingLeft com.example.root.ui1:contentPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingRight com.example.root.ui1:contentPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingTop com.example.root.ui1:contentPaddingTop}</code></td><td></td></tr>
+           </table>
+           @see #CardView_android_minHeight
+           @see #CardView_android_minWidth
+           @see #CardView_cardBackgroundColor
+           @see #CardView_cardCornerRadius
+           @see #CardView_cardElevation
+           @see #CardView_cardMaxElevation
+           @see #CardView_cardPreventCornerOverlap
+           @see #CardView_cardUseCompatPadding
+           @see #CardView_contentPadding
+           @see #CardView_contentPaddingBottom
+           @see #CardView_contentPaddingLeft
+           @see #CardView_contentPaddingRight
+           @see #CardView_contentPaddingTop
+         */
+        public static final int[] CardView = {
+            0x0101013f, 0x01010140, 0x7f0100ca, 0x7f0100cb,
+            0x7f0100cc, 0x7f0100cd, 0x7f0100ce, 0x7f0100cf,
+            0x7f0100d0, 0x7f0100d1, 0x7f0100d2, 0x7f0100d3,
+            0x7f0100d4
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#minHeight}
+          attribute's value can be found in the {@link #CardView} array.
+          @attr name android:minHeight
+        */
+        public static final int CardView_android_minHeight = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#minWidth}
+          attribute's value can be found in the {@link #CardView} array.
+          @attr name android:minWidth
+        */
+        public static final int CardView_android_minWidth = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#cardBackgroundColor}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.root.ui1:cardBackgroundColor
+        */
+        public static final int CardView_cardBackgroundColor = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#cardCornerRadius}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.root.ui1:cardCornerRadius
+        */
+        public static final int CardView_cardCornerRadius = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#cardElevation}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.root.ui1:cardElevation
+        */
+        public static final int CardView_cardElevation = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#cardMaxElevation}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.root.ui1:cardMaxElevation
+        */
+        public static final int CardView_cardMaxElevation = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#cardPreventCornerOverlap}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.root.ui1:cardPreventCornerOverlap
+        */
+        public static final int CardView_cardPreventCornerOverlap = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#cardUseCompatPadding}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.root.ui1:cardUseCompatPadding
+        */
+        public static final int CardView_cardUseCompatPadding = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#contentPadding}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.root.ui1:contentPadding
+        */
+        public static final int CardView_contentPadding = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#contentPaddingBottom}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.root.ui1:contentPaddingBottom
+        */
+        public static final int CardView_contentPaddingBottom = 12;
+        /**
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#contentPaddingLeft}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.root.ui1:contentPaddingLeft
+        */
+        public static final int CardView_contentPaddingLeft = 9;
+        /**
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#contentPaddingRight}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.root.ui1:contentPaddingRight
+        */
+        public static final int CardView_contentPaddingRight = 10;
+        /**
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#contentPaddingTop}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.root.ui1:contentPaddingTop
+        */
+        public static final int CardView_contentPaddingTop = 11;
         /** Attributes that can be used with a ColorStateListItem.
            <p>Includes the following attributes:</p>
            <table>
@@ -5449,10 +5839,10 @@ containing a value of this type.
            @see #ColorStateListItem_android_color
          */
         public static final int[] ColorStateListItem = {
-            0x010101a5, 0x0101031f, 0x7f0100ca
+            0x010101a5, 0x0101031f, 0x7f0100d5
         };
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#alpha}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#alpha}
           attribute's value can be found in the {@link #ColorStateListItem} array.
 
 
@@ -5492,7 +5882,7 @@ containing a value of this type.
            @see #CompoundButton_buttonTintMode
          */
         public static final int[] CompoundButton = {
-            0x01010107, 0x7f0100cb, 0x7f0100cc
+            0x01010107, 0x7f0100d6, 0x7f0100d7
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#button}
@@ -5501,7 +5891,7 @@ containing a value of this type.
         */
         public static final int CompoundButton_android_button = 0;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#buttonTint}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#buttonTint}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -5516,7 +5906,7 @@ containing a value of this type.
         */
         public static final int CompoundButton_buttonTint = 1;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#buttonTintMode}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#buttonTintMode}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -5687,7 +6077,7 @@ containing a value of this type.
         */
         public static final int ConstraintLayout_Layout_android_orientation = 0;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#constraintSet}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#constraintSet}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -5697,7 +6087,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ConstraintLayout_Layout_constraintSet = 5;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintBaseline_creator}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintBaseline_creator}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -5711,7 +6101,7 @@ containing a value of this type.
         */
         public static final int ConstraintLayout_Layout_layout_constraintBaseline_creator = 6;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintBaseline_toBaselineOf}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintBaseline_toBaselineOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -5729,7 +6119,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf = 7;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintBottom_creator}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintBottom_creator}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -5743,7 +6133,7 @@ containing a value of this type.
         */
         public static final int ConstraintLayout_Layout_layout_constraintBottom_creator = 8;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintBottom_toBottomOf}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintBottom_toBottomOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -5761,7 +6151,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ConstraintLayout_Layout_layout_constraintBottom_toBottomOf = 9;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintBottom_toTopOf}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintBottom_toTopOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -5779,7 +6169,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ConstraintLayout_Layout_layout_constraintBottom_toTopOf = 10;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintDimensionRatio}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintDimensionRatio}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -5793,7 +6183,7 @@ containing a value of this type.
         */
         public static final int ConstraintLayout_Layout_layout_constraintDimensionRatio = 11;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintEnd_toEndOf}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintEnd_toEndOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -5811,7 +6201,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ConstraintLayout_Layout_layout_constraintEnd_toEndOf = 12;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintEnd_toStartOf}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintEnd_toStartOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -5829,7 +6219,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ConstraintLayout_Layout_layout_constraintEnd_toStartOf = 13;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintGuide_begin}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintGuide_begin}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -5845,7 +6235,7 @@ containing a value of this type.
         */
         public static final int ConstraintLayout_Layout_layout_constraintGuide_begin = 14;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintGuide_end}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintGuide_end}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -5861,7 +6251,7 @@ containing a value of this type.
         */
         public static final int ConstraintLayout_Layout_layout_constraintGuide_end = 15;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintGuide_percent}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintGuide_percent}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -5875,7 +6265,7 @@ containing a value of this type.
         */
         public static final int ConstraintLayout_Layout_layout_constraintGuide_percent = 16;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintHeight_default}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintHeight_default}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -5892,7 +6282,7 @@ containing a value of this type.
         */
         public static final int ConstraintLayout_Layout_layout_constraintHeight_default = 17;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintHeight_max}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintHeight_max}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -5908,7 +6298,7 @@ containing a value of this type.
         */
         public static final int ConstraintLayout_Layout_layout_constraintHeight_max = 18;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintHeight_min}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintHeight_min}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -5924,7 +6314,7 @@ containing a value of this type.
         */
         public static final int ConstraintLayout_Layout_layout_constraintHeight_min = 19;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintHorizontal_bias}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintHorizontal_bias}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -5938,7 +6328,7 @@ containing a value of this type.
         */
         public static final int ConstraintLayout_Layout_layout_constraintHorizontal_bias = 20;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintHorizontal_chainStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintHorizontal_chainStyle}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -5956,7 +6346,7 @@ containing a value of this type.
         */
         public static final int ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle = 21;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintHorizontal_weight}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintHorizontal_weight}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -5970,7 +6360,7 @@ containing a value of this type.
         */
         public static final int ConstraintLayout_Layout_layout_constraintHorizontal_weight = 22;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintLeft_creator}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintLeft_creator}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -5984,7 +6374,7 @@ containing a value of this type.
         */
         public static final int ConstraintLayout_Layout_layout_constraintLeft_creator = 23;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintLeft_toLeftOf}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintLeft_toLeftOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6002,7 +6392,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ConstraintLayout_Layout_layout_constraintLeft_toLeftOf = 24;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintLeft_toRightOf}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintLeft_toRightOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6020,7 +6410,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ConstraintLayout_Layout_layout_constraintLeft_toRightOf = 25;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintRight_creator}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintRight_creator}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6034,7 +6424,7 @@ containing a value of this type.
         */
         public static final int ConstraintLayout_Layout_layout_constraintRight_creator = 26;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintRight_toLeftOf}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintRight_toLeftOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6052,7 +6442,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ConstraintLayout_Layout_layout_constraintRight_toLeftOf = 27;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintRight_toRightOf}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintRight_toRightOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6070,7 +6460,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ConstraintLayout_Layout_layout_constraintRight_toRightOf = 28;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintStart_toEndOf}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintStart_toEndOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6088,7 +6478,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ConstraintLayout_Layout_layout_constraintStart_toEndOf = 29;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintStart_toStartOf}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintStart_toStartOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6106,7 +6496,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ConstraintLayout_Layout_layout_constraintStart_toStartOf = 30;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintTop_creator}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintTop_creator}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6120,7 +6510,7 @@ containing a value of this type.
         */
         public static final int ConstraintLayout_Layout_layout_constraintTop_creator = 31;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintTop_toBottomOf}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintTop_toBottomOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6138,7 +6528,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ConstraintLayout_Layout_layout_constraintTop_toBottomOf = 32;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintTop_toTopOf}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintTop_toTopOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6156,7 +6546,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ConstraintLayout_Layout_layout_constraintTop_toTopOf = 33;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintVertical_bias}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintVertical_bias}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6170,7 +6560,7 @@ containing a value of this type.
         */
         public static final int ConstraintLayout_Layout_layout_constraintVertical_bias = 34;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintVertical_chainStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintVertical_chainStyle}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6188,7 +6578,7 @@ containing a value of this type.
         */
         public static final int ConstraintLayout_Layout_layout_constraintVertical_chainStyle = 35;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintVertical_weight}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintVertical_weight}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6202,7 +6592,7 @@ containing a value of this type.
         */
         public static final int ConstraintLayout_Layout_layout_constraintVertical_weight = 36;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintWidth_default}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintWidth_default}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6219,7 +6609,7 @@ containing a value of this type.
         */
         public static final int ConstraintLayout_Layout_layout_constraintWidth_default = 37;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintWidth_max}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintWidth_max}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6235,7 +6625,7 @@ containing a value of this type.
         */
         public static final int ConstraintLayout_Layout_layout_constraintWidth_max = 38;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintWidth_min}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintWidth_min}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6251,7 +6641,7 @@ containing a value of this type.
         */
         public static final int ConstraintLayout_Layout_layout_constraintWidth_min = 39;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_editor_absoluteX}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_editor_absoluteX}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6267,7 +6657,7 @@ containing a value of this type.
         */
         public static final int ConstraintLayout_Layout_layout_editor_absoluteX = 40;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_editor_absoluteY}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_editor_absoluteY}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6283,7 +6673,7 @@ containing a value of this type.
         */
         public static final int ConstraintLayout_Layout_layout_editor_absoluteY = 41;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_goneMarginBottom}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_goneMarginBottom}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6299,7 +6689,7 @@ containing a value of this type.
         */
         public static final int ConstraintLayout_Layout_layout_goneMarginBottom = 42;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_goneMarginEnd}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_goneMarginEnd}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6315,7 +6705,7 @@ containing a value of this type.
         */
         public static final int ConstraintLayout_Layout_layout_goneMarginEnd = 43;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_goneMarginLeft}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_goneMarginLeft}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6331,7 +6721,7 @@ containing a value of this type.
         */
         public static final int ConstraintLayout_Layout_layout_goneMarginLeft = 44;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_goneMarginRight}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_goneMarginRight}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6347,7 +6737,7 @@ containing a value of this type.
         */
         public static final int ConstraintLayout_Layout_layout_goneMarginRight = 45;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_goneMarginStart}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_goneMarginStart}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6363,7 +6753,7 @@ containing a value of this type.
         */
         public static final int ConstraintLayout_Layout_layout_goneMarginStart = 46;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_goneMarginTop}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_goneMarginTop}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6379,7 +6769,7 @@ containing a value of this type.
         */
         public static final int ConstraintLayout_Layout_layout_goneMarginTop = 47;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_optimizationLevel}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_optimizationLevel}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -6684,7 +7074,7 @@ containing a value of this type.
         */
         public static final int ConstraintSet_android_visibility = 2;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintBaseline_creator}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintBaseline_creator}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6698,7 +7088,7 @@ containing a value of this type.
         */
         public static final int ConstraintSet_layout_constraintBaseline_creator = 22;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintBaseline_toBaselineOf}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintBaseline_toBaselineOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6716,7 +7106,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ConstraintSet_layout_constraintBaseline_toBaselineOf = 23;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintBottom_creator}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintBottom_creator}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6730,7 +7120,7 @@ containing a value of this type.
         */
         public static final int ConstraintSet_layout_constraintBottom_creator = 24;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintBottom_toBottomOf}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintBottom_toBottomOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6748,7 +7138,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ConstraintSet_layout_constraintBottom_toBottomOf = 25;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintBottom_toTopOf}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintBottom_toTopOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6766,7 +7156,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ConstraintSet_layout_constraintBottom_toTopOf = 26;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintDimensionRatio}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintDimensionRatio}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6780,7 +7170,7 @@ containing a value of this type.
         */
         public static final int ConstraintSet_layout_constraintDimensionRatio = 27;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintEnd_toEndOf}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintEnd_toEndOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6798,7 +7188,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ConstraintSet_layout_constraintEnd_toEndOf = 28;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintEnd_toStartOf}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintEnd_toStartOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6816,7 +7206,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ConstraintSet_layout_constraintEnd_toStartOf = 29;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintGuide_begin}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintGuide_begin}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6832,7 +7222,7 @@ containing a value of this type.
         */
         public static final int ConstraintSet_layout_constraintGuide_begin = 30;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintGuide_end}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintGuide_end}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6848,7 +7238,7 @@ containing a value of this type.
         */
         public static final int ConstraintSet_layout_constraintGuide_end = 31;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintGuide_percent}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintGuide_percent}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6862,7 +7252,7 @@ containing a value of this type.
         */
         public static final int ConstraintSet_layout_constraintGuide_percent = 32;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintHeight_default}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintHeight_default}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6879,7 +7269,7 @@ containing a value of this type.
         */
         public static final int ConstraintSet_layout_constraintHeight_default = 33;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintHeight_max}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintHeight_max}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6895,7 +7285,7 @@ containing a value of this type.
         */
         public static final int ConstraintSet_layout_constraintHeight_max = 34;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintHeight_min}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintHeight_min}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6911,7 +7301,7 @@ containing a value of this type.
         */
         public static final int ConstraintSet_layout_constraintHeight_min = 35;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintHorizontal_bias}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintHorizontal_bias}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6925,7 +7315,7 @@ containing a value of this type.
         */
         public static final int ConstraintSet_layout_constraintHorizontal_bias = 36;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintHorizontal_chainStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintHorizontal_chainStyle}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6943,7 +7333,7 @@ containing a value of this type.
         */
         public static final int ConstraintSet_layout_constraintHorizontal_chainStyle = 37;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintHorizontal_weight}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintHorizontal_weight}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6957,7 +7347,7 @@ containing a value of this type.
         */
         public static final int ConstraintSet_layout_constraintHorizontal_weight = 38;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintLeft_creator}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintLeft_creator}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6971,7 +7361,7 @@ containing a value of this type.
         */
         public static final int ConstraintSet_layout_constraintLeft_creator = 39;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintLeft_toLeftOf}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintLeft_toLeftOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -6989,7 +7379,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ConstraintSet_layout_constraintLeft_toLeftOf = 40;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintLeft_toRightOf}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintLeft_toRightOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7007,7 +7397,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ConstraintSet_layout_constraintLeft_toRightOf = 41;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintRight_creator}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintRight_creator}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7021,7 +7411,7 @@ containing a value of this type.
         */
         public static final int ConstraintSet_layout_constraintRight_creator = 42;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintRight_toLeftOf}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintRight_toLeftOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7039,7 +7429,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ConstraintSet_layout_constraintRight_toLeftOf = 43;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintRight_toRightOf}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintRight_toRightOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7057,7 +7447,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ConstraintSet_layout_constraintRight_toRightOf = 44;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintStart_toEndOf}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintStart_toEndOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7075,7 +7465,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ConstraintSet_layout_constraintStart_toEndOf = 45;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintStart_toStartOf}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintStart_toStartOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7093,7 +7483,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ConstraintSet_layout_constraintStart_toStartOf = 46;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintTop_creator}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintTop_creator}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7107,7 +7497,7 @@ containing a value of this type.
         */
         public static final int ConstraintSet_layout_constraintTop_creator = 47;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintTop_toBottomOf}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintTop_toBottomOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7125,7 +7515,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ConstraintSet_layout_constraintTop_toBottomOf = 48;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintTop_toTopOf}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintTop_toTopOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7143,7 +7533,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ConstraintSet_layout_constraintTop_toTopOf = 49;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintVertical_bias}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintVertical_bias}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7157,7 +7547,7 @@ containing a value of this type.
         */
         public static final int ConstraintSet_layout_constraintVertical_bias = 50;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintVertical_chainStyle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintVertical_chainStyle}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7175,7 +7565,7 @@ containing a value of this type.
         */
         public static final int ConstraintSet_layout_constraintVertical_chainStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintVertical_weight}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintVertical_weight}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7189,7 +7579,7 @@ containing a value of this type.
         */
         public static final int ConstraintSet_layout_constraintVertical_weight = 52;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintWidth_default}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintWidth_default}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7206,7 +7596,7 @@ containing a value of this type.
         */
         public static final int ConstraintSet_layout_constraintWidth_default = 53;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintWidth_max}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintWidth_max}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7222,7 +7612,7 @@ containing a value of this type.
         */
         public static final int ConstraintSet_layout_constraintWidth_max = 54;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_constraintWidth_min}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_constraintWidth_min}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7238,7 +7628,7 @@ containing a value of this type.
         */
         public static final int ConstraintSet_layout_constraintWidth_min = 55;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_editor_absoluteX}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_editor_absoluteX}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7254,7 +7644,7 @@ containing a value of this type.
         */
         public static final int ConstraintSet_layout_editor_absoluteX = 56;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_editor_absoluteY}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_editor_absoluteY}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7270,7 +7660,7 @@ containing a value of this type.
         */
         public static final int ConstraintSet_layout_editor_absoluteY = 57;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_goneMarginBottom}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_goneMarginBottom}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7286,7 +7676,7 @@ containing a value of this type.
         */
         public static final int ConstraintSet_layout_goneMarginBottom = 58;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_goneMarginEnd}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_goneMarginEnd}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7302,7 +7692,7 @@ containing a value of this type.
         */
         public static final int ConstraintSet_layout_goneMarginEnd = 59;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_goneMarginLeft}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_goneMarginLeft}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7318,7 +7708,7 @@ containing a value of this type.
         */
         public static final int ConstraintSet_layout_goneMarginLeft = 60;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_goneMarginRight}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_goneMarginRight}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7334,7 +7724,7 @@ containing a value of this type.
         */
         public static final int ConstraintSet_layout_goneMarginRight = 61;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_goneMarginStart}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_goneMarginStart}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7350,7 +7740,7 @@ containing a value of this type.
         */
         public static final int ConstraintSet_layout_goneMarginStart = 62;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout_goneMarginTop}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout_goneMarginTop}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -7390,11 +7780,11 @@ containing a value of this type.
            @see #DrawerArrowToggle_thickness
          */
         public static final int[] DrawerArrowToggle = {
-            0x7f0100cd, 0x7f0100ce, 0x7f0100cf, 0x7f0100d0,
-            0x7f0100d1, 0x7f0100d2, 0x7f0100d3, 0x7f0100d4
+            0x7f0100d8, 0x7f0100d9, 0x7f0100da, 0x7f0100db,
+            0x7f0100dc, 0x7f0100dd, 0x7f0100de, 0x7f0100df
         };
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#arrowHeadLength}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#arrowHeadLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7410,7 +7800,7 @@ containing a value of this type.
         */
         public static final int DrawerArrowToggle_arrowHeadLength = 4;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#arrowShaftLength}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#arrowShaftLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7426,7 +7816,7 @@ containing a value of this type.
         */
         public static final int DrawerArrowToggle_arrowShaftLength = 5;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#barLength}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#barLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7442,7 +7832,7 @@ containing a value of this type.
         */
         public static final int DrawerArrowToggle_barLength = 6;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#color}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7457,7 +7847,7 @@ containing a value of this type.
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7473,7 +7863,7 @@ containing a value of this type.
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7489,7 +7879,7 @@ containing a value of this type.
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#spinBars}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7503,7 +7893,7 @@ containing a value of this type.
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#thickness}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7565,8 +7955,8 @@ containing a value of this type.
          */
         public static final int[] LinearLayoutCompat = {
             0x010100af, 0x010100c4, 0x01010126, 0x01010127,
-            0x01010128, 0x7f010037, 0x7f0100d5, 0x7f0100d6,
-            0x7f0100d7
+            0x01010128, 0x7f010037, 0x7f0100e0, 0x7f0100e1,
+            0x7f0100e2
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#baselineAligned}
@@ -7599,7 +7989,7 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -7609,7 +7999,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -7625,7 +8015,7 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -7639,7 +8029,7 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -7809,9 +8199,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_contentDescription com.example.root.ui1:contentDescription}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_showAsAction com.example.root.ui1:showAsAction}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_tooltipText com.example.root.ui1:tooltipText}</code></td><td></td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -7829,19 +8217,17 @@ containing a value of this type.
            @see #MenuItem_android_title
            @see #MenuItem_android_titleCondensed
            @see #MenuItem_android_visible
-           @see #MenuItem_contentDescription
            @see #MenuItem_showAsAction
-           @see #MenuItem_tooltipText
          */
         public static final int[] MenuItem = {
             0x01010002, 0x0101000e, 0x010100d0, 0x01010106,
             0x01010194, 0x010101de, 0x010101df, 0x010101e1,
             0x010101e2, 0x010101e3, 0x010101e4, 0x010101e5,
-            0x0101026f, 0x7f0100d8, 0x7f0100d9, 0x7f0100da,
-            0x7f0100db, 0x7f0100dc, 0x7f0100dd
+            0x0101026f, 0x7f0100e3, 0x7f0100e4, 0x7f0100e5,
+            0x7f0100e6
         };
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -7851,7 +8237,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int MenuItem_actionLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -7865,7 +8251,7 @@ containing a value of this type.
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -7957,21 +8343,7 @@ containing a value of this type.
         */
         public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#contentDescription}
-          attribute's value can be found in the {@link #MenuItem} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.root.ui1:contentDescription
-        */
-        public static final int MenuItem_contentDescription = 17;
-        /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -7990,20 +8362,6 @@ containing a value of this type.
           @attr name com.example.root.ui1:showAsAction
         */
         public static final int MenuItem_showAsAction = 13;
-        /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#tooltipText}
-          attribute's value can be found in the {@link #MenuItem} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.root.ui1:tooltipText
-        */
-        public static final int MenuItem_tooltipText = 18;
         /** Attributes that can be used with a MenuView.
            <p>Includes the following attributes:</p>
            <table>
@@ -8032,8 +8390,8 @@ containing a value of this type.
          */
         public static final int[] MenuView = {
             0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e,
-            0x0101012f, 0x01010130, 0x01010131, 0x7f0100de,
-            0x7f0100df
+            0x0101012f, 0x01010130, 0x01010131, 0x7f0100e7,
+            0x7f0100e8
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#headerBackground}
@@ -8078,7 +8436,7 @@ containing a value of this type.
         */
         public static final int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -8092,7 +8450,7 @@ containing a value of this type.
         */
         public static final int MenuView_preserveIconSpacing = 7;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#subMenuArrow}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#subMenuArrow}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -8116,7 +8474,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #PopupWindow_overlapAnchor
          */
         public static final int[] PopupWindow = {
-            0x01010176, 0x010102c9, 0x7f0100e0
+            0x01010176, 0x010102c9, 0x7f0100e9
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#popupAnimationStyle}
@@ -8131,7 +8489,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -8155,10 +8513,10 @@ containing a value of this type.
            @see #PopupWindowBackgroundState_state_above_anchor
          */
         public static final int[] PopupWindowBackgroundState = {
-            0x7f0100e1
+            0x7f0100ea
         };
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -8184,10 +8542,10 @@ containing a value of this type.
            @see #RecycleListView_paddingTopNoTitle
          */
         public static final int[] RecycleListView = {
-            0x7f0100e2, 0x7f0100e3
+            0x7f0100eb, 0x7f0100ec
         };
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#paddingBottomNoButtons}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#paddingBottomNoButtons}
           attribute's value can be found in the {@link #RecycleListView} array.
 
 
@@ -8203,7 +8561,7 @@ containing a value of this type.
         */
         public static final int RecycleListView_paddingBottomNoButtons = 0;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#paddingTopNoTitle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#paddingTopNoTitle}
           attribute's value can be found in the {@link #RecycleListView} array.
 
 
@@ -8218,6 +8576,98 @@ containing a value of this type.
           @attr name com.example.root.ui1:paddingTopNoTitle
         */
         public static final int RecycleListView_paddingTopNoTitle = 1;
+        /** Attributes that can be used with a RecyclerView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #RecyclerView_android_descendantFocusability android:descendantFocusability}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_layoutManager com.example.root.ui1:layoutManager}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_reverseLayout com.example.root.ui1:reverseLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_spanCount com.example.root.ui1:spanCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_stackFromEnd com.example.root.ui1:stackFromEnd}</code></td><td></td></tr>
+           </table>
+           @see #RecyclerView_android_descendantFocusability
+           @see #RecyclerView_android_orientation
+           @see #RecyclerView_layoutManager
+           @see #RecyclerView_reverseLayout
+           @see #RecyclerView_spanCount
+           @see #RecyclerView_stackFromEnd
+         */
+        public static final int[] RecyclerView = {
+            0x010100c4, 0x010100f1, 0x7f0100ed, 0x7f0100ee,
+            0x7f0100ef, 0x7f0100f0
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#descendantFocusability}
+          attribute's value can be found in the {@link #RecyclerView} array.
+          @attr name android:descendantFocusability
+        */
+        public static final int RecyclerView_android_descendantFocusability = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#orientation}
+          attribute's value can be found in the {@link #RecyclerView} array.
+          @attr name android:orientation
+        */
+        public static final int RecyclerView_android_orientation = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layoutManager}
+          attribute's value can be found in the {@link #RecyclerView} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.root.ui1:layoutManager
+        */
+        public static final int RecyclerView_layoutManager = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#reverseLayout}
+          attribute's value can be found in the {@link #RecyclerView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.root.ui1:reverseLayout
+        */
+        public static final int RecyclerView_reverseLayout = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#spanCount}
+          attribute's value can be found in the {@link #RecyclerView} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.root.ui1:spanCount
+        */
+        public static final int RecyclerView_spanCount = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#stackFromEnd}
+          attribute's value can be found in the {@link #RecyclerView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.root.ui1:stackFromEnd
+        */
+        public static final int RecyclerView_stackFromEnd = 5;
         /** Attributes that can be used with a SearchView.
            <p>Includes the following attributes:</p>
            <table>
@@ -8262,10 +8712,10 @@ containing a value of this type.
          */
         public static final int[] SearchView = {
             0x010100da, 0x0101011f, 0x01010220, 0x01010264,
-            0x7f0100e4, 0x7f0100e5, 0x7f0100e6, 0x7f0100e7,
-            0x7f0100e8, 0x7f0100e9, 0x7f0100ea, 0x7f0100eb,
-            0x7f0100ec, 0x7f0100ed, 0x7f0100ee, 0x7f0100ef,
-            0x7f0100f0
+            0x7f0100f1, 0x7f0100f2, 0x7f0100f3, 0x7f0100f4,
+            0x7f0100f5, 0x7f0100f6, 0x7f0100f7, 0x7f0100f8,
+            0x7f0100f9, 0x7f0100fa, 0x7f0100fb, 0x7f0100fc,
+            0x7f0100fd
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -8292,7 +8742,7 @@ containing a value of this type.
         */
         public static final int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -8302,7 +8752,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SearchView_closeIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -8312,7 +8762,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SearchView_commitIcon = 13;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#defaultQueryHint}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#defaultQueryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -8326,7 +8776,7 @@ containing a value of this type.
         */
         public static final int SearchView_defaultQueryHint = 7;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#goIcon}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#goIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -8336,7 +8786,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SearchView_goIcon = 9;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -8350,7 +8800,7 @@ containing a value of this type.
         */
         public static final int SearchView_iconifiedByDefault = 5;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#layout}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#layout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -8360,7 +8810,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SearchView_layout = 4;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#queryBackground}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#queryBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -8370,7 +8820,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SearchView_queryBackground = 15;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -8384,7 +8834,7 @@ containing a value of this type.
         */
         public static final int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#searchHintIcon}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#searchHintIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -8394,7 +8844,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SearchView_searchHintIcon = 11;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#searchIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -8404,7 +8854,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SearchView_searchIcon = 10;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -8414,7 +8864,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SearchView_submitBackground = 16;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -8424,7 +8874,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SearchView_suggestionRowLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#voiceIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -8480,7 +8930,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Spinner_android_prompt = 2;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#popupTheme}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -8526,10 +8976,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #SwitchCompat_trackTintMode
          */
         public static final int[] SwitchCompat = {
-            0x01010124, 0x01010125, 0x01010142, 0x7f0100f1,
-            0x7f0100f2, 0x7f0100f3, 0x7f0100f4, 0x7f0100f5,
-            0x7f0100f6, 0x7f0100f7, 0x7f0100f8, 0x7f0100f9,
-            0x7f0100fa, 0x7f0100fb
+            0x01010124, 0x01010125, 0x01010142, 0x7f0100fe,
+            0x7f0100ff, 0x7f010100, 0x7f010101, 0x7f010102,
+            0x7f010103, 0x7f010104, 0x7f010105, 0x7f010106,
+            0x7f010107, 0x7f010108
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textOff}
@@ -8550,7 +9000,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#showText}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8564,7 +9014,7 @@ containing a value of this type.
         */
         public static final int SwitchCompat_showText = 13;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8578,7 +9028,7 @@ containing a value of this type.
         */
         public static final int SwitchCompat_splitTrack = 12;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8594,7 +9044,7 @@ containing a value of this type.
         */
         public static final int SwitchCompat_switchMinWidth = 10;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8610,7 +9060,7 @@ containing a value of this type.
         */
         public static final int SwitchCompat_switchPadding = 11;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8620,7 +9070,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompat_switchTextAppearance = 9;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8636,7 +9086,7 @@ containing a value of this type.
         */
         public static final int SwitchCompat_thumbTextPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#thumbTint}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#thumbTint}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8651,7 +9101,7 @@ containing a value of this type.
         */
         public static final int SwitchCompat_thumbTint = 3;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#thumbTintMode}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#thumbTintMode}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8672,7 +9122,7 @@ containing a value of this type.
         */
         public static final int SwitchCompat_thumbTintMode = 4;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#track}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8682,7 +9132,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompat_track = 5;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#trackTint}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#trackTint}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8697,7 +9147,7 @@ containing a value of this type.
         */
         public static final int SwitchCompat_trackTint = 6;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#trackTintMode}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#trackTintMode}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8805,7 +9255,7 @@ containing a value of this type.
         */
         public static final int TextAppearance_android_typeface = 1;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#textAllCaps}
           attribute's value can be found in the {@link #TextAppearance} array.
 
 
@@ -8885,11 +9335,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x010100af, 0x01010140, 0x7f01002f, 0x7f010032,
             0x7f010036, 0x7f010042, 0x7f010043, 0x7f010044,
             0x7f010045, 0x7f010046, 0x7f010047, 0x7f010049,
-            0x7f0100fc, 0x7f0100fd, 0x7f0100fe, 0x7f0100ff,
-            0x7f010100, 0x7f010101, 0x7f010102, 0x7f010103,
-            0x7f010104, 0x7f010105, 0x7f010106, 0x7f010107,
-            0x7f010108, 0x7f010109, 0x7f01010a, 0x7f01010b,
-            0x7f01010c
+            0x7f010109, 0x7f01010a, 0x7f01010b, 0x7f01010c,
+            0x7f01010d, 0x7f01010e, 0x7f01010f, 0x7f010110,
+            0x7f010111, 0x7f010112, 0x7f010113, 0x7f010114,
+            0x7f010115, 0x7f010116, 0x7f010117, 0x7f010118,
+            0x7f010119
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -8904,7 +9354,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#buttonGravity}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#buttonGravity}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8921,7 +9371,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Toolbar_buttonGravity = 21;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#collapseContentDescription}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8935,7 +9385,7 @@ containing a value of this type.
         */
         public static final int Toolbar_collapseContentDescription = 23;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8945,7 +9395,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Toolbar_collapseIcon = 22;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8961,7 +9411,7 @@ containing a value of this type.
         */
         public static final int Toolbar_contentInsetEnd = 6;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#contentInsetEndWithActions}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#contentInsetEndWithActions}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8977,7 +9427,7 @@ containing a value of this type.
         */
         public static final int Toolbar_contentInsetEndWithActions = 10;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8993,7 +9443,7 @@ containing a value of this type.
         */
         public static final int Toolbar_contentInsetLeft = 7;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9009,7 +9459,7 @@ containing a value of this type.
         */
         public static final int Toolbar_contentInsetRight = 8;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9025,7 +9475,7 @@ containing a value of this type.
         */
         public static final int Toolbar_contentInsetStart = 5;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#contentInsetStartWithNavigation}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#contentInsetStartWithNavigation}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9041,7 +9491,7 @@ containing a value of this type.
         */
         public static final int Toolbar_contentInsetStartWithNavigation = 9;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#logo}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9051,7 +9501,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Toolbar_logo = 4;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#logoDescription}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#logoDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9065,7 +9515,7 @@ containing a value of this type.
         */
         public static final int Toolbar_logoDescription = 26;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9081,7 +9531,7 @@ containing a value of this type.
         */
         public static final int Toolbar_maxButtonHeight = 20;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9095,7 +9545,7 @@ containing a value of this type.
         */
         public static final int Toolbar_navigationContentDescription = 25;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9105,7 +9555,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Toolbar_navigationIcon = 24;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9115,7 +9565,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Toolbar_popupTheme = 11;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9129,7 +9579,7 @@ containing a value of this type.
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9139,7 +9589,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Toolbar_subtitleTextAppearance = 13;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#subtitleTextColor}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#subtitleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9154,7 +9604,7 @@ containing a value of this type.
         */
         public static final int Toolbar_subtitleTextColor = 28;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#title}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9168,7 +9618,7 @@ containing a value of this type.
         */
         public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#titleMargin}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#titleMargin}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9184,7 +9634,7 @@ containing a value of this type.
         */
         public static final int Toolbar_titleMargin = 14;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9200,7 +9650,7 @@ containing a value of this type.
         */
         public static final int Toolbar_titleMarginBottom = 18;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9216,7 +9666,7 @@ containing a value of this type.
         */
         public static final int Toolbar_titleMarginEnd = 16;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9232,7 +9682,7 @@ containing a value of this type.
         */
         public static final int Toolbar_titleMarginStart = 15;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9248,7 +9698,7 @@ containing a value of this type.
         */
         public static final int Toolbar_titleMarginTop = 17;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9264,7 +9714,7 @@ containing a value of this type.
         */
         public static final int Toolbar_titleMargins = 19;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9274,7 +9724,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Toolbar_titleTextAppearance = 12;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#titleTextColor}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#titleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9307,8 +9757,8 @@ containing a value of this type.
            @see #View_theme
          */
         public static final int[] View = {
-            0x01010000, 0x010100da, 0x7f01010d, 0x7f01010e,
-            0x7f01010f
+            0x01010000, 0x010100da, 0x7f01011a, 0x7f01011b,
+            0x7f01011c
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -9323,7 +9773,7 @@ containing a value of this type.
         */
         public static final int View_android_theme = 0;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -9339,7 +9789,7 @@ containing a value of this type.
         */
         public static final int View_paddingEnd = 3;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -9355,7 +9805,7 @@ containing a value of this type.
         */
         public static final int View_paddingStart = 2;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#theme}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#theme}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -9379,7 +9829,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #ViewBackgroundHelper_backgroundTintMode
          */
         public static final int[] ViewBackgroundHelper = {
-            0x010100d4, 0x7f010110, 0x7f010111
+            0x010100d4, 0x7f01011d, 0x7f01011e
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -9388,7 +9838,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ViewBackgroundHelper_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#backgroundTint}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -9403,7 +9853,7 @@ containing a value of this type.
         */
         public static final int ViewBackgroundHelper_backgroundTint = 1;
         /**
-          <p>This symbol is the offset where the {@link com.cuhk.seem.fyp.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link com.example.root.ui1.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 

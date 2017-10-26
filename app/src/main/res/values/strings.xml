@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SEEM FYP</string>
+   <string name="RID">RID: %1$s</string>
+    <string name="hotel">Hotel: %1$s</string>
 </resources>
