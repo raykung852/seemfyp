@@ -20,7 +20,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
-    <TextView
+    <!--TextView
 
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
@@ -35,7 +35,7 @@
 (eg: This is an app for travellers to find the suitable hotel for them with transport options)"
         android:textColor="#4a4a4a"
         android:textSize="16sp"
-        android:textStyle="bold" />
+        android:textStyle="bold" /-->
 
     <Button
         android:id="@+id/button1"
@@ -63,5 +63,39 @@
         android:layout_below="@+id/button1"
         android:layout_alignLeft="@+id/button1"
         android:layout_alignStart="@+id/button1" />
+
+    <EditText
+        android:id="@+id/text_destination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Your destination"
+        android:textColor="#4a4a4a" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="From: Hong Kong International Airport"
+        android:textColor="#4a4a4a"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To:"
+        android:textColor="#4a4a4a"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/text_destination"
+        android:layout_alignBottom="@+id/text_destination"
+        android:layout_toLeftOf="@+id/text_destination"
+        android:layout_toStartOf="@+id/text_destination" />
 
 </RelativeLayout>

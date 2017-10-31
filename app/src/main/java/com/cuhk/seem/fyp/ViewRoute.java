@@ -34,15 +34,12 @@ public class ViewRoute extends AppCompatActivity {
         super.onCreate(savedInstance);
         setContentView(R.layout.view_route);
 
-        Bundle bundle = getIntent().getExtras();
+      Bundle bundle = getIntent().getExtras();
         if(bundle != null ) {
-            setTitle(bundle.getString("HotelName"));
+            setTitle(bundle.getString("destination"));
         }
 
         mDatabase = FirebaseDatabase.getInstance().getReference().child("routeplanning");
-
-
-
 
         mRouteList = (RecyclerView) findViewById(R.id.route_text);
         mRouteList.setHasFixedSize(true);

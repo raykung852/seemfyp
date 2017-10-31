@@ -1,10 +1,16 @@
 package com.cuhk.seem.fyp;
 
+import android.*;
+import android.Manifest;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
+import android.os.AsyncTask;
+import android.os.Build;
+import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -14,10 +20,24 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.PolylineOptions;
 
+import org.json.JSONException;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.UnsupportedEncodingException;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLEncoder;
+
+import static com.cuhk.seem.fyp.R.string.google_maps_key;
+
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
+    private static final int MY_PERMISSIONS_REQUEST = 100;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,7 +47,74 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
+
+        String origin = "Hong Kong Science Museum";
+        String destination = "Acesite Knutsford Hotel";
+       /** try {
+            new DirectionFinder(this,origin,destination).execute();
+
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        } */
     }
+    /**public DirectionFinder(DirectionFinderListener listener, String origin, String destination ) {
+        this.listener=listener;
+        this.origin=origin;
+        this.destination=destination;
+    }
+    public void execute() throws UnsupportedEncodingException {
+        listener.onDirectionFinderStart();
+        new DownloadRawData().execute(createUrl());
+    }
+    private String createUrl() throws UnsupportedEncodingException {
+        String urlOrigin = URLEncoder(origin, "utf-8");
+        String urlDestination = URLEncoder(destination, "utf-8");
+        return DIRECTION_URL_API + "origin=" + urlOrigin + "&destination=" + urlDestination +"&key=" + google_maps_key;
+
+    }
+    private class DownloadRawData extends AsyncTask<String, Void, String> {
+        @Override
+        protected String doInBackground(String... params) {
+            String link = params[0];
+            try {
+                URL url = new URL(link);
+                InputStream is = url.OpenConnection().getInputStream();
+                StringBuffer buffer = new StringBuffer();
+                BufferedReader reader = new BufferedReader(new InputStreamReader(is));
+
+                String line;
+                while((line=reader.readLine())!=null) {
+                    buffer.append(line + "\n");
+                }
+                return buffer.toString();
+            }
+            catch (MalformedURLException e) {
+                e.printStackTrace();
+
+            }
+            catch (IOException e) {
+                e.printStackTrace();
+            }
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(String res) {
+            try {
+                parseJSon(res);
+            } catch (JSONException e) {
+                e.printStackTrace();
+
+            }
+        }
+    }
+
+    private void parseJSon(String data) throws JSONException {
+        if (data == null) return;
+
+        List<Route> routes = new ArrayList
+    }
+*/
 
 
     /**
@@ -42,14 +129,14 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
-        mMap.setMyLocationEnabled(true);
+
         //Add a marker in Airport
         LatLng hotel = new LatLng(22.301696, 114.174848);
         LatLng busStop = new LatLng(22.301439, 114.176726);
         // Add a marker in Sydney and move the camera
 
         mMap.addMarker(new MarkerOptions().position(hotel).title("Acesite Knutsford Hotel"));
-        mMap.addMarker(new MarkerOptions().position(hotel).title("Hong Kong Science Museum"));
+        mMap.addMarker(new MarkerOptions().position(busStop).title("Hong Kong Science Museum"));
         mMap.addPolyline(new PolylineOptions().add(
                 busStop,
                 new LatLng(22.300493, 114.176324),
@@ -60,13 +147,13 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 new LatLng(22.301541, 114.174613),
                 new LatLng(22.301750, 114.174734),
                 hotel
-            )
-                .width(10)
-                .color(Color.RED)
+                )
+                        .width(10)
+                        .color(Color.RED)
         );
 
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(hotel, 16));
-        if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
             // TODO: Consider calling
             //    ActivityCompat#requestPermissions
             // here to request the missing permissions, and then overriding
@@ -74,10 +161,36 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             //                                          int[] grantResults)
             // to handle the case where the user grants the permission. See the documentation
             // for ActivityCompat#requestPermissions for more details.
-
-            return;
+            mMap.setMyLocationEnabled(true);
+        } else {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                requestPermissions(new String[]{
+                        Manifest.permission.ACCESS_FINE_LOCATION,
+                        Manifest.permission.ACCESS_COARSE_LOCATION}, MY_PERMISSIONS_REQUEST);
+            }
         }
 
 
     }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        switch (requestCode) {
+            case MY_PERMISSIONS_REQUEST:
+                if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
+                        mMap.setMyLocationEnabled(true);
+                    }
+
+                }
+                else {
+                    Toast.makeText(getApplicationContext(),"This app requires location permissions to be granted", Toast.LENGTH_LONG).show();
+                }
+                break;
+
+
+        }
+    }
+
 }

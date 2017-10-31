@@ -32,7 +32,8 @@
                     android:text="RID"
                     android:textColor="#221815"
                     android:textSize="16dp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:background="@color/colorAccent"/>
 
                 <TextView
 

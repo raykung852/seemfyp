@@ -48,7 +48,9 @@ public class SelectHotel extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Intent intent = new Intent(SelectHotel.this, ViewRoute.class);
                 intent.putExtra("HotelName",lstSearch.getItemAtPosition(i).toString());
-                startActivity(intent);            }
+                setResult(RESULT_OK, intent);
+                finish();
+                /**startActivity(intent);*/            }
         });
         edtSearch = (EditText) findViewById(R.id.edtSearch);
 
