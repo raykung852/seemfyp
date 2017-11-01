@@ -31,7 +31,6 @@ public class SelectHotel extends AppCompatActivity {
     private DatabaseReference mDatabase;
     private ArrayList<String> data= new ArrayList<>();
     private DatabaseReference mHotelname;
-    //String data[] ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,7 +53,6 @@ public class SelectHotel extends AppCompatActivity {
         });
         edtSearch = (EditText) findViewById(R.id.edtSearch);
 
-        //data = getResources().getStringArray(R.array.hotel_name);
         getSupportActionBar().setDefaultDisplayHomeAsUpEnabled(true);
         adapter = new ArrayAdapter<String>(this, R.layout.list_item,R.id.textView,data);
         lstSearch.setAdapter(adapter);
@@ -88,7 +86,6 @@ public class SelectHotel extends AppCompatActivity {
 
             }
         });
-
 
         edtSearch.addTextChangedListener(new TextWatcher() {
             @Override

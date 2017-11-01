@@ -94,7 +94,7 @@ public class ViewRoute extends AppCompatActivity {
 
         public void setRID(String RID) {
             TextView post_RID = (TextView) mView.findViewById(R.id.post_RID);
-            int iRID;
+            int iRID = 1;
             iRID = Integer.parseInt(RID);
             if (iRID > 88) {
                 iRID = 3 ;
