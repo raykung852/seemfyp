@@ -1,6 +1,7 @@
 package com.cuhk.seem.fyp;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.media.Image;
 import android.os.Bundle;
@@ -8,7 +9,9 @@ import android.support.v4.content.res.ResourcesCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.text.TextUtils;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.Spinner;
@@ -29,6 +32,7 @@ public class ViewRoute extends AppCompatActivity {
     private RecyclerView mRouteList;
 
     private DatabaseReference mDatabase;
+    private Query mQuery;
     String mHotelname;
 
     @Override
@@ -51,6 +55,7 @@ public class ViewRoute extends AppCompatActivity {
     @Override
     protected void onStart() {
        mHotelname = getTitle().toString();
+        mQuery = mDatabase.orderByChild("hotel").equalTo(mHotelname);
 
         super.onStart();
 
@@ -58,7 +63,30 @@ public class ViewRoute extends AppCompatActivity {
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,R.array.sort,android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected (AdapterView<?> parent, View view, int position, long id) {
+                switch (position) {
+                    case 0:
+                        Toast.makeText(parent.getContext(),"Spinner item1 !",Toast.LENGTH_SHORT).show();
+                        break;
+                    case 1:
+                        Toast.makeText(parent.getContext(),"Spinner item2 !",Toast.LENGTH_SHORT).show();
+                        break;
+                    case 2:
+                        Toast.makeText(parent.getContext(),"Spinner item3 !",Toast.LENGTH_SHORT).show();
+                        break;
+                    case 3:
+                    Toast.makeText(parent.getContext(),"Spinner item4 !",Toast.LENGTH_SHORT).show();
+                    break;
 
+                }
+            }
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
 
 
         FirebaseRecyclerAdapter<RouteInformation, RouteViewHolder> firebaseRecyclerAdapter = new FirebaseRecyclerAdapter<RouteInformation, RouteViewHolder>(
@@ -66,7 +94,7 @@ public class ViewRoute extends AppCompatActivity {
                 RouteInformation.class,
                 R.layout.route_row,
                 RouteViewHolder.class,
-                mDatabase.orderByChild("hotel").equalTo(mHotelname)
+                mQuery
         ) {
             @Override
             protected void populateViewHolder(RouteViewHolder viewHolder, RouteInformation model, int position) {
@@ -133,8 +161,8 @@ public class ViewRoute extends AppCompatActivity {
         public void setTime(String time) {
             TextView post_time = (TextView) mView.findViewById(R.id.post_time);
             post_time.setText(time);
-
         }
+
         public void setCost(String cost) {
             TextView post_cost = (TextView) mView.findViewById(R.id.post_cost);
             post_cost.setText(cost);
