@@ -9,7 +9,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -51,6 +53,14 @@ public class ViewRoute extends AppCompatActivity {
        mHotelname = getTitle().toString();
 
         super.onStart();
+
+        Spinner spinner = (Spinner) findViewById(R.id.spinner);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,R.array.sort,android.R.layout.simple_spinner_item);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner.setAdapter(adapter);
+
+
+
         FirebaseRecyclerAdapter<RouteInformation, RouteViewHolder> firebaseRecyclerAdapter = new FirebaseRecyclerAdapter<RouteInformation, RouteViewHolder>(
 
                 RouteInformation.class,
@@ -63,7 +73,7 @@ public class ViewRoute extends AppCompatActivity {
 
                 final String post_key =getRef(position).getKey();
 
-                viewHolder.setRID(model.getRID());
+                //viewHolder.setRID(model.getRID());
                 //viewHolder.setRoute(model.getRoute());
                 viewHolder.setTime(model.getTime());
                 viewHolder.setCost(model.getCost());
@@ -92,7 +102,7 @@ public class ViewRoute extends AppCompatActivity {
 
         }
 
-        public void setRID(String RID) {
+/* *       public void setRID(String RID) {
             TextView post_RID = (TextView) mView.findViewById(R.id.post_RID);
             int iRID = 1;
             iRID = Integer.parseInt(RID);
@@ -106,6 +116,7 @@ public class ViewRoute extends AppCompatActivity {
             post_RID.setText("Route\n" + String.valueOf(iRID));
 
         }
+        */
        /* public void setRoute(String route) {
             TextView post_route = (TextView) mView.findViewById(R.id.post_route);
 
@@ -138,16 +149,16 @@ public class ViewRoute extends AppCompatActivity {
 
 
             TextView post_transport = (TextView) mView.findViewById(R.id.post_transport);
-            ImageView image_transport = (ImageView) mView.findViewById(R.id.image_transport);
+            //ImageView image_transport = (ImageView) mView.findViewById(R.id.image_transport);
 
             post_transport.setText(transport);
 
-            if (transport.equals("Taxi")) {
+          /*  if (transport.equals("Taxi")) {
                 Picasso.with(ctx).load(R.drawable.ic_local_taxi_black_48dp).resize(50,50).into(image_transport);
             }
             else if(transport.equals("Bus")) {
                 Picasso.with(ctx).load(R.drawable.ic_directions_bus_black_48dp).resize(50,50).into(image_transport);
-            }
+            }*/
         }
 
 

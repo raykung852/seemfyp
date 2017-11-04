@@ -3,4 +3,10 @@
     <string name="RID">RID: %1$s</string>
     <string name="hotel">Hotel: %1$s</string>
     <string name="title_activity_maps">Map</string>
+    <string-array name="sort">
+        <item>Rank by</item>
+        <item>Rank by time</item>
+        <item>Rank by cost</item>
+        <item>Rank by walking distance</item>
+    </string-array>
 </resources>
