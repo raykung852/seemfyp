@@ -55,46 +55,15 @@ public class ViewRoute extends AppCompatActivity {
     @Override
     protected void onStart() {
        mHotelname = getTitle().toString();
-        mQuery = mDatabase.orderByChild("hotel").equalTo(mHotelname);
+
 
         super.onStart();
 
-        Spinner spinner = (Spinner) findViewById(R.id.spinner);
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,R.array.sort,android.R.layout.simple_spinner_item);
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spinner.setAdapter(adapter);
-        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-            @Override
-            public void onItemSelected (AdapterView<?> parent, View view, int position, long id) {
-                switch (position) {
-                    case 0:
-                        Toast.makeText(parent.getContext(),"Spinner item1 !",Toast.LENGTH_SHORT).show();
-                        break;
-                    case 1:
-                        Toast.makeText(parent.getContext(),"Spinner item2 !",Toast.LENGTH_SHORT).show();
-                        break;
-                    case 2:
-                        Toast.makeText(parent.getContext(),"Spinner item3 !",Toast.LENGTH_SHORT).show();
-                        break;
-                    case 3:
-                    Toast.makeText(parent.getContext(),"Spinner item4 !",Toast.LENGTH_SHORT).show();
-                    break;
-
-                }
-            }
-            @Override
-            public void onNothingSelected(AdapterView<?> parent) {
-
-            }
-        });
-
-
-        FirebaseRecyclerAdapter<RouteInformation, RouteViewHolder> firebaseRecyclerAdapter = new FirebaseRecyclerAdapter<RouteInformation, RouteViewHolder>(
-
+        final FirebaseRecyclerAdapter<RouteInformation, RouteViewHolder> firebaseRecyclerAdapter = new FirebaseRecyclerAdapter<RouteInformation, RouteViewHolder>(
                 RouteInformation.class,
                 R.layout.route_row,
                 RouteViewHolder.class,
-                mQuery
+                mDatabase.orderByChild("hotel").equalTo(mHotelname)
         ) {
             @Override
             protected void populateViewHolder(RouteViewHolder viewHolder, RouteInformation model, int position) {
@@ -118,6 +87,78 @@ public class ViewRoute extends AppCompatActivity {
             }
         };
         mRouteList.setAdapter(firebaseRecyclerAdapter);
+
+
+
+        Spinner spinner = (Spinner) findViewById(R.id.spinner);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,R.array.sort,android.R.layout.simple_spinner_item);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner.setAdapter(adapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected (AdapterView<?> parent, View view, int position, long id) {
+                firebaseRecyclerAdapter.cleanup();
+                switch (position) {
+                    case 0:
+                        Toast.makeText(parent.getContext(),"Spinner item1 !",Toast.LENGTH_SHORT).show();
+                        mQuery = mDatabase.orderByChild("hotel").equalTo(mHotelname);
+                        break;
+
+                    case 1:
+                        Toast.makeText(parent.getContext(),"Spinner item2 !",Toast.LENGTH_SHORT).show();
+                        mQuery = mDatabase.orderByChild("hotel_time").startAt(mHotelname+"_00").endAt(mHotelname+"_99");
+                        break;
+                    case 2:
+                        Toast.makeText(parent.getContext(),"Spinner item3 !",Toast.LENGTH_SHORT).show();
+                        mQuery = mDatabase.orderByChild("hotel_cost").startAt(mHotelname+"_0").endAt(mHotelname+"_999");
+                        break;
+                    case 3:
+                    Toast.makeText(parent.getContext(),"Spinner item4 !",Toast.LENGTH_SHORT).show();
+                        mQuery = mDatabase.orderByChild("hotel_distance").startAt(mHotelname+"_0").endAt(mHotelname+"_999");
+                        break;
+
+                }
+                FirebaseRecyclerAdapter<RouteInformation, RouteViewHolder> firebaseRecyclerAdapter2 = new FirebaseRecyclerAdapter<RouteInformation, RouteViewHolder>(
+                        RouteInformation.class,
+                        R.layout.route_row,
+                        RouteViewHolder.class,
+                        mQuery
+                ) {
+                    @Override
+                    protected void populateViewHolder(RouteViewHolder viewHolder, RouteInformation model, int position) {
+
+                        final String post_key =getRef(position).getKey();
+
+                        //viewHolder.setRID(model.getRID());
+                        //viewHolder.setRoute(model.getRoute());
+                        viewHolder.setTime(model.getTime());
+                        viewHolder.setCost(model.getCost());
+                        viewHolder.setDistance(model.getDistance());
+                        viewHolder.setTransport(getApplicationContext(), model.getTransport());
+
+                        viewHolder.mView.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                Toast.makeText(ViewRoute.this, post_key , Toast.LENGTH_LONG).show();
+
+                            }
+                        });
+                    }
+                };
+                mRouteList.setAdapter(firebaseRecyclerAdapter2);
+
+
+            }
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+
+            }
+
+        });
+
+
+
     }
 
     public static class RouteViewHolder extends RecyclerView.ViewHolder  {

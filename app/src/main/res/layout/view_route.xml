@@ -11,6 +11,7 @@
         android:layout_marginLeft="7dp"
         android:layout_marginStart="7dp"
         android:layout_marginTop="7dp"
+
         />
 
 
@@ -37,9 +38,8 @@
             android:paddingRight="7dp"
             android:paddingTop="7dp"
             android:text="Route"
-            android:textColor="#221815"
-            android:textSize="16dp"
-            android:textStyle="bold" />
+            android:textColor="@android:color/white"
+            android:textSize="16dp" />
 
         <TextView
 
