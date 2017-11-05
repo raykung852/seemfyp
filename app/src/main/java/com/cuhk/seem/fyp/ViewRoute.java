@@ -40,8 +40,8 @@ public class ViewRoute extends AppCompatActivity {
         super.onCreate(savedInstance);
         setContentView(R.layout.view_route);
 
-      Bundle bundle = getIntent().getExtras();
-        if(bundle != null ) {
+        Bundle bundle = getIntent().getExtras();
+        if (bundle != null) {
             setTitle(bundle.getString("destination"));
         }
 
@@ -54,7 +54,7 @@ public class ViewRoute extends AppCompatActivity {
 
     @Override
     protected void onStart() {
-       mHotelname = getTitle().toString();
+        mHotelname = getTitle().toString();
 
 
         super.onStart();
@@ -68,7 +68,7 @@ public class ViewRoute extends AppCompatActivity {
             @Override
             protected void populateViewHolder(RouteViewHolder viewHolder, RouteInformation model, int position) {
 
-                final String post_key =getRef(position).getKey();
+                final String post_key = getRef(position).getKey();
 
                 //viewHolder.setRID(model.getRID());
                 //viewHolder.setRoute(model.getRoute());
@@ -80,7 +80,7 @@ public class ViewRoute extends AppCompatActivity {
                 viewHolder.mView.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Toast.makeText(ViewRoute.this, post_key , Toast.LENGTH_LONG).show();
+                        Toast.makeText(ViewRoute.this, post_key, Toast.LENGTH_LONG).show();
 
                     }
                 });
@@ -89,32 +89,31 @@ public class ViewRoute extends AppCompatActivity {
         mRouteList.setAdapter(firebaseRecyclerAdapter);
 
 
-
         Spinner spinner = (Spinner) findViewById(R.id.spinner);
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,R.array.sort,android.R.layout.simple_spinner_item);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.sort, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
-            public void onItemSelected (AdapterView<?> parent, View view, int position, long id) {
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 firebaseRecyclerAdapter.cleanup();
                 switch (position) {
                     case 0:
-                        Toast.makeText(parent.getContext(),"Spinner item1 !",Toast.LENGTH_SHORT).show();
+                        Toast.makeText(parent.getContext(), "Spinner item1 !", Toast.LENGTH_SHORT).show();
                         mQuery = mDatabase.orderByChild("hotel").equalTo(mHotelname);
                         break;
 
                     case 1:
-                        Toast.makeText(parent.getContext(),"Spinner item2 !",Toast.LENGTH_SHORT).show();
-                        mQuery = mDatabase.orderByChild("hotel_time").startAt(mHotelname+"_00").endAt(mHotelname+"_99");
+                        Toast.makeText(parent.getContext(), "Spinner item2 !", Toast.LENGTH_SHORT).show();
+                        mQuery = mDatabase.orderByChild("hotel_time").startAt(mHotelname + "_00").endAt(mHotelname + "_99");
                         break;
                     case 2:
-                        Toast.makeText(parent.getContext(),"Spinner item3 !",Toast.LENGTH_SHORT).show();
-                        mQuery = mDatabase.orderByChild("hotel_cost").startAt(mHotelname+"_0").endAt(mHotelname+"_999");
+                        Toast.makeText(parent.getContext(), "Spinner item3 !", Toast.LENGTH_SHORT).show();
+                        mQuery = mDatabase.orderByChild("hotel_cost").startAt(mHotelname + "_0").endAt(mHotelname + "_999");
                         break;
                     case 3:
-                    Toast.makeText(parent.getContext(),"Spinner item4 !",Toast.LENGTH_SHORT).show();
-                        mQuery = mDatabase.orderByChild("hotel_distance").startAt(mHotelname+"_0").endAt(mHotelname+"_999");
+                        Toast.makeText(parent.getContext(), "Spinner item4 !", Toast.LENGTH_SHORT).show();
+                        mQuery = mDatabase.orderByChild("hotel_distance").startAt(mHotelname + "_0").endAt(mHotelname + "_999");
                         break;
 
                 }
@@ -127,7 +126,7 @@ public class ViewRoute extends AppCompatActivity {
                     @Override
                     protected void populateViewHolder(RouteViewHolder viewHolder, RouteInformation model, int position) {
 
-                        final String post_key =getRef(position).getKey();
+                        final String post_key = getRef(position).getKey();
 
                         //viewHolder.setRID(model.getRID());
                         //viewHolder.setRoute(model.getRoute());
@@ -139,7 +138,7 @@ public class ViewRoute extends AppCompatActivity {
                         viewHolder.mView.setOnClickListener(new View.OnClickListener() {
                             @Override
                             public void onClick(View v) {
-                                Toast.makeText(ViewRoute.this, post_key , Toast.LENGTH_LONG).show();
+                                Toast.makeText(ViewRoute.this, post_key, Toast.LENGTH_LONG).show();
 
                             }
                         });
@@ -149,6 +148,7 @@ public class ViewRoute extends AppCompatActivity {
 
 
             }
+
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
 
@@ -158,10 +158,9 @@ public class ViewRoute extends AppCompatActivity {
         });
 
 
-
     }
 
-    public static class RouteViewHolder extends RecyclerView.ViewHolder  {
+    public static class RouteViewHolder extends RecyclerView.ViewHolder {
 
         View mView;
 
@@ -209,11 +208,13 @@ public class ViewRoute extends AppCompatActivity {
             post_cost.setText(cost);
 
         }
+
         public void setDistance(String distance) {
             TextView post_distance = (TextView) mView.findViewById(R.id.post_distance);
             post_distance.setText(distance);
 
         }
+
         public void setTransport(Context ctx, String transport) {
 
 

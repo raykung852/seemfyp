@@ -16,8 +16,8 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class MainActivity extends AppCompatActivity {
     //private DatabaseReference mDatabase;
-    private Button btnSelectHotel;
-    private Button btnMap;
+
+
     private EditText etDestination;
 
     @Override
@@ -25,10 +25,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.first_page);
 
+        Button btnMap;
         btnMap = (Button) findViewById(R.id.button2);
+
         btnMap.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick (View view) {
+            public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, MapsActivity.class);
                 startActivity(intent);
             }
@@ -36,18 +38,19 @@ public class MainActivity extends AppCompatActivity {
         initInstance();
 
     }
+
     public void initInstance() {
+        Button btnSelectHotel;
         btnSelectHotel = (Button) findViewById(R.id.button1);
         etDestination = (EditText) findViewById(R.id.text_destination);
         btnSelectHotel.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick (View view) {
+            public void onClick(View view) {
                 String strDestination = etDestination.getText().toString();
-                if(TextUtils.equals(strDestination, "Your destination")) {
-                    Toast.makeText(getApplicationContext(),"Please select your destination.", Toast.LENGTH_SHORT).show();
-                    return;
-                }
-                else {
+                if (TextUtils.equals(strDestination, "Your destination")) {
+                    Toast.makeText(getApplicationContext(), "Please select your destination.", Toast.LENGTH_SHORT).show();
+
+                } else {
                     Intent intent = new Intent(MainActivity.this, ViewRoute.class);
                     intent.putExtra("destination", etDestination.getText().toString());
                     startActivity(intent);
@@ -61,16 +64,17 @@ public class MainActivity extends AppCompatActivity {
             public boolean onTouch(View v, MotionEvent event) {
                 if (MotionEvent.ACTION_UP == event.getAction()) {
                     Intent intent = new Intent(getApplicationContext(), SelectHotel.class);
-                    startActivityForResult(intent,1);
+                    startActivityForResult(intent, 1);
                 }
                 return true;
             }
         });
     }
+
     @Override
-    protected void onActivityResult (int requestCode, int resultCode, Intent data) {
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode==1 && resultCode==RESULT_OK) {
+        if (requestCode == 1 && resultCode == RESULT_OK) {
             String receivedHotel = data.getStringExtra("HotelName");
             etDestination.setText(receivedHotel);
 
