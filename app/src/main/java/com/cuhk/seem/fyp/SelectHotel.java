@@ -24,8 +24,8 @@ import java.util.ArrayList;
  */
 
 public class SelectHotel extends AppCompatActivity {
-    private ListView lstSearch;
-    private EditText edtSearch;
+    private ListView ltSearch;
+    private EditText etSearch;
     private ArrayAdapter<String> adapter;
 
     private DatabaseReference mDatabase;
@@ -41,21 +41,21 @@ public class SelectHotel extends AppCompatActivity {
         mDatabase = FirebaseDatabase.getInstance().getReference();
         mHotelname = mDatabase.child("hotelname").getRef();
 
-        lstSearch = (ListView) findViewById(R.id.lstSearch);
-        lstSearch.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        ltSearch = (ListView) findViewById(R.id.ltSearch);
+        ltSearch.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Intent intent = new Intent(SelectHotel.this, ViewRoute.class);
-                intent.putExtra("HotelName",lstSearch.getItemAtPosition(i).toString());
+                intent.putExtra("HotelName",ltSearch.getItemAtPosition(i).toString());
                 setResult(RESULT_OK, intent);
                 finish();
                 /**startActivity(intent);*/            }
         });
-        edtSearch = (EditText) findViewById(R.id.edtSearch);
+        etSearch = (EditText) findViewById(R.id.etSearch);
 
         getSupportActionBar().setDefaultDisplayHomeAsUpEnabled(true);
         adapter = new ArrayAdapter<String>(this, R.layout.list_item,R.id.textView,data);
-        lstSearch.setAdapter(adapter);
+        ltSearch.setAdapter(adapter);
 
         mHotelname.addChildEventListener(new ChildEventListener() {
             @Override
@@ -87,7 +87,7 @@ public class SelectHotel extends AppCompatActivity {
             }
         });
 
-        edtSearch.addTextChangedListener(new TextWatcher() {
+        etSearch.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 
