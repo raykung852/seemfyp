@@ -47,6 +47,7 @@
             android:paddingTop="7dp"
             android:text="XX"
             android:textColor="#221815"
+            android:textSize="24sp"
             app:divider="@drawable/vseparator" />
 
         <TextView
@@ -61,6 +62,7 @@
             android:paddingTop="7dp"
             android:text="XXX"
             android:textColor="#221815"
+            android:textSize="24sp"
             app:divider="@drawable/vseparator" />
 
         <TextView
@@ -73,8 +75,9 @@
             android:paddingLeft="15dp"
             android:paddingRight="15dp"
             android:paddingTop="7dp"
-            android:text="post distance "
+            android:text="xxx"
             android:textColor="#221815"
+            android:textSize="24sp"
             app:divider="@drawable/vseparator" />
 
 
