@@ -2768,9 +2768,9 @@ containing a value of this type.
         public static final int default_activity_button=0x7f0c003e;
         public static final int disableHome=0x7f0c0016;
         public static final int edit_query=0x7f0c005d;
-        public static final int edtSearch=0x7f0c008d;
         public static final int end=0x7f0c0024;
         public static final int end_padder=0x7f0c0088;
+        public static final int etSearch=0x7f0c008d;
         public static final int expand_activities_button=0x7f0c003c;
         public static final int expanded_menu=0x7f0c0051;
         public static final int home=0x7f0c0004;
@@ -2789,7 +2789,7 @@ containing a value of this type.
         public static final int listMode=0x7f0c0013;
         public static final int list_item=0x7f0c003f;
         public static final int ll1=0x7f0c0090;
-        public static final int lstSearch=0x7f0c008e;
+        public static final int ltSearch=0x7f0c008e;
         public static final int map=0x7f0c006a;
         public static final int media_actions=0x7f0c0078;
         public static final int middle=0x7f0c0025;

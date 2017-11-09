@@ -701,9 +701,9 @@ int id decor_content_parent 0x7f0c0059
 int id default_activity_button 0x7f0c003e
 int id disableHome 0x7f0c0016
 int id edit_query 0x7f0c005d
-int id edtSearch 0x7f0c008d
 int id end 0x7f0c0024
 int id end_padder 0x7f0c0088
+int id etSearch 0x7f0c008d
 int id expand_activities_button 0x7f0c003c
 int id expanded_menu 0x7f0c0051
 int id home 0x7f0c0004
@@ -722,7 +722,7 @@ int id line3 0x7f0c0086
 int id listMode 0x7f0c0013
 int id list_item 0x7f0c003f
 int id ll1 0x7f0c0090
-int id lstSearch 0x7f0c008e
+int id ltSearch 0x7f0c008e
 int id map 0x7f0c006a
 int id media_actions 0x7f0c0078
 int id middle 0x7f0c0025
