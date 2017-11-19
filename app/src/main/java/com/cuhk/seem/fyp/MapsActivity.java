@@ -50,71 +50,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         String origin = "Hong Kong Science Museum";
         String destination = "Acesite Knutsford Hotel";
-       /** try {
-            new DirectionFinder(this,origin,destination).execute();
-
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        } */
-    }
-    /**public DirectionFinder(DirectionFinderListener listener, String origin, String destination ) {
-        this.listener=listener;
-        this.origin=origin;
-        this.destination=destination;
-    }
-    public void execute() throws UnsupportedEncodingException {
-        listener.onDirectionFinderStart();
-        new DownloadRawData().execute(createUrl());
-    }
-    private String createUrl() throws UnsupportedEncodingException {
-        String urlOrigin = URLEncoder(origin, "utf-8");
-        String urlDestination = URLEncoder(destination, "utf-8");
-        return DIRECTION_URL_API + "origin=" + urlOrigin + "&destination=" + urlDestination +"&key=" + google_maps_key;
 
     }
-    private class DownloadRawData extends AsyncTask<String, Void, String> {
-        @Override
-        protected String doInBackground(String... params) {
-            String link = params[0];
-            try {
-                URL url = new URL(link);
-                InputStream is = url.OpenConnection().getInputStream();
-                StringBuffer buffer = new StringBuffer();
-                BufferedReader reader = new BufferedReader(new InputStreamReader(is));
 
-                String line;
-                while((line=reader.readLine())!=null) {
-                    buffer.append(line + "\n");
-                }
-                return buffer.toString();
-            }
-            catch (MalformedURLException e) {
-                e.printStackTrace();
-
-            }
-            catch (IOException e) {
-                e.printStackTrace();
-            }
-            return null;
-        }
-
-        @Override
-        protected void onPostExecute(String res) {
-            try {
-                parseJSon(res);
-            } catch (JSONException e) {
-                e.printStackTrace();
-
-            }
-        }
-    }
-
-    private void parseJSon(String data) throws JSONException {
-        if (data == null) return;
-
-        List<Route> routes = new ArrayList
-    }
-*/
 
 
     /**
