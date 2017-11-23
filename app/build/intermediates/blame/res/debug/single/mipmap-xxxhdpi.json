@@ -4,12 +4,12 @@
         "source": "D:\\UI1\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher1.png"
     },
     {
-        "merged": "D:\\UI1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_local_taxi_black_48dp.png",
-        "source": "D:\\UI1\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_local_taxi_black_48dp.png"
-    },
-    {
         "merged": "D:\\UI1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher_round.png",
         "source": "D:\\UI1\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\UI1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_local_taxi_black_48dp.png",
+        "source": "D:\\UI1\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_local_taxi_black_48dp.png"
     },
     {
         "merged": "D:\\UI1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",

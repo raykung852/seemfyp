@@ -80,7 +80,11 @@ public class ViewRoute extends AppCompatActivity {
                 viewHolder.mView.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Toast.makeText(ViewRoute.this, post_key, Toast.LENGTH_LONG).show();
+                        //Toast.makeText(ViewRoute.this, post_key, Toast.LENGTH_LONG).show();
+                        Intent intent = new Intent(ViewRoute.this, MapsActivity.class);
+                        intent.putExtra("PostKEY",post_key);
+                        setResult(RESULT_OK, intent);
+                        startActivity(intent);
 
                     }
                 });
@@ -99,20 +103,20 @@ public class ViewRoute extends AppCompatActivity {
                 firebaseRecyclerAdapter.cleanup();
                 switch (position) {
                     case 0:
-                        Toast.makeText(parent.getContext(), "Spinner item1 !", Toast.LENGTH_SHORT).show();
+                       // Toast.makeText(parent.getContext(), "Spinner item1 !", Toast.LENGTH_SHORT).show();
                         mQuery = mDatabase.orderByChild("hotel").equalTo(mHotelname);
                         break;
 
                     case 1:
-                        Toast.makeText(parent.getContext(), "Spinner item2 !", Toast.LENGTH_SHORT).show();
+                        //Toast.makeText(parent.getContext(), "Spinner item2 !", Toast.LENGTH_SHORT).show();
                         mQuery = mDatabase.orderByChild("hotel_time").startAt(mHotelname + "_00").endAt(mHotelname + "_99");
                         break;
                     case 2:
-                        Toast.makeText(parent.getContext(), "Spinner item3 !", Toast.LENGTH_SHORT).show();
+                        //Toast.makeText(parent.getContext(), "Spinner item3 !", Toast.LENGTH_SHORT).show();
                         mQuery = mDatabase.orderByChild("hotel_cost").startAt(mHotelname + "_0").endAt(mHotelname + "_999");
                         break;
                     case 3:
-                        Toast.makeText(parent.getContext(), "Spinner item4 !", Toast.LENGTH_SHORT).show();
+                        //Toast.makeText(parent.getContext(), "Spinner item4 !", Toast.LENGTH_SHORT).show();
                         mQuery = mDatabase.orderByChild("hotel_distance").startAt(mHotelname + "_0").endAt(mHotelname + "_999");
                         break;
 
@@ -138,7 +142,11 @@ public class ViewRoute extends AppCompatActivity {
                         viewHolder.mView.setOnClickListener(new View.OnClickListener() {
                             @Override
                             public void onClick(View v) {
-                                Toast.makeText(ViewRoute.this, post_key, Toast.LENGTH_LONG).show();
+                                //Toast.makeText(ViewRoute.this, post_key, Toast.LENGTH_LONG).show();
+                                Intent intent2 = new Intent(ViewRoute.this, MapsActivity.class);
+                                intent2.putExtra("PostKEY",post_key);
+                                setResult(RESULT_OK, intent2);
+                                startActivity(intent2);
 
                             }
                         });

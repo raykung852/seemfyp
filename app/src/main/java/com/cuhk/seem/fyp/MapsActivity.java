@@ -2,6 +2,8 @@ package com.cuhk.seem.fyp;
 
 import android.*;
 import android.Manifest;
+import android.content.Context;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.os.AsyncTask;
@@ -10,8 +12,16 @@ import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
+import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -19,6 +29,8 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.PolylineOptions;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import org.json.JSONException;
 
@@ -38,6 +50,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     private GoogleMap mMap;
     private static final int MY_PERMISSIONS_REQUEST = 100;
+    private DatabaseReference mDatabase;
+    private String mKEY;
+    private RecyclerView mList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,8 +66,66 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         String origin = "Hong Kong Science Museum";
         String destination = "Acesite Knutsford Hotel";
 
+        Bundle bundle = getIntent().getExtras();
+        if (bundle != null) {
+            setTitle(bundle.getString("PostKEY"));
+        }
+
+        mDatabase = FirebaseDatabase.getInstance().getReference().child("routeplanning");
+        mList = (RecyclerView) findViewById(R.id.route_list);
+        mList.setHasFixedSize(true);
+        mList.setLayoutManager(new LinearLayoutManager(this));
     }
 
+
+    @Override
+    protected void onStart() {
+        mKEY = getTitle().toString();
+
+        super.onStart();
+
+        final FirebaseRecyclerAdapter<RouteInformation, MapsActivity.RouteViewHolder> firebaseRecyclerAdapter = new FirebaseRecyclerAdapter<RouteInformation, MapsActivity.RouteViewHolder>(
+                RouteInformation.class,
+                R.layout.row,
+                MapsActivity.RouteViewHolder.class,
+                mDatabase.orderByKey().equalTo(mKEY)
+        ) {
+            @Override
+            protected void populateViewHolder(MapsActivity.RouteViewHolder viewHolder, RouteInformation model, int position) {
+
+                viewHolder.setRoute(model.getRoute());
+
+            }
+        };
+        mList.setAdapter(firebaseRecyclerAdapter);
+
+    }
+
+    public static class RouteViewHolder extends RecyclerView.ViewHolder {
+
+        View mView;
+
+        public RouteViewHolder(View itemView) {
+            super(itemView);
+            mView = itemView;
+
+        }
+
+        public void setRoute(String route) {
+            TextView post_route = (TextView) mView.findViewById(R.id.post_route);
+
+            if (route.equals("Taxi")) {
+                post_route.setVisibility(View.GONE);
+            }
+            else {
+                post_route.setVisibility(View.VISIBLE);
+                post_route.setText(route);
+            }
+
+        }
+
+
+    }
 
 
     /**
