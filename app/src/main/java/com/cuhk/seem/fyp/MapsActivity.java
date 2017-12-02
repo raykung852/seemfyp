@@ -94,6 +94,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             protected void populateViewHolder(MapsActivity.RouteViewHolder viewHolder, RouteInformation model, int position) {
 
                 viewHolder.setRoute(model.getRoute());
+                viewHolder.setTransport(getApplicationContext(), model.getTransport());
+                viewHolder.setTime(model.getTime());
+                viewHolder.setCost(model.getCost());
+                viewHolder.setDistance(model.getDistance());
 
             }
         };
@@ -124,6 +128,31 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         }
 
+        public void setTransport(Context ctx, String transport) {
+
+
+            TextView post_transport = (TextView) mView.findViewById(R.id.post_transport2);
+            //ImageView image_transport = (ImageView) mView.findViewById(R.id.image_transport);
+
+            post_transport.setText(transport);
+        }
+
+        public void setTime(String time) {
+            TextView post_time = (TextView) mView.findViewById(R.id.post_time2);
+            post_time.setText(time);
+        }
+
+        public void setCost(String cost) {
+            TextView post_cost = (TextView) mView.findViewById(R.id.post_cost2);
+            post_cost.setText(cost);
+
+        }
+
+        public void setDistance(String distance) {
+            TextView post_distance = (TextView) mView.findViewById(R.id.post_distance2);
+            post_distance.setText(distance);
+
+        }
 
     }
 
@@ -144,7 +173,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         //Add a marker in Airport
         LatLng hotel = new LatLng(22.301696, 114.174848);
         LatLng busStop = new LatLng(22.301439, 114.176726);
-        // Add a marker in Sydney and move the camera
+
 
         mMap.addMarker(new MarkerOptions().position(hotel).title("Acesite Knutsford Hotel"));
         mMap.addMarker(new MarkerOptions().position(busStop).title("Hong Kong Science Museum"));
@@ -164,6 +193,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         );
 
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(hotel, 16));
+        mMap.getUiSettings().setMapToolbarEnabled(false);
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
             // TODO: Consider calling
             //    ActivityCompat#requestPermissions
@@ -203,5 +233,19 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         }
     }
+    /*
+    public void displayDirection(String[] directionsList)
+    {
+
+        int count = directionsList.length;
+        for(int i = 0;i<count;i++)
+        {
+            PolylineOptions options = new PolylineOptions();
+            options.color(Color.RED);
+            options.width(10);
+            options.addAll(PolyUtil.decode(directionsList[i]));
+
+            mMap.addPolyline(options);
+        }*/
 
 }

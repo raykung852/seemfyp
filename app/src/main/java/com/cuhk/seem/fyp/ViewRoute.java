@@ -142,7 +142,7 @@ public class ViewRoute extends AppCompatActivity {
                         viewHolder.mView.setOnClickListener(new View.OnClickListener() {
                             @Override
                             public void onClick(View v) {
-                                //Toast.makeText(ViewRoute.this, post_key, Toast.LENGTH_LONG).show();
+                                //Toast.makeText(ViewRoute.this, post_key, 廿口.LENGTH_LONG).show();
                                 Intent intent2 = new Intent(ViewRoute.this, MapsActivity.class);
                                 intent2.putExtra("PostKEY",post_key);
                                 setResult(RESULT_OK, intent2);
