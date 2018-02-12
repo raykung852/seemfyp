@@ -12,29 +12,16 @@
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:weightSum="0"
         app:divider="@drawable/vseparator"
         app:showDividers="middle">
 
 
-        <TextView
-            android:id="@+id/post_route"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_below="@+id/post_distance"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:paddingBottom="7dp"
-            android:paddingLeft="7dp"
-            android:paddingRight="7dp"
-            android:paddingTop="7dp"
-            android:text="taxi"
-            android:textColor="#221815"
-            app:divider="@drawable/vseparator" />
+
         <TextView
             android:id="@+id/post_transport2"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@+id/post_distance"
             android:layout_weight="1"
@@ -45,10 +32,27 @@
             android:paddingTop="7dp"
             android:text="taxi"
             android:textColor="#221815"
+            android:textSize="18sp"
+            app:divider="@drawable/vseparator" />
+
+        <TextView
+            android:id="@+id/post_route"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/post_distance"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="7dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:paddingTop="7dp"
+            android:text="taxi"
+            android:textColor="#221815"
+            android:textSize="18sp"
             app:divider="@drawable/vseparator" />
         <TextView
             android:id="@+id/post_time2"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@+id/post_distance"
             android:layout_weight="1"
@@ -59,10 +63,12 @@
             android:paddingTop="7dp"
             android:text="taxi"
             android:textColor="#221815"
+            android:textSize="18sp"
             app:divider="@drawable/vseparator" />
+
         <TextView
             android:id="@+id/post_cost2"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@+id/post_distance"
             android:layout_weight="1"
@@ -73,10 +79,12 @@
             android:paddingTop="7dp"
             android:text="taxi"
             android:textColor="#221815"
+            android:textSize="18sp"
             app:divider="@drawable/vseparator" />
+
         <TextView
             android:id="@+id/post_distance2"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@+id/post_distance"
             android:layout_weight="1"
@@ -87,6 +95,7 @@
             android:paddingTop="7dp"
             android:text="taxi"
             android:textColor="#221815"
+            android:textSize="18sp"
             app:divider="@drawable/vseparator" />
     </android.support.v7.widget.LinearLayoutCompat>
 

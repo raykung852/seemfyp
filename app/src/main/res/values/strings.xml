@@ -9,4 +9,5 @@
         <item>Rank by cost</item>
         <item>Rank by walking distance</item>
     </string-array>
+    <string name="title_activity_traffic_news">Traffic_news</string>
 </resources>

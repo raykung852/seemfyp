@@ -2,6 +2,7 @@ package com.cuhk.seem.fyp;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.media.Image;
 import android.os.Bundle;
@@ -189,7 +190,7 @@ public class ViewRoute extends AppCompatActivity {
                 iRID = 2;
             }
             else iRID = 1;
-            post_RID.setText("Route\n" + String.valueOf(iRID));
+            post_RID.setText("Traffic\n" + String.valueOf(iRID));
 
         }
         */
@@ -230,7 +231,18 @@ public class ViewRoute extends AppCompatActivity {
             //ImageView image_transport = (ImageView) mView.findViewById(R.id.image_transport);
 
             post_transport.setText(transport);
-
+            if (transport.equals("Airport Express")) {
+                post_transport.setBackgroundColor(Color.parseColor("#00888a"));
+                post_transport.setTextColor(Color.parseColor("#FFFFFF"));
+            }
+            else if (transport.equals("Bus Traffic A21")) {
+                post_transport.setBackgroundColor(Color.parseColor("#CC0000"));
+                post_transport.setTextColor(Color.parseColor("#FFFFFF"));
+            }
+            else {
+                post_transport.setBackgroundColor(Color.parseColor("#eb0b0b"));
+                post_transport.setTextColor(Color.parseColor("#FFFFFF"));
+            }
           /*  if (transport.equals("Taxi")) {
                 Picasso.with(ctx).load(R.drawable.ic_local_taxi_black_48dp).resize(50,50).into(image_transport);
             }
