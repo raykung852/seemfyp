@@ -1,6 +1,7 @@
 package com.cuhk.seem.fyp;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -19,11 +20,14 @@ public class MainActivity extends AppCompatActivity {
 
 
     private EditText etDestination;
+    private Button btnSelectHotel;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.first_page);
+
     /*
         Button btnMap;
         btnMap = (Button) findViewById(R.id.button2);
@@ -40,17 +44,21 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void initInstance() {
-        Button btnSelectHotel;
-        btnSelectHotel = (Button) findViewById(R.id.button1);
+
         etDestination = (EditText) findViewById(R.id.text_destination);
+        btnSelectHotel = (Button) findViewById(R.id.button1);
+        btnSelectHotel.setVisibility(View.GONE);
+
         btnSelectHotel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 String strDestination = etDestination.getText().toString();
                 if (TextUtils.equals(strDestination, "Your destination")) {
+
                     Toast.makeText(getApplicationContext(), "Please select your destination.", Toast.LENGTH_SHORT).show();
 
                 } else {
+
                     Intent intent = new Intent(MainActivity.this, ViewRoute.class);
                     intent.putExtra("destination", etDestination.getText().toString());
                     startActivity(intent);
@@ -74,10 +82,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
+        btnSelectHotel = (Button) findViewById(R.id.button1);
         if (requestCode == 1 && resultCode == RESULT_OK) {
             String receivedHotel = data.getStringExtra("HotelName");
             etDestination.setText(receivedHotel);
-
+            btnSelectHotel.setVisibility(View.VISIBLE);
         }
     }
 
