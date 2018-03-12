@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\UI1\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from D:\UI1\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from D:\UI1\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from D:\UI1\app\src\main\AndroidManifest.xml:2:1-51:12
+ADDED from D:\UI1\app\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from D:\UI1\app\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from D:\UI1\app\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from D:\UI1\app\src\main\AndroidManifest.xml:2:1-62:12
 MERGED from [com.firebaseui:firebase-ui-database:0.4.0] C:\Users\cwkun_000\.gradle\caches\transforms-1\files-1.1\firebase-ui-database-0.4.0.aar\035321579bf97917489afe753ac36705\AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support:design:26.1.0] C:\Users\cwkun_000\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\18c736257f9c847c31663f5be5edd03e\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\cwkun_000\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\adf11d915eb41cdc877caa78db72cc2b\AndroidManifest.xml:17:1-31:12
@@ -41,20 +41,20 @@ MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users
 MERGED from [com.google.firebase:firebase-iid-license:11.4.2] C:\Users\cwkun_000\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.4.2.aar\5f327b569c011e2e32039fc857688d0d\AndroidManifest.xml:2:1-6:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\cwkun_000\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\467b27449b8b9f7ca6252838058254bd\AndroidManifest.xml:17:1-30:12
 MERGED from [com.google.firebase:firebase-database-connection-license:11.4.2] C:\Users\cwkun_000\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-11.4.2.aar\4708f108a9de0e23aa9ea6b560de6f1a\AndroidManifest.xml:2:1-6:12
-INJECTED from D:\UI1\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from D:\UI1\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from D:\UI1\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from D:\UI1\app\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from D:\UI1\app\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from D:\UI1\app\src\main\AndroidManifest.xml:2:1-62:12
 	package
 		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:3:5-32
 		INJECTED from D:\UI1\app\src\main\AndroidManifest.xml
 		INJECTED from D:\UI1\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\UI1\app\src\main\AndroidManifest.xml
-		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:2:1-51:12
+		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:2:1-62:12
 		INJECTED from D:\UI1\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\UI1\app\src\main\AndroidManifest.xml
-		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:2:1-51:12
+		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:2:1-62:12
 		INJECTED from D:\UI1\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:2:11-69
@@ -66,8 +66,22 @@ uses-permission#android.permission.ACCESS_FINE_LOCATION
 ADDED from D:\UI1\app\src\main\AndroidManifest.xml:11:5-79
 	android:name
 		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.INTERNET
+ADDED from D:\UI1\app\src\main\AndroidManifest.xml:12:5-66
+MERGED from [com.firebaseui:firebase-ui-database:0.4.0] C:\Users\cwkun_000\.gradle\caches\transforms-1\files-1.1\firebase-ui-database-0.4.0.aar\035321579bf97917489afe753ac36705\AndroidManifest.xml:11:5-67
+MERGED from [com.firebaseui:firebase-ui-database:0.4.0] C:\Users\cwkun_000\.gradle\caches\transforms-1\files-1.1\firebase-ui-database-0.4.0.aar\035321579bf97917489afe753ac36705\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-maps:11.4.2] C:\Users\cwkun_000\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.2.aar\20664265242898888a31d439c7351c02\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.4.2] C:\Users\cwkun_000\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.2.aar\20664265242898888a31d439c7351c02\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\cwkun_000\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\1a200f4b6ba4e8fe8745ec48e4b961c0\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\cwkun_000\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\1a200f4b6ba4e8fe8745ec48e4b961c0\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\cwkun_000\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\9fd70fb259b752e595d012e25eeb04aa\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\cwkun_000\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\9fd70fb259b752e595d012e25eeb04aa\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\cwkun_000\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e12e1609d217c7319cd267b47b6560d9\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\cwkun_000\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e12e1609d217c7319cd267b47b6560d9\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:12:22-64
 application
-ADDED from D:\UI1\app\src\main\AndroidManifest.xml:13:5-49:19
+ADDED from D:\UI1\app\src\main\AndroidManifest.xml:15:5-60:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\cwkun_000\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\18c736257f9c847c31663f5be5edd03e\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\cwkun_000\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\18c736257f9c847c31663f5be5edd03e\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\cwkun_000\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\adf11d915eb41cdc877caa78db72cc2b\AndroidManifest.xml:25:5-29:19
@@ -137,55 +151,63 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\cwkun_000\.gradle\ca
 MERGED from [com.google.firebase:firebase-database-connection-license:11.4.2] C:\Users\cwkun_000\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-11.4.2.aar\4708f108a9de0e23aa9ea6b560de6f1a\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-database-connection-license:11.4.2] C:\Users\cwkun_000\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-11.4.2.aar\4708f108a9de0e23aa9ea6b560de6f1a\AndroidManifest.xml:5:5-20
 	android:supportsRtl
-		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:18:9-35
+		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:20:9-35
 	android:label
-		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:16:9-41
+		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:18:9-41
 	android:roundIcon
-		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:17:9-54
+		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:19:9-54
 	android:icon
-		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:15:9-44
+		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:17:9-44
 	android:allowBackup
-		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:14:9-35
-	android:theme
-		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:19:9-40
+		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:16:9-35
 activity#com.cuhk.seem.fyp.MainActivity
-ADDED from D:\UI1\app\src\main\AndroidManifest.xml:20:9-26:20
+ADDED from D:\UI1\app\src\main\AndroidManifest.xml:22:9-30:20
+	android:theme
+		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:24:13-44
 	android:name
-		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:20:19-47
+		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:23:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\UI1\app\src\main\AndroidManifest.xml:21:13-25:29
+ADDED from D:\UI1\app\src\main\AndroidManifest.xml:25:13-28:29
 action#android.intent.action.MAIN
-ADDED from D:\UI1\app\src\main\AndroidManifest.xml:22:17-69
+ADDED from D:\UI1\app\src\main\AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:22:25-66
+		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\UI1\app\src\main\AndroidManifest.xml:24:17-77
+ADDED from D:\UI1\app\src\main\AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:24:27-74
+		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:27:27-74
 activity#com.cuhk.seem.fyp.SelectHotel
-ADDED from D:\UI1\app\src\main\AndroidManifest.xml:27:9-29:58
+ADDED from D:\UI1\app\src\main\AndroidManifest.xml:32:9-35:46
 	android:parentActivityName
-		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:29:13-55
+		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:34:13-55
+	android:theme
+		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:35:13-44
 	android:name
-		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:28:13-40
+		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:33:13-40
 activity#com.cuhk.seem.fyp.ViewRoute
-ADDED from D:\UI1\app\src\main\AndroidManifest.xml:30:9-32:57
+ADDED from D:\UI1\app\src\main\AndroidManifest.xml:36:9-39:46
 	android:parentActivityName
-		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:32:13-54
+		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:38:13-54
+	android:theme
+		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:39:13-44
 	android:name
-		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:31:13-38
-meta-data#com.google.android.geo.API_KEY
-ADDED from D:\UI1\app\src\main\AndroidManifest.xml:42:9-44:55
-	android:value
-		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:44:13-52
-	android:name
-		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:43:13-58
+		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:37:13-38
 activity#com.cuhk.seem.fyp.MapsActivity
-ADDED from D:\UI1\app\src\main\AndroidManifest.xml:46:9-48:59
+ADDED from D:\UI1\app\src\main\AndroidManifest.xml:40:9-45:15
+	android:parentActivityName
+		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:42:13-52
 	android:label
-		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:48:13-56
+		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:43:13-56
+	android:theme
+		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:44:13-56
 	android:name
-		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:47:13-41
+		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:41:13-41
+meta-data#com.google.android.geo.API_KEY
+ADDED from D:\UI1\app\src\main\AndroidManifest.xml:55:9-57:55
+	android:value
+		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:57:13-52
+	android:name
+		ADDED from D:\UI1\app\src\main\AndroidManifest.xml:56:13-58
 uses-sdk
 INJECTED from D:\UI1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\UI1\app\src\main\AndroidManifest.xml
@@ -276,18 +298,6 @@ INJECTED from D:\UI1\app\src\main\AndroidManifest.xml
 		INJECTED from D:\UI1\app\src\main\AndroidManifest.xml
 		ADDED from D:\UI1\app\src\main\AndroidManifest.xml
 		INJECTED from D:\UI1\app\src\main\AndroidManifest.xml
-uses-permission#android.permission.INTERNET
-ADDED from [com.firebaseui:firebase-ui-database:0.4.0] C:\Users\cwkun_000\.gradle\caches\transforms-1\files-1.1\firebase-ui-database-0.4.0.aar\035321579bf97917489afe753ac36705\AndroidManifest.xml:11:5-67
-MERGED from [com.google.android.gms:play-services-maps:11.4.2] C:\Users\cwkun_000\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.2.aar\20664265242898888a31d439c7351c02\AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-maps:11.4.2] C:\Users\cwkun_000\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.2.aar\20664265242898888a31d439c7351c02\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\cwkun_000\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\1a200f4b6ba4e8fe8745ec48e4b961c0\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\cwkun_000\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\1a200f4b6ba4e8fe8745ec48e4b961c0\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\cwkun_000\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\9fd70fb259b752e595d012e25eeb04aa\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\cwkun_000\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\9fd70fb259b752e595d012e25eeb04aa\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\cwkun_000\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e12e1609d217c7319cd267b47b6560d9\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\cwkun_000\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e12e1609d217c7319cd267b47b6560d9\AndroidManifest.xml:20:5-66
-	android:name
-		ADDED from [com.firebaseui:firebase-ui-database:0.4.0] C:\Users\cwkun_000\.gradle\caches\transforms-1\files-1.1\firebase-ui-database-0.4.0.aar\035321579bf97917489afe753ac36705\AndroidManifest.xml:11:22-64
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:26.1.0] C:\Users\cwkun_000\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\18c736257f9c847c31663f5be5edd03e\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\cwkun_000\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\adf11d915eb41cdc877caa78db72cc2b\AndroidManifest.xml:26:9-28:38

@@ -10,7 +10,9 @@ import android.support.v4.content.res.ResourcesCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -40,10 +42,14 @@ public class ViewRoute extends AppCompatActivity {
     protected void onCreate(Bundle savedInstance) {
         super.onCreate(savedInstance);
         setContentView(R.layout.view_route);
-
+      /*  Toolbar myToolbar = (Toolbar) findViewById(R.id.vr_toolbar);
+        setSupportActionBar(myToolbar);
+        // Get a support ActionBar corresponding to this toolbar
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);*/
         Bundle bundle = getIntent().getExtras();
         if (bundle != null) {
             setTitle(bundle.getString("destination"));
+            mHotelname = bundle.getString("destination");
         }
 
         mDatabase = FirebaseDatabase.getInstance().getReference().child("routeplanning");
@@ -55,7 +61,7 @@ public class ViewRoute extends AppCompatActivity {
 
     @Override
     protected void onStart() {
-        mHotelname = getTitle().toString();
+        //mHotelname = getTitle().toString();
 
 
         super.onStart();
@@ -84,6 +90,8 @@ public class ViewRoute extends AppCompatActivity {
                         //Toast.makeText(ViewRoute.this, post_key, Toast.LENGTH_LONG).show();
                         Intent intent = new Intent(ViewRoute.this, MapsActivity.class);
                         intent.putExtra("PostKEY",post_key);
+                        intent.putExtra("EXTRA_Hotelname", getTitle().toString());
+
                         setResult(RESULT_OK, intent);
                         startActivity(intent);
 
@@ -146,6 +154,7 @@ public class ViewRoute extends AppCompatActivity {
                                 //Toast.makeText(ViewRoute.this, post_key, 廿口.LENGTH_LONG).show();
                                 Intent intent2 = new Intent(ViewRoute.this, MapsActivity.class);
                                 intent2.putExtra("PostKEY",post_key);
+                                intent2.putExtra("EXTRA_Hotelname", getTitle().toString());
                                 setResult(RESULT_OK, intent2);
                                 startActivity(intent2);
 

@@ -1,19 +1,15 @@
 package com.cuhk.seem.fyp;
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
-
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
 
 public class MainActivity extends AppCompatActivity {
     //private DatabaseReference mDatabase;
@@ -26,8 +22,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.first_page);
-
+        setContentView(R.layout.main_activity);
+       /* Toolbar myToolbar = (Toolbar) findViewById(R.id.main_toolbar);
+        setSupportActionBar(myToolbar);
+        // Get a support ActionBar corresponding to this toolbar
+        getSupportActionBar().setTitle("Home");*/
     /*
         Button btnMap;
         btnMap = (Button) findViewById(R.id.button2);
@@ -46,12 +45,20 @@ public class MainActivity extends AppCompatActivity {
     public void initInstance() {
 
         etDestination = (EditText) findViewById(R.id.text_destination);
+        String striDestination = etDestination.getText().toString();
         btnSelectHotel = (Button) findViewById(R.id.button1);
-        btnSelectHotel.setVisibility(View.GONE);
+        if (TextUtils.equals(striDestination, "Your destination")) {
+            btnSelectHotel.setVisibility(View.GONE);
+        }
+        else {
+            btnSelectHotel.setVisibility(View.VISIBLE);
+        }
+
 
         btnSelectHotel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 String strDestination = etDestination.getText().toString();
                 if (TextUtils.equals(strDestination, "Your destination")) {
 

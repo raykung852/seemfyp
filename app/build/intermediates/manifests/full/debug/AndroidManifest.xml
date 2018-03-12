@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="15"
+        android:minSdkVersion="16"
         android:targetSdkVersion="26" />
 
     <!--
@@ -41,9 +41,10 @@
         android:icon="@mipmap/ic_launcher1"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
-        <activity android:name="com.cuhk.seem.fyp.MainActivity" >
+        android:supportsRtl="true" >
+        <activity
+            android:name="com.cuhk.seem.fyp.MainActivity"
+            android:theme="@style/AppTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -52,10 +53,17 @@
         </activity>
         <activity
             android:name="com.cuhk.seem.fyp.SelectHotel"
-            android:parentActivityName="com.cuhk.seem.fyp.MainActivity" />
+            android:parentActivityName="com.cuhk.seem.fyp.MainActivity"
+            android:theme="@style/AppTheme" />
         <activity
             android:name="com.cuhk.seem.fyp.ViewRoute"
-            android:parentActivityName="com.cuhk.seem.fyp.SelectHotel" />
+            android:parentActivityName="com.cuhk.seem.fyp.SelectHotel"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.cuhk.seem.fyp.MapsActivity"
+            android:label="@string/title_activity_maps"
+            android:parentActivityName="com.cuhk.seem.fyp.ViewRoute"
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -68,11 +76,6 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
-
-        <activity
-            android:name="com.cuhk.seem.fyp.MapsActivity"
-            android:label="@string/title_activity_maps" />
-
         <meta-data
             android:name="android.support.VERSION"
             android:value="26.1.0" />

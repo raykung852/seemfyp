@@ -3,6 +3,7 @@ package com.cuhk.seem.fyp;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
@@ -36,7 +37,11 @@ public class SelectHotel extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.select_hotel);
-        setTitle("Select the hotel");
+       /* Toolbar myToolbar = (Toolbar) findViewById(R.id.sh_toolbar);
+        setSupportActionBar(myToolbar);
+        // Get a support ActionBar corresponding to this toolbar
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+       getSupportActionBar().*/setTitle("Select the hotel");
 
         mDatabase = FirebaseDatabase.getInstance().getReference();
         mHotelname = mDatabase.child("hotelname").getRef();
@@ -52,7 +57,7 @@ public class SelectHotel extends AppCompatActivity {
                 /**startActivity(intent);*/            }
         });
         etSearch = (EditText) findViewById(R.id.etSearch);
-
+        etSearch.setSingleLine();
         getSupportActionBar().setDefaultDisplayHomeAsUpEnabled(true);
         adapter = new ArrayAdapter<String>(this, R.layout.list_item,R.id.textView,data);
         ltSearch.setAdapter(adapter);
