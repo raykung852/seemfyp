@@ -13,11 +13,13 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     //private DatabaseReference mDatabase;
-
+    private long backPressedTime;
+    private Toast backToast;
 
     private EditText etDestination;
     private Button btnSelectHotel;
 
+    private Button btnViewTime;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,11 +44,29 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    @Override
+    public void onBackPressed() {
+
+
+        if(backPressedTime+2000>System.currentTimeMillis()) {
+            backToast.cancel();
+            super.onBackPressed();
+            return;
+        } else {
+           backToast =  Toast.makeText(getBaseContext(),"Press back again to exit", Toast.LENGTH_SHORT);
+           backToast.show();
+        }
+
+        backPressedTime = System.currentTimeMillis();
+
+    }
+
     public void initInstance() {
 
         etDestination = (EditText) findViewById(R.id.text_destination);
         String striDestination = etDestination.getText().toString();
         btnSelectHotel = (Button) findViewById(R.id.button1);
+        btnViewTime = (Button) findViewById(R.id.button2);
         if (TextUtils.equals(striDestination, "Your destination")) {
             btnSelectHotel.setVisibility(View.GONE);
         }
@@ -73,6 +93,19 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+        btnViewTime.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(MainActivity.this, ViewTime.class);
+
+                startActivity(intent);
+            }
+
+            });
+
+
 
         etDestination.setOnTouchListener(new View.OnTouchListener() {
             @Override

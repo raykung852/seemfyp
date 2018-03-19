@@ -76,7 +76,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private GoogleMap mMap;
     private static final int MY_PERMISSIONS_REQUEST = 100;
     private DatabaseReference mDatabase;
-    Query mHotelWalk, mBusWalk;
+   Query mHotelWalk, mBusWalk;
     private String mKEY;
     private RecyclerView mList;
     LocationManager locationManager;

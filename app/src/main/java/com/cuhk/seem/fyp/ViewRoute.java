@@ -42,10 +42,7 @@ public class ViewRoute extends AppCompatActivity {
     protected void onCreate(Bundle savedInstance) {
         super.onCreate(savedInstance);
         setContentView(R.layout.view_route);
-      /*  Toolbar myToolbar = (Toolbar) findViewById(R.id.vr_toolbar);
-        setSupportActionBar(myToolbar);
-        // Get a support ActionBar corresponding to this toolbar
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);*/
+
         Bundle bundle = getIntent().getExtras();
         if (bundle != null) {
             setTitle(bundle.getString("destination"));
