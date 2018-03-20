@@ -26,7 +26,7 @@
         android:glEsVersion="0x00020000"
         android:required="true" />
 
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <permission
@@ -67,6 +67,10 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.cuhk.seem.fyp.ViewTime"
+            android:parentActivityName="com.cuhk.seem.fyp.MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.cuhk.seem.fyp.ViewPhoto"
             android:parentActivityName="com.cuhk.seem.fyp.MainActivity"
             android:theme="@style/AppTheme" />
 
@@ -126,14 +130,7 @@
             </intent-filter>
         </receiver>
         <!--
- Internal (not exported) receiver used by the app to start its own exported services
-             without risk of being spoofed.
-        -->
-        <receiver
-            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
-            android:exported="false" />
-        <!--
- FirebaseInstanceIdService performs security checks at runtime,
+             FirebaseInstanceIdService performs security checks at runtime,
              no need for explicit permissions despite exported="true"
         -->
         <service

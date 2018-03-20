@@ -31,6 +31,8 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class ViewTime  extends AppCompatActivity {
     private ListView ltSearch2;
@@ -43,6 +45,7 @@ public class ViewTime  extends AppCompatActivity {
 
     Query mTimeA21, mTimeExpress;
     String time, time2;
+    Date date,date2;
 
 
     @Override
@@ -62,7 +65,7 @@ public class ViewTime  extends AppCompatActivity {
     public void getCurrentTime() {
         Calendar calendar = Calendar.getInstance();
         final SimpleDateFormat mFormat = new SimpleDateFormat("HH:mm");
-        String strDate = mFormat.format(calendar.getTime());
+       String strDate = mFormat.format(calendar.getTime());
 
         mTimeA21 = FirebaseDatabase.getInstance().getReference("time_A21").orderByChild("time").startAt(strDate).limitToFirst(1);
 
@@ -73,21 +76,20 @@ public class ViewTime  extends AppCompatActivity {
                 for(DataSnapshot ds: dataSnapshot.getChildren()) {
 
                     //Hotelinfo hotelinfo = ds.getValue(Hotelinfo.class);
-                    Log.v("E_VALUE","Time: " + ds.getValue());
+                   // Log.v("E_VALUE","Time(database): " + ds.getValue());
 
                     time = ds.child("time").getValue(String.class);
-                    timeA21.setText(time);
-                    try {
-                        Date date = mFormat.parse(time);
 
+                   // timeA21.setText(time);
+                    try {
+                       date = mFormat.parse(time);
+                        Log.v("E_VALUE","Time(database): " + date);
 
                     } catch (ParseException e) {
 
                     }
 
-
                 }
-
 
             }
 
@@ -96,6 +98,27 @@ public class ViewTime  extends AppCompatActivity {
 
             }
         });
+
+        Timer updateTimer = new Timer();
+        updateTimer.schedule(new TimerTask(){
+            public void run() {
+                try {
+                    Calendar calendar2 = Calendar.getInstance();
+                    String strDate2 = mFormat.format(calendar2.getTime());
+                    Date currentDate = mFormat.parse(strDate2);
+
+                    long mills =  date.getTime()-currentDate.getTime() ;
+                    Log.v("E_VALUE","Time: " + date.getTime());
+                    Log.v("E_VALUE","Time2: " + currentDate.getTime());
+                    //int hours = (int) (mills/(1000*60*60));
+                    int mins = (int) (mills/(1000*60))%60;
+                    String diff =  +mins +" mins";
+                    timeA21.setText(diff);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        },0,1000);
 
         mTimeExpress = FirebaseDatabase.getInstance().getReference("time_express").orderByChild("time").startAt(strDate).limitToFirst(1);
 
@@ -109,15 +132,14 @@ public class ViewTime  extends AppCompatActivity {
                     Log.v("E_VALUE","Time: " + ds.getValue());
 
                     time2 = ds.child("time").getValue(String.class);
-                    timeExpress.setText(time2);
+                    //timeExpress.setText(time2);
                     try {
-                        Date date2 = mFormat.parse(time2);
+                         date2 = mFormat.parse(time2);
 
 
                     } catch (ParseException e) {
 
                     }
-
 
                 }
 
@@ -128,6 +150,27 @@ public class ViewTime  extends AppCompatActivity {
 
             }
         });
+
+        Timer updateTimer2 = new Timer();
+        updateTimer2.schedule(new TimerTask(){
+            public void run() {
+                try {
+                    Calendar calendar3 = Calendar.getInstance();
+                    String strDate3 = mFormat.format(calendar3.getTime());
+                    Date currentDate = mFormat.parse(strDate3);
+
+                    long mills =  date2.getTime()-currentDate.getTime();
+
+                    //int hours = (int) (mills/(1000*60*60));
+                    int mins = (int) (mills/(1000*60))%60;
+                    String diff = mins+" mins";
+                    timeExpress.setText(diff);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        },0,1000);
+
     }
 
 

@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText etDestination;
     private Button btnSelectHotel;
 
-    private Button btnViewTime;
+    private Button btnViewTime, btnViewPhoto;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
         String striDestination = etDestination.getText().toString();
         btnSelectHotel = (Button) findViewById(R.id.button1);
         btnViewTime = (Button) findViewById(R.id.button2);
+        btnViewPhoto = (Button) findViewById(R.id.button3);
         if (TextUtils.equals(striDestination, "Your destination")) {
             btnSelectHotel.setVisibility(View.GONE);
         }
@@ -104,7 +105,16 @@ public class MainActivity extends AppCompatActivity {
             }
 
             });
+        btnViewPhoto.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
 
+                Intent intent = new Intent(MainActivity.this, ViewPhoto.class);
+
+                startActivity(intent);
+            }
+
+        });
 
 
         etDestination.setOnTouchListener(new View.OnTouchListener() {

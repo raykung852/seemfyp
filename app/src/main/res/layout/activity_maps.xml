@@ -1,9 +1,10 @@
+<?xml version="1.0"?>
+
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/my_toolbar"
@@ -12,11 +13,7 @@
         android:background="?attr/colorPrimary"
         android:elevation="4dp"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-
-        />
-
-
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/route_list"
@@ -24,20 +21,19 @@
         android:layout_height="200dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/my_toolbar"
-    >
-
-
-    </android.support.v7.widget.RecyclerView>
+        android:layout_below="@+id/my_toolbar"></android.support.v7.widget.RecyclerView>
 
     <Button
         android:id="@+id/btnWalk"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/route_list"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:background="@color/colorAccent"
+        android:layout_alignBaseline="@+id/btnCurrentWalk"
+        android:layout_alignBottom="@+id/btnCurrentWalk"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@drawable/buttonshape"
         android:padding="10dp"
         android:text="Walk to this Hotel"
         android:textColor="@color/common_google_signin_btn_text_dark_default" />
@@ -46,10 +42,13 @@
         android:id="@+id/btnCurrentWalk"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/btnWalk"
-        android:layout_marginTop="19dp"
-        android:background="@color/colorAccent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/map"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/buttonshape"
         android:padding="10dp"
         android:text="Walk to this Hotel"
         android:textColor="@color/common_google_signin_btn_text_dark_default" />
@@ -61,10 +60,9 @@
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+        android:layout_below="@+id/route_list"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
         tools:context="com.cuhk.seem.fyp.MapsActivity" />
-
 
 </RelativeLayout>

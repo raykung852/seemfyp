@@ -39,11 +39,11 @@
 
     <Button
         android:id="@+id/button1"
-        android:layout_width="88dp"
-        android:layout_height="88dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:drawable="@android:drawable/ic_menu_search"
-        android:background="@drawable/start_button"
+        android:background="@drawable/buttonshape"
         android:onClick="searchActivity"
         android:text="start search"
         android:textColor="#ffffff"
@@ -90,10 +90,23 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button1"
-        android:layout_alignStart="@+id/button1"
-        android:layout_below="@+id/button1"
-        android:layout_marginTop="82dp"
-        android:text="Button" />
+        android:layout_above="@+id/button3"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_marginBottom="34dp"
+        android:background="@drawable/buttonshape"
+        android:text="Button"
+        android:textColor="@color/cardview_light_background" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="92dp"
+        android:background="@drawable/buttonshape"
+        android:text="Button"
+        android:textColor="@color/cardview_light_background" />
 
 </RelativeLayout>

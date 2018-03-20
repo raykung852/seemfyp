@@ -46,6 +46,9 @@
         <activity android:name=".ViewTime"
             android:theme="@style/AppTheme"
             android:parentActivityName=".MainActivity"/>
+        <activity android:name=".ViewPhoto"
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".MainActivity"/>
 
 
         <!--
