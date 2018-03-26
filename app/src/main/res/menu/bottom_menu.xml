@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_directions"
+        android:icon="@drawable/ic_deptime"
+        android:title="Route Search" />
+    <item
+        android:id="@+id/action_departure"
+        android:enabled="true"
+        android:icon="@drawable/ic_departtime"
+        android:title="Departure Time" />
+    <item
+        android:id="@+id/action_location_map"
+        android:enabled="true"
+        android:icon="@drawable/ic_directions_bus_black_48dp"
+        android:title="Bus Location Map" />
+
+
+</menu>

@@ -10,4 +10,7 @@
         <item>Rank by walking distance</item>
     </string-array>
     <string name="title_activity_traffic_news">Traffic_news</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
