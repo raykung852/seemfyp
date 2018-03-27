@@ -18,10 +18,25 @@
     <android.support.v7.widget.RecyclerView
         android:id="@+id/route_list"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="100dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/my_toolbar"></android.support.v7.widget.RecyclerView>
+        android:layout_below="@+id/my_toolbar" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/route_list">
+
+        <com.baoyachi.stepview.VerticalStepView
+            android:id="@+id/verticalStepView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+
+            android:background="@color/cardview_light_background" />
+    </ScrollView>
+
 
     <Button
         android:id="@+id/btnWalk"
@@ -60,7 +75,7 @@
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:layout_below="@+id/route_list"
+        android:layout_below="@+id/scrollView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="11dp"
         tools:context="com.cuhk.seem.fyp.MapsActivity" />

@@ -5,6 +5,7 @@ INJECTED from /Users/perrytang/Desktop/UI1/app/src/main/AndroidManifest.xml:2:1-
 INJECTED from /Users/perrytang/Desktop/UI1/app/src/main/AndroidManifest.xml:2:1-64:12
 INJECTED from /Users/perrytang/Desktop/UI1/app/src/main/AndroidManifest.xml:2:1-64:12
 MERGED from [com.firebaseui:firebase-ui-database:0.4.0] /Users/perrytang/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-0.4.0.aar/f1f4bd8fcb2f588ed2f74a72abe1a2b8/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.baoyachi:StepView:1.9] /Users/perrytang/.gradle/caches/transforms-1/files-1.1/StepView-1.9.aar/0dffc0f4d2a3aad309ed8c3765fe6277/AndroidManifest.xml:2:1-17:12
 MERGED from [com.android.support:design:26.1.0] /Users/perrytang/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/3b0716a3394ca10d8216b1c7a0f2303c/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/perrytang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/f7e642ec9a90448be7c5a6d6246167f0/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/perrytang/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/d6e67db205510cebd65beea357fdbf8b/AndroidManifest.xml:2:1-11:12
@@ -83,6 +84,8 @@ MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/perrytang/.gradle/c
 		ADDED from /Users/perrytang/Desktop/UI1/app/src/main/AndroidManifest.xml:12:22-64
 application
 ADDED from /Users/perrytang/Desktop/UI1/app/src/main/AndroidManifest.xml:15:5-62:19
+MERGED from [com.github.baoyachi:StepView:1.9] /Users/perrytang/.gradle/caches/transforms-1/files-1.1/StepView-1.9.aar/0dffc0f4d2a3aad309ed8c3765fe6277/AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.baoyachi:StepView:1.9] /Users/perrytang/.gradle/caches/transforms-1/files-1.1/StepView-1.9.aar/0dffc0f4d2a3aad309ed8c3765fe6277/AndroidManifest.xml:11:5-15:19
 MERGED from [com.android.support:design:26.1.0] /Users/perrytang/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/3b0716a3394ca10d8216b1c7a0f2303c/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] /Users/perrytang/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/3b0716a3394ca10d8216b1c7a0f2303c/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/perrytang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/f7e642ec9a90448be7c5a6d6246167f0/AndroidManifest.xml:25:5-29:19
@@ -217,6 +220,8 @@ INJECTED from /Users/perrytang/Desktop/UI1/app/src/main/AndroidManifest.xml
 INJECTED from /Users/perrytang/Desktop/UI1/app/src/main/AndroidManifest.xml
 MERGED from [com.firebaseui:firebase-ui-database:0.4.0] /Users/perrytang/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-0.4.0.aar/f1f4bd8fcb2f588ed2f74a72abe1a2b8/AndroidManifest.xml:7:5-9:41
 MERGED from [com.firebaseui:firebase-ui-database:0.4.0] /Users/perrytang/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-0.4.0.aar/f1f4bd8fcb2f588ed2f74a72abe1a2b8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.baoyachi:StepView:1.9] /Users/perrytang/.gradle/caches/transforms-1/files-1.1/StepView-1.9.aar/0dffc0f4d2a3aad309ed8c3765fe6277/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.baoyachi:StepView:1.9] /Users/perrytang/.gradle/caches/transforms-1/files-1.1/StepView-1.9.aar/0dffc0f4d2a3aad309ed8c3765fe6277/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:design:26.1.0] /Users/perrytang/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/3b0716a3394ca10d8216b1c7a0f2303c/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:design:26.1.0] /Users/perrytang/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/3b0716a3394ca10d8216b1c7a0f2303c/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/perrytang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/f7e642ec9a90448be7c5a6d6246167f0/AndroidManifest.xml:21:5-23:78

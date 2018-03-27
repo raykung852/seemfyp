@@ -150,6 +150,7 @@
     <orderEntry type="library" name="com.google.firebase:firebase-analytics-impl-11.8.0" level="project" />
     <orderEntry type="library" name="com.google.firebase:firebase-iid-license-11.8.0" level="project" />
     <orderEntry type="library" scope="TEST" name="junit:junit:4.12@jar" level="project" />
+    <orderEntry type="library" name="com.github.baoyachi:StepView-1.9" level="project" />
     <orderEntry type="library" name="com.android.support:support-fragment-26.1.0" level="project" />
     <orderEntry type="library" name="com.github.chrisbanes:PhotoView-2.1.3" level="project" />
     <orderEntry type="library" scope="TEST" name="javax.inject:javax.inject:1@jar" level="project" />

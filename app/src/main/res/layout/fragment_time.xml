@@ -1,4 +1,5 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -26,10 +27,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
-            android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_below="@+id/etSearch2"
-            android:layout_marginTop="87dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="86dp"
             android:text="Next Departure Time for A21"
             android:textSize="18sp" />
 
@@ -38,11 +39,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
-            android:layout_alignEnd="@+id/textView9"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
             android:layout_below="@+id/textView9"
-            android:layout_marginTop="18dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="11dp"
+            android:layout_toEndOf="@+id/imageView5"
             android:text="Loading..."
             android:textColor="@color/colorPrimary"
             android:textSize="18sp"
@@ -53,11 +53,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
-            android:layout_alignEnd="@+id/timeA21"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
+            android:layout_alignStart="@+id/timeA21"
             android:layout_below="@+id/textView10"
-            android:layout_marginTop="38dp"
+            android:layout_marginTop="22dp"
             android:text="Loading..."
             android:textColor="@color/colorPrimary"
             android:textSize="18sp"
@@ -68,12 +66,27 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
+            android:layout_alignStart="@+id/imageView5"
             android:layout_below="@+id/timeA21"
-            android:layout_marginTop="72dp"
+            android:layout_marginTop="54dp"
             android:text="Next Departure Time for Airport Express"
             android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_above="@+id/textView10"
+            android:layout_alignStart="@+id/textView9"
+            android:src="@drawable/ic_directions_bus_black_48dp" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@+id/timeExpress"
+            android:layout_alignStart="@+id/textView10"
+            android:src="@drawable/ic_action_name" />
 
     </RelativeLayout>
 

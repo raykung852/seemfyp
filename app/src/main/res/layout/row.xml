@@ -101,10 +101,14 @@
                 android:text="taxi"
                 android:textColor="#221815"
                 android:textSize="18sp"
-                app:divider="@drawable/vseparator" />
+                android:divider="@drawable/vseparator" />
         </LinearLayout>
 
+
+
+
     </android.support.v7.widget.LinearLayoutCompat>
+
 
 
 </android.support.v7.widget.CardView>

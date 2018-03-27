@@ -55,6 +55,7 @@ public class TimeFragment extends Fragment {
         timeA21 = (TextView) view.findViewById(R.id.timeA21);
         timeExpress = (TextView) view.findViewById(R.id.timeExpress);
         getCurrentTime();
+
         return view;
     }
     public void getCurrentTime() {

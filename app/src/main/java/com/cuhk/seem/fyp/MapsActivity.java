@@ -16,6 +16,7 @@ import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
@@ -39,6 +40,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
+import com.baoyachi.stepview.VerticalStepView;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -65,6 +67,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLEncoder;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 
 import static com.cuhk.seem.fyp.R.string.google_maps_key;
@@ -86,6 +89,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     String sCost, sDistance, sRoute, sTime,sTransport;
     Location location;
     ImageButton btnShare;
+    VerticalStepView verticalStepView;
 
 
     @Override
@@ -112,9 +116,33 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         String s1 = "Walk to this Hotel";
         String s2 = "(From Bus Stop)";
 
-       /** if(parseInt(mKEY)<45 || parseInt(mKEY)>88) {
-            btnWalk.setVisibility(View.GONE);
-        }*/
+
+        /***********************START*************/
+        verticalStepView = (VerticalStepView) findViewById(R.id.verticalStepView);
+        List<String> sources = new ArrayList<>();
+        sources.add("Start");
+        sources.add("Design");
+        sources.add("Coding");
+        sources.add("Testing");
+        sources.add("Maintenance");
+
+        verticalStepView.setStepsViewIndicatorComplectingPosition(0)
+                .reverseDraw(false)
+                .setStepViewTexts(sources)
+                .setLinePaddingProportion(0.55f)
+                .setStepsViewIndicatorCompletedLineColor(Color.parseColor("#750f6d"))
+                .setStepViewComplectedTextColor(Color.parseColor("#750f6d"))
+                .setStepViewUnComplectedTextColor(Color.parseColor("#dda300"))
+                .setStepsViewIndicatorUnCompletedLineColor(Color.parseColor("#4a4a4a"))
+                .setStepsViewIndicatorCompleteIcon(ContextCompat.getDrawable(this,R.drawable.ic_destinationicon))
+                .setStepsViewIndicatorAttentionIcon(ContextCompat.getDrawable(this,R.drawable.ic_destinationicon))
+                .setStepsViewIndicatorDefaultIcon(ContextCompat.getDrawable(this,R.drawable.ic_origin));
+
+
+
+        /** if(parseInt(mKEY)<45 || parseInt(mKEY)>88) {
+             btnWalk.setVisibility(View.GONE);
+         }*/
 
         Spannable spannable = new SpannableString(s1+"\n"+s2);
         spannable.setSpan(new RelativeSizeSpan(0.8f), s1.length(), (s1.length()+s2.length()+1),Spannable.SPAN_INCLUSIVE_INCLUSIVE);
